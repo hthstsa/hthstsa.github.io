@@ -21,7 +21,6 @@ class Index extends React.Component {
                         href="https://fonts.googleapis.com/css?family=Raleway:400,800"
                         rel="stylesheet"
                     />
-                    <link href="/static/hamburgers.css" rel="stylesheet" />
                 </Head>
                 <Header maxSize={1000} />
                 <style jsx global>{`

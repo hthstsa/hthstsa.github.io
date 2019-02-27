@@ -1,4 +1,5 @@
 import React from 'react';
+import './hamburgers.css';
 
 class Hamburger extends React.Component {
     render() {

@@ -1,4 +1,2 @@
-module.exports = {
-    // some configuration
-    // another configuration
-};
+const withCSS = require('@zeit/next-css');
+module.exports = withCSS();
