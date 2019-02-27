@@ -1,9 +1,12 @@
 import React from 'react';
 import Head from 'next/head';
 import Header from '../components/header';
+import MainPage from '../components/main_page'
+import OnePage from '../components/one_page'
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
+import ReactPageScroller from 'react-page-scroller'
 
 library.add(faBars);
 
@@ -23,11 +26,14 @@ class Index extends React.Component {
                     />
                 </Head>
                 <Header maxSize={1000} />
+                <ReactPageScroller>
+                    <MainPage />
+                    <OnePage>
+                        <h1>Hello2</h1>
+                    </OnePage>
+                </ReactPageScroller>
                 <style jsx global>{`
                     body {
-                        background-color: #2e2e30;
-                        height: 100vh;
-                        width: 100vw;
                         margin: 0px;
                     }
                 `}</style>
