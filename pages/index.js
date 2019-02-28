@@ -1,16 +1,19 @@
 import React from 'react';
 import Head from 'next/head';
 import Header from '../components/header';
-import MainPage from '../components/main_page'
-import OnePage from '../components/one_page'
+import MainPage from '../components/main_page';
+import OnePage from '../components/one_page';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars } from '@fortawesome/free-solid-svg-icons';
-import ReactPageScroller from 'react-page-scroller'
+import ReactFullpage from '@fullpage/react-fullpage';
 
 library.add(faBars);
 
 class Index extends React.Component {
+    state = {
+        enabled: true,
+    };
     render() {
         return (
             <div>
@@ -25,13 +28,35 @@ class Index extends React.Component {
                         rel="stylesheet"
                     />
                 </Head>
-                <Header maxSize={1000} />
-                <ReactPageScroller>
-                    <MainPage />
-                    <OnePage>
-                        <h1>Hello2</h1>
-                    </OnePage>
-                </ReactPageScroller>
+                <Header
+                    maxSize={1000}
+                    fullPageApi={val => this.setState({ enabled: val })}
+                />
+                <ReactFullpage
+                    navigation
+                    render={({ state, fullpageApi }) => {
+                        if (fullpageApi) {
+                            fullpageApi.setAllowScrolling(this.state.enabled);
+                        }
+                        return (
+                            <ReactFullpage.Wrapper>
+                                <div className="section">
+                                    <p>Section 1 (welcome to fullpage.js)</p>
+                                    <button
+                                        onClick={() =>
+                                            fullpageApi.moveSectionDown()
+                                        }
+                                    >
+                                        Click me to move down
+                                    </button>
+                                </div>
+                                <div className="section">
+                                    <p>Section 2</p>
+                                </div>
+                            </ReactFullpage.Wrapper>
+                        );
+                    }}
+                />
                 <style jsx global>{`
                     body {
                         margin: 0px;

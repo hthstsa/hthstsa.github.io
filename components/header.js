@@ -32,6 +32,7 @@ const Container = styled.div`
     position: fixed;
     top: 0px;
     height: 55px;
+    z-index: 1;
 `;
 
 const NavItem = styled.a`
@@ -100,8 +101,7 @@ class Header extends React.Component {
 
     openCloseMenu(val) {
         this.setState({ smallMenuOpen: val });
-        if (val) {
-        }
+        this.props.fullPageApi(!val);
     }
 
     render() {

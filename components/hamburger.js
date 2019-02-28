@@ -25,6 +25,7 @@ class Hamburger extends React.Component {
                         margin: 15px;
                         transform: scale(0.75);
                         z-index: 10;
+                        position: relative;
                     }
                 `}</style>
             </button>
