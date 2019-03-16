@@ -35,12 +35,6 @@ const ShelfItem = styled.div`
     top: 0;
     left: 5%;
   }
-
-  ${DeleteBtn}:hover & {
-    background: #0c0b10;
-    text-decoration: line-through;
-    opacity: 0.6;
-  }
 `;
 
 const ThumbnailContainer = styled.div`
@@ -59,11 +53,15 @@ const Details = styled.div`
   width: 57%;
   display: inline-block;
   vertical-align: middle;
+  ${DeleteBtn}:hover ~ & {
+    text-decoration: line-through;
+    opacity: 0.6;
+  }
 `;
 
 const Title = styled.p`
   color: #ececec;
-  margin: 0;
+  margin: 0;}
 `;
 
 const Description = styled.p`

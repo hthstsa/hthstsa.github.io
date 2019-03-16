@@ -203,6 +203,7 @@ export default class Cart extends Component {
 
   totalQuantity(cartProducts) {
     let sum = 0;
+    console.log("CART", cartProducts);
     for (let i = 0; i < cartProducts.length; i++) {
       sum += cartProducts[i].quantity;
     }

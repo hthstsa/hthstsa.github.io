@@ -121,7 +121,7 @@ export default class Shop extends Component {
     let cart = [...this.state.cart];
     for (let i = 0; i < cart.length; i++) {
       if (product.id === cart[i].id) {
-        delete cart[i];
+        cart.splice(i, 1);
         this.setState({ cart });
         return;
       }
