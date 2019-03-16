@@ -108,8 +108,8 @@ class Header extends React.Component {
         return (
             <Container>
                 <LargeMenu size={750}>
-                    <NavItem href="#">Hello</NavItem>
-                    <NavItem href="#">Main</NavItem>
+                    <NavItem href="#section1">Hello</NavItem>
+                    <NavItem href="#section2">Main</NavItem>
                     <NavItem href="#">You</NavItem>
                 </LargeMenu>
                 <SmallMenu size={750}>
@@ -121,8 +121,8 @@ class Header extends React.Component {
                     <MobileMenu
                         pose={this.state.smallMenuOpen ? 'visible' : 'hidden'}
                     >
-                        <MobileItem href="#">Hello</MobileItem>
-                        <MobileItem href="#">You</MobileItem>
+                        <MobileItem href="#section1">Hello</MobileItem>
+                        <MobileItem href="#section2">You</MobileItem>
                     </MobileMenu>
                 </SmallMenu>
             </Container>

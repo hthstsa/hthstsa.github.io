@@ -34,6 +34,7 @@ class Index extends React.Component {
                 />
                 <ReactFullpage
                     navigation
+                    anchors={["section1", "section2"]}
                     render={({ state, fullpageApi }) => {
                         if (fullpageApi) {
                             fullpageApi.setAllowScrolling(this.state.enabled);
@@ -51,7 +52,7 @@ class Index extends React.Component {
                                     </button>
                                 </div>
                                 <div className="section">
-                                    <p>Section 2</p>
+                                    <OnePage>Test</OnePage>
                                 </div>
                             </ReactFullpage.Wrapper>
                         );
