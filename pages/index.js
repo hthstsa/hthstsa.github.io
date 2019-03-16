@@ -78,7 +78,7 @@ class Index extends React.Component {
           }
           #fp-nav ul li a span,
           .fp-slidesNav ul li a span {
-            background: #fff;
+            background-color: #fff;
           }
         `}</style>
       </div>
