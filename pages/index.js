@@ -7,19 +7,20 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 import ReactFullpage from "@fullpage/react-fullpage";
+import Background from "../components/background";
 
 library.add(faBars);
 
 export const headerItems = [
   {
     title: "Something",
-    link: "/#section1",
+    link: "/#section2",
     id: 1,
     main: false
   },
   {
     title: "Captcha!",
-    link: "/#section2",
+    link: "/#section1",
     id: 2,
     main: true
   },
@@ -62,10 +63,7 @@ class Index extends React.Component {
             return (
               <ReactFullpage.Wrapper>
                 <div className="section">
-                  <p>Section 1 (welcome to fullpage.js)</p>
-                  <button onClick={() => fullpageApi.moveSectionDown()}>
-                    Click me to move down
-                  </button>
+                  <Background />
                 </div>
                 <div className="section">
                   <OnePage>Test</OnePage>
@@ -77,6 +75,10 @@ class Index extends React.Component {
         <style jsx global>{`
           body {
             margin: 0px;
+          }
+          #fp-nav ul li a span,
+          .fp-slidesNav ul li a span {
+            background: #fff;
           }
         `}</style>
       </div>
