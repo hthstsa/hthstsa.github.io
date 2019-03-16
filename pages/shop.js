@@ -4,6 +4,7 @@ import Header from "../components/header";
 import Head from "next/head";
 import styled from "styled-components";
 import Cart from "../components/cart";
+import { headerItems } from "./index";
 
 const items = [
   {
@@ -138,6 +139,7 @@ export default class Shop extends Component {
         <Header
           maxSize={1000}
           fullPageApi={val => this.setState({ enabled: val })}
+          items={headerItems}
         />
         <Cart
           cartProducts={this.state.cart}
