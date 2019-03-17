@@ -54,6 +54,12 @@ const items = [
     price: 25.5,
     id: 1,
     picture: "/static/t-shirt.jpg"
+  },
+  {
+    name: "Captcha! World Tour",
+    price: 99.99,
+    id: 1,
+    picture: "/static/guitar.jpg"
   }
 ];
 
@@ -153,6 +159,7 @@ export default class Shop extends Component {
         <style jsx global>{`
           body {
             margin: 0px;
+            background-color: #111111;
           }
         `}</style>
       </div>

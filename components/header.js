@@ -119,7 +119,7 @@ class Header extends React.Component {
   render() {
     return (
       <Container>
-        <LargeMenu size={750}>
+        <LargeMenu size={980}>
           {this.props.items.map(item => {
             if (item.main) {
               return (
@@ -129,14 +129,14 @@ class Header extends React.Component {
               );
             } else {
               return (
-                <NavItem key={item.id} href={item.link}>
+                <NavItem key={item.id} href={item.link} onClick={item.onClick}>
                   {item.title}
                 </NavItem>
               );
             }
           })}
         </LargeMenu>
-        <SmallMenu size={750}>
+        <SmallMenu size={980}>
           <NavItemMain>{this.getMainItem().title}</NavItemMain>
           <Hamburger
             smallMenuOpen={this.state.smallMenuOpen}
@@ -146,7 +146,11 @@ class Header extends React.Component {
             {this.props.items.map(
               item =>
                 !item.main && (
-                  <MobileItem key={item.id} href={item.link}>
+                  <MobileItem
+                    key={item.id}
+                    href={item.link}
+                    onClick={item.onClick}
+                  >
                     {item.title}
                   </MobileItem>
                 )

@@ -10,11 +10,13 @@ if (typeof window !== "undefined") {
   require("fullpage.js/vendors/scrolloverflow");
 }
 import ReactFullpage from "@fullpage/react-fullpage";
-import Background from "../components/background";
+import BackgroundSplash from "../components/background_splash";
 import PlacesToListen from "../components/places_to_listen";
 import Tour from "../components/tour";
 import Photos from "../components/photos";
 import Music from "../components/music";
+import WhatIsTSA from "../components/what_is_tsa";
+import WhoAreWe from "../components/who_are_we";
 
 library.add(faBars);
 library.add(faPlay);
@@ -22,40 +24,16 @@ library.add(faPause);
 
 export const headerItems = [
   {
-    title: "TSA",
-    link: "/tsa",
+    title: "Design Brief",
+    link: "/",
     id: 1,
     main: false
   },
   {
-    title: "Tour",
-    link: "/#tour",
-    id: 2,
-    main: false
-  },
-  {
-    title: "Media",
-    link: "/#media",
-    id: 3,
-    main: false
-  },
-  {
-    title: "Captcha!",
+    title: "TSA",
     link: "/#main",
     id: 4,
     main: true
-  },
-  {
-    title: "Shop",
-    link: "/shop",
-    id: 5,
-    main: false
-  },
-  {
-    title: "Music",
-    link: "/#music",
-    id: 6,
-    main: false
   },
   {
     title: "CTE",
@@ -86,11 +64,10 @@ class Index extends React.Component {
           items={headerItems}
           selected={3}
         />
-        <Music />
         <ReactFullpage
           navigation
           scrollOverflow
-          anchors={["main", "tour", "media"]}
+          anchors={["main", "tsa", "hths"]}
           render={({ state, fullpageApi }) => {
             if (fullpageApi) {
               fullpageApi.setAllowScrolling(this.state.enabled);
@@ -98,8 +75,23 @@ class Index extends React.Component {
             return (
               <ReactFullpage.Wrapper>
                 <div style={{ position: "relative" }} className="section">
-                  <Background />
-                  <PlacesToListen />
+                  <BackgroundSplash url={"/static/tsa-splash.jpg"}>
+                    HTHS TSA
+                  </BackgroundSplash>
+                </div>
+                <div style={{ position: "relative" }} className="section">
+                  <div
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      backgroundColor: "#800000"
+                    }}
+                  >
+                    <WhatIsTSA />
+                  </div>
+                </div>
+                <div style={{ position: "relative" }} className="section">
+                  <WhoAreWe />
                 </div>
                 <Tour />
                 <Photos />
