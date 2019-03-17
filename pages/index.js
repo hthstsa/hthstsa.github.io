@@ -6,21 +6,26 @@ import OnePage from "../components/one_page";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+if (typeof window !== "undefined") {
+  require("fullpage.js/vendors/scrolloverflow");
+}
 import ReactFullpage from "@fullpage/react-fullpage";
 import Background from "../components/background";
+import PlacesToListen from "../components/places_to_listen";
+import Tour from "../components/tour";
 
 library.add(faBars);
 
 export const headerItems = [
   {
-    title: "Something",
-    link: "/#section2",
+    title: "Tour",
+    link: "/#tour",
     id: 1,
     main: false
   },
   {
     title: "Captcha!",
-    link: "/#section1",
+    link: "/#main",
     id: 2,
     main: true
   },
@@ -55,19 +60,19 @@ class Index extends React.Component {
         />
         <ReactFullpage
           navigation
-          anchors={["section1", "section2"]}
+          scrollOverflow
+          anchors={["main", "tour"]}
           render={({ state, fullpageApi }) => {
             if (fullpageApi) {
               fullpageApi.setAllowScrolling(this.state.enabled);
             }
             return (
               <ReactFullpage.Wrapper>
-                <div className="section">
+                <div style={{ position: "relative" }} className="section">
                   <Background />
+                  <PlacesToListen />
                 </div>
-                <div className="section">
-                  <OnePage>Test</OnePage>
-                </div>
+                <Tour />
               </ReactFullpage.Wrapper>
             );
           }}

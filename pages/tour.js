@@ -50,7 +50,7 @@ class AlbersUSA extends Component {
             height: "auto"
           }}
         >
-          <ZoomableGroup disablePanning>
+          <ZoomableGroup zoom={2} disablePanning>
             <Geographies geography="/static/states.json" disableOptimization>
               {(geographies, projection) =>
                 geographies.map((geography, i) => {
@@ -63,19 +63,19 @@ class AlbersUSA extends Component {
                       projection={projection}
                       style={{
                         default: {
-                          fill: "#FBE9E7",
-                          stroke: "#607D8B",
+                          fill: "#e3e7ed",
+                          stroke: "#000",
                           strokeWidth: 0.75,
                           outline: "none"
                         },
                         hover: {
-                          fill: "#607D8B",
+                          fill: "#525456",
                           stroke: "#607D8B",
                           strokeWidth: 0.75,
                           outline: "none"
                         },
                         pressed: {
-                          fill: "#FF5722",
+                          fill: "#525456",
                           stroke: "#607D8B",
                           strokeWidth: 0.75,
                           outline: "none"
