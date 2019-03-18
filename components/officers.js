@@ -9,7 +9,7 @@ const TotalContainer = styled.div`
   padding-top: 80px;
   font-family: "Raleway";
   font-weight: 900;
-  font-size: 70px;
+  font-size: 6vmax;
   text-align: center;
   color: #fff;
   background-color: #000;
@@ -18,7 +18,7 @@ const TotalContainer = styled.div`
 
   &:before {
     content: "";
-    background-image: url("/static/laptop-working.jpg");
+    background-image: url("/static/officer-background.jpeg");
     background-size: cover;
     opacity: 0.5;
     top: 0;
@@ -28,27 +28,34 @@ const TotalContainer = styled.div`
     position: absolute;
     z-index: 1;
   }
-  
+
   @media only screen and (max-width: 700px) {
     padding-top: 60px;
-    font-size: 40px;
+  }
+
+  @media screen and (min-width: 1300px) {
+    font-size: 78px;
   }
 `;
 
 const Container = styled.div`
   margin-top: 30px;
-  margin-bottom: 130px;
+  margin-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
-  width: 75%;
-  height: calc(100% - 160px);
-  max-width: 400px;
+  position: relative;
+  width: 30vw;
+  height: 60vw;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   opacity: 1;
   z-index: 2;
   @media only screen and (max-width: 700px) {
-    height: 65%;
-    width: 75%;
+    height: 130vw;
+    width: 75vw;
+  }
+  @media only screen and (min-width: 133vh) {
+    height: 67vh;
+    width: 40vh;
   }
 `;
 
@@ -69,24 +76,39 @@ const OfficerContainer = styled.div`
 `;
 
 const OfficerAvatar = styled(Avatar)`
-  display: block;
-  margin: 30px;
-  height: 350px !important;
-  width: auto !important;
+  position: relative !important;
+  width: calc(100% - 60px) !important;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 30px;
+  height: auto !important;
+  &:before {
+    content: "";
+    display: block;
+    padding-top: 100% !important;
+  }
 `;
 
-const OfficerName = styled.h1`
+const OfficerName = styled.div`
   font-family: "Raleway";
-  font-size: 40px;
+  font-size: 5.5vmax;
+  font-weight: 400;
   text-align: center;
+  padding-top: 20px;
+  @media screen and (min-width: 1300px) {
+    font-size: 71px;
+  }
 `;
 
 const OfficerBio = styled.p`
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 20px;
+  font-size: 2.5vmax;
   text-align: center;
   margin: 20px;
+  @media screen and (min-width: 1300px) {
+    font-size: 33px;
+  }
 `;
 
 export default class Officers extends Component {
@@ -101,17 +123,26 @@ export default class Officers extends Component {
           <ActivitiesContainer>
             <Slider dots={false} infinite>
               <OfficerContainer>
-                <OfficerAvatar src="/static/meeting.jpeg" />
+                <OfficerAvatar
+                  src="/static/meeting.jpeg"
+                  classes={{ img: "avatar" }}
+                />
                 <OfficerName>Name</OfficerName>
                 <OfficerBio>This is a bio.</OfficerBio>
               </OfficerContainer>
               <OfficerContainer>
-                <OfficerAvatar src="/static/meeting.jpeg" />
+                <OfficerAvatar
+                  src="/static/meeting.jpeg"
+                  classes={{ img: "avatar" }}
+                />
                 <OfficerName>Name</OfficerName>
                 <OfficerBio>This is a bio.</OfficerBio>
               </OfficerContainer>
               <OfficerContainer>
-                <OfficerAvatar src="/static/meeting.jpeg" />
+                <OfficerAvatar
+                  src="/static/meeting.jpeg"
+                  classes={{ img: "avatar" }}
+                />
                 <OfficerName>Name</OfficerName>
                 <OfficerBio>This is a bio.</OfficerBio>
               </OfficerContainer>
@@ -123,7 +154,8 @@ export default class Officers extends Component {
             height: 100%;
             opacity: 1;
             z-index: 2;
-              box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),
+              0 6px 6px rgba(0, 0, 0, 0.23);
           }
           .slick-track,
           .slick-list {
@@ -131,6 +163,19 @@ export default class Officers extends Component {
           }
           .slick-slide {
             background-color: #fafafa;
+          }
+          .slick-slide > div {
+            height: 100%;
+            width: 100%;
+          }
+          .avatar {
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-height: 100%;
+            min-width: 100%;
+            transform: translate(-50%, -50%);
           }
         `}</style>
       </TotalContainer>

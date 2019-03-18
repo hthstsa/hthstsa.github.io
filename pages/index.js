@@ -10,11 +10,15 @@ if (typeof window !== "undefined") {
   require("fullpage.js/vendors/scrolloverflow");
 }
 import ReactFullpage from "@fullpage/react-fullpage";
-import Background from "../components/background";
+import BackgroundSplash from "../components/background_splash";
 import PlacesToListen from "../components/places_to_listen";
 import Tour from "../components/tour";
 import Photos from "../components/photos";
 import Music from "../components/music";
+import WhatIsTSA from "../components/what_is_tsa";
+import WhoAreWe from "../components/who_are_we";
+import Activities from "../components/activities";
+import Officers from "../components/officers";
 
 library.add(faBars);
 library.add(faPlay);
@@ -22,40 +26,16 @@ library.add(faPause);
 
 export const headerItems = [
   {
-    title: "TSA",
-    link: "/tsa",
+    title: "Design Brief",
+    link: "/design-brief",
     id: 1,
     main: false
   },
   {
-    title: "Tour",
-    link: "/#tour",
-    id: 2,
-    main: false
-  },
-  {
-    title: "Media",
-    link: "/#media",
-    id: 3,
-    main: false
-  },
-  {
-    title: "Captcha!",
+    title: "TSA",
     link: "/#main",
     id: 4,
     main: true
-  },
-  {
-    title: "Shop",
-    link: "/shop",
-    id: 5,
-    main: false
-  },
-  {
-    title: "Music",
-    link: "/#music",
-    id: 6,
-    main: false
   },
   {
     title: "CTE",
@@ -74,10 +54,26 @@ class Index extends React.Component {
       <div>
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta charSet="utf-8" />
+          <meta charset="UTF-8" />
           <link
             href="https://fonts.googleapis.com/css?family=Raleway:400,800"
             rel="stylesheet"
+          />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+          />
+          <link
+            rel="stylesheet"
+            type="text/css"
+            charset="UTF-8"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+          />
+          <link
+            rel="stylesheet"
+            type="text/css"
+            charset="UTF-8"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
           />
         </Head>
         <Header
@@ -86,14 +82,11 @@ class Index extends React.Component {
           items={headerItems}
           selected={3}
         />
-        <Music />
         <ReactFullpage
           navigation
           scrollOverflow
-          anchors={["main", "tour", "media"]}
-          afterLoad={(anchor, index) => {
-            document.getElementById("player").play();
-          }}
+          normalScrollElements="#scroller"
+          anchors={["main", "tsa", "hths", "activities", "officers"]}
           render={({ state, fullpageApi }) => {
             if (fullpageApi) {
               fullpageApi.setAllowScrolling(this.state.enabled);
@@ -101,11 +94,33 @@ class Index extends React.Component {
             return (
               <ReactFullpage.Wrapper>
                 <div style={{ position: "relative" }} className="section">
-                  <Background />
-                  <PlacesToListen />
+                  <BackgroundSplash url={"/static/tsa-splash.jpg"}>
+                    HTHS TSA
+                  </BackgroundSplash>
                 </div>
-                <Tour />
-                <Photos />
+                <div style={{ position: "relative" }} className="section">
+                  <div
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      backgroundColor: "#800000"
+                    }}
+                  >
+                    <WhatIsTSA />
+                  </div>
+                </div>
+                <div style={{ position: "relative" }} className="section">
+                  <WhoAreWe />
+                </div>
+                <div style={{ position: "relative" }} className="section">
+                  <Activities />
+                </div>
+                <div
+                  style={{ position: "relative" }}
+                  className="section fp-noscroll"
+                >
+                  <Officers />
+                </div>
               </ReactFullpage.Wrapper>
             );
           }}

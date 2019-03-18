@@ -11,9 +11,13 @@ const TotalContainer = styled.div`
   padding-top: 80px;
   font-family: "Raleway";
   font-weight: 900;
-  font-size: 70px;
+  font-size: 6vmax;
   color: #fff;
   background-color: #000;
+
+  @media screen and (min-width: 1460px) {
+    font-size: 87px;
+  }
 
   &:before {
     content: "";
@@ -30,7 +34,6 @@ const TotalContainer = styled.div`
 
   @media only screen and (max-width: 700px) {
     padding-top: 60px;
-    font-size: 40px;
   }
 `;
 
@@ -63,17 +66,24 @@ const ActivitiesContainer = styled.div`
 const Title = styled.h1`
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 30px;
+  font-size: 3vmax;
   margin-left: 40px;
   margin-top: 40px;
+  @media screen and (min-width: 1460px) {
+    font-size: 44px;
+  }
 `;
 
 const Content = styled.p`
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 20px;
+  font-size: 2vmax;
   margin-left: 40px;
+  margin-right: 40px;
   margin-top: 20px;
+  @media screen and (min-width: 1460px) {
+    font-size: 29px;
+  }
 `;
 
 const RightImage = styled.img`
@@ -190,6 +200,7 @@ export default class Activities extends Component {
               onChange={(event, value) => this.setState({ tab: value })}
               variant="scrollable"
               scrollButtons="auto"
+              id="scroller"
             >
               <Tab label="General Meetings" />
               <Tab label="Leadership Conference" />

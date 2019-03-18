@@ -9,9 +9,13 @@ const TotalContainer = styled.div`
   padding-top: 80px;
   font-family: "Raleway";
   font-weight: 900;
-  font-size: 70px;
+  font-size: 6vmax;
   color: #fff;
   background-color: #000;
+
+  @media screen and (min-width: 1300px) {
+    font-size: 78px;
+  }
 
   &:before {
     content: "";
@@ -28,7 +32,6 @@ const TotalContainer = styled.div`
 
   @media only screen and (max-width: 700px) {
     padding-top: 60px;
-    font-size: 40px;
   }
 `;
 
@@ -39,7 +42,7 @@ const Container = styled.div`
   right: 0;
   left: 0;
   bottom: 0;
-  width: 50%;
+  width: 70%;
   height: 50%;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   opacity: 1;
@@ -82,29 +85,36 @@ const HTHSLogo = styled.img`
 
 const HTHSDesc = styled.p`
   font-family: "Raleway";
-  letter-spacing: 0.1em;
-  font-size: 15px;
-  padding-left: 17.5%;
-  padding-right: 17.5%;
+  font-size: 2vmax;
+  padding-left: 10%;
+  padding-right: 10%;
   color: #000;
   font-weight: 400;
+  @media screen and (min-width: 1300px) {
+    font-size: 26px;
+  }
 `;
 
 const FactsTitle = styled.h1`
   font-family: "Raleway";
-  font-size: 40px;
+  font-size: 4vmax;
   color: #fff;
   margin-left: 5%;
+  @media screen and (min-width: 1300px) {
+    font-size: 52px;
+  }
 `;
 
 const FactsInfo = styled.div`
   font-family: "Raleway";
-  letter-spacing: 0.1em;
-  font-size: 25px;
+  font-size: 3vmax;
   font-weight: 400;
   color: #fff;
   margin-left: 10%;
   line-height: 200%;
+  @media screen and (min-width: 1300px) {
+    font-size: 39px;
+  }
 `;
 
 export default class WhoAreWe extends Component {

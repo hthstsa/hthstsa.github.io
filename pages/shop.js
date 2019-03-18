@@ -4,7 +4,7 @@ import Header from "../components/header";
 import Head from "next/head";
 import styled from "styled-components";
 import Cart from "../components/cart";
-import { headerItems } from "./index";
+import { headerItems } from "./design-brief";
 
 const items = [
   {
