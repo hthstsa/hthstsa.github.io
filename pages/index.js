@@ -91,6 +91,9 @@ class Index extends React.Component {
           navigation
           scrollOverflow
           anchors={["main", "tour", "media"]}
+          afterLoad={(anchor, index) => {
+            document.getElementById("player").play();
+          }}
           render={({ state, fullpageApi }) => {
             if (fullpageApi) {
               fullpageApi.setAllowScrolling(this.state.enabled);

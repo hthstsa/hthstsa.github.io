@@ -18,7 +18,7 @@ const VideoBackground = styled.video`
 export default class Background extends Component {
   render() {
     return (
-      <VideoBackground autoPlay muted loop>
+      <VideoBackground id="player" autoPlay muted loop>
         <source src="/static/background.mp4" type="video/mp4" />
       </VideoBackground>
     );
