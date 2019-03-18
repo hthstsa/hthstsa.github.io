@@ -17,6 +17,8 @@ import Photos from "../components/photos";
 import Music from "../components/music";
 import WhatIsTSA from "../components/what_is_tsa";
 import WhoAreWe from "../components/who_are_we";
+import Activities from "../components/activities";
+import Officers from "../components/officers";
 
 library.add(faBars);
 library.add(faPlay);
@@ -57,6 +59,21 @@ class Index extends React.Component {
             href="https://fonts.googleapis.com/css?family=Raleway:400,800"
             rel="stylesheet"
           />
+          <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+          />
+          <link
+            rel="stylesheet"
+            type="text/css"
+            charset="UTF-8"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
+          />
+          <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
+          />
         </Head>
         <Header
           maxSize={1000}
@@ -67,7 +84,7 @@ class Index extends React.Component {
         <ReactFullpage
           navigation
           scrollOverflow
-          anchors={["main", "tsa", "hths"]}
+          anchors={["main", "tsa", "hths", "activities", "officers"]}
           render={({ state, fullpageApi }) => {
             if (fullpageApi) {
               fullpageApi.setAllowScrolling(this.state.enabled);
@@ -93,8 +110,12 @@ class Index extends React.Component {
                 <div style={{ position: "relative" }} className="section">
                   <WhoAreWe />
                 </div>
-                <Tour />
-                <Photos />
+                <div style={{ position: "relative" }} className="section">
+                  <Activities />
+                </div>
+                <div style={{ position: "relative" }} className="section">
+                  <Officers />
+                </div>
               </ReactFullpage.Wrapper>
             );
           }}

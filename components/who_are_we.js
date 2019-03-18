@@ -87,6 +87,7 @@ const HTHSDesc = styled.p`
   padding-left: 17.5%;
   padding-right: 17.5%;
   color: #000;
+  font-weight: 400;
 `;
 
 const FactsTitle = styled.h1`
@@ -100,6 +101,7 @@ const FactsInfo = styled.div`
   font-family: "Raleway";
   letter-spacing: 0.1em;
   font-size: 25px;
+  font-weight: 400;
   color: #fff;
   margin-left: 10%;
   line-height: 200%;
