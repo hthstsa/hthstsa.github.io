@@ -5,15 +5,16 @@ import Avatar from "@material-ui/core/Avatar";
 
 const TotalContainer = styled.div`
   width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
+  height: 100vh;
   padding-top: 80px;
   font-family: "Raleway";
   font-weight: 900;
   font-size: 70px;
+  text-align: center;
   color: #fff;
   background-color: #000;
+  display: inline-block;
+  position: relative;
 
   &:before {
     content: "";
@@ -27,21 +28,28 @@ const TotalContainer = styled.div`
     position: absolute;
     z-index: 1;
   }
+  
+  @media only screen and (max-width: 700px) {
+    padding-top: 60px;
+    font-size: 40px;
+  }
 `;
 
 const Container = styled.div`
-  position: absolute;
-  margin: auto;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
+  margin-top: 30px;
+  margin-bottom: 130px;
+  margin-left: auto;
+  margin-right: auto;
   width: 75%;
+  height: calc(100% - 160px);
   max-width: 400px;
-  height: 65%;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
   opacity: 1;
   z-index: 2;
+  @media only screen and (max-width: 700px) {
+    height: 65%;
+    width: 75%;
+  }
 `;
 
 const ActivitiesContainer = styled.div`
@@ -113,10 +121,16 @@ export default class Officers extends Component {
         <style jsx global>{`
           .slick-slider {
             height: 100%;
+            opacity: 1;
+            z-index: 2;
+              box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
           }
           .slick-track,
           .slick-list {
             height: 100%;
+          }
+          .slick-slide {
+            background-color: #fafafa;
           }
         `}</style>
       </TotalContainer>

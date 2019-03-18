@@ -45,7 +45,7 @@ const Container = styled.div`
   opacity: 1;
   z-index: 2;
   @media only screen and (max-width: 700px) {
-    height: 75%;
+    height: 65%;
     width: 75%;
   }
 `;
