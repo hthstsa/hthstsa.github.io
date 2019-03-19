@@ -96,45 +96,51 @@ const StateConference = props => (
     <AwardsTable>
       <tr>
         <td>Webmaster</td>
-        <td>1st 🥇</td>
+        <td>1st <i class="em em-first_place_medal"></i></td>
+        <td>HTHS</td>
+        <td>2nd <i class="em em-second_place_medal"></i></td>
+      </tr>
+            <tr>
+        <td>Webmaster</td>
+        <td>1st <i class="em em-first_place_medal"></i></td>
         <td>HTHS</td>
         <td>2nd 🥈</td>
       </tr>
-      <tr>
-        <td>HTHS</td>
-        <td>1st 🥇</td>
+            <tr>
         <td>Webmaster</td>
-        <td>3rd 🥉</td>
+        <td>1st <i class="em em-first_place_medal"></i></td>
+        <td>HTHS</td>
+        <td>2nd 🥈</td>
       </tr>
-      <tr>
+            <tr>
         <td>Webmaster</td>
-        <td>1st 🥇</td>
+        <td>1st <i class="em em-first_place_medal"></i></td>
         <td>HTHS</td>
-        <td>1st 🥇</td>
+        <td>2nd 🥈</td>
       </tr>
-      <tr>
+            <tr>
         <td>Webmaster</td>
-        <td>1st 🥇</td>
+        <td>1st <i class="em em-first_place_medal"></i></td>
         <td>HTHS</td>
-        <td>1st 🥇</td>
+        <td>2nd 🥈</td>
       </tr>
-      <tr>
+            <tr>
         <td>Webmaster</td>
-        <td>1st 🥇</td>
+        <td>1st <i class="em em-first_place_medal"></i></td>
         <td>HTHS</td>
-        <td>1st 🥇</td>
+        <td>2nd 🥈</td>
       </tr>
-      <tr>
+            <tr>
         <td>Webmaster</td>
-        <td>1st 🥇</td>
+        <td>1st <i class="em em-first_place_medal"></i></td>
         <td>HTHS</td>
-        <td>1st 🥇</td>
+        <td>2nd 🥈</td>
       </tr>
-      <tr>
+            <tr>
         <td>Webmaster</td>
-        <td>1st 🥇</td>
+        <td>1st <i class="em em-first_place_medal"></i></td>
         <td>HTHS</td>
-        <td>1st 🥇</td>
+        <td>2nd 🥈</td>
       </tr>
     </AwardsTable>
   </Content>

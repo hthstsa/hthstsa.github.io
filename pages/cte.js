@@ -15,7 +15,7 @@ import PlacesToListen from "../components/places_to_listen";
 import Tour from "../components/tour";
 import Photos from "../components/photos";
 import Music from "../components/music";
-import WhatIsTSA from "../components/what_is_tsa";
+import Courses from "../components/courses";
 import WhoAreWe from "../components/who_are_we";
 import Activities from "../components/activities";
 import Officers from "../components/officers";
@@ -35,14 +35,14 @@ export const headerItems = [
     main: false
   },
   {
-    title: "TSA",
-    link: "/#main",
+    title: "CTE",
+    link: "/cte#main",
     id: 4,
     main: true
   },
   {
-    title: "CTE",
-    link: "/cte",
+    title: "TSA",
+    link: "/",
     id: 7,
     main: false
   }
@@ -109,9 +109,9 @@ class Index extends React.Component {
               <ReactFullpage.Wrapper>
                 <div style={{ position: "relative" }} className="section">
                   <BackgroundSplash
-                    url={"https://hthstsa-af51.kxcdn.com/static/tsa-splash.jpg"}
+                    url={"/static/circuitboard.jpg"}
                   >
-                    HTHS TSA
+                    HTHS CTE
                   </BackgroundSplash>
                 </div>
                 <div style={{ position: "relative" }} className="section">
@@ -122,7 +122,7 @@ class Index extends React.Component {
                       backgroundColor: "#800000"
                     }}
                   >
-                    <WhatIsTSA />
+                    <Courses />
                   </div>
                 </div>
                 <div style={{ position: "relative" }} className="section">
