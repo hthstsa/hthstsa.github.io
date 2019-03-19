@@ -135,8 +135,13 @@ export default class Shop extends Component {
   }
   render() {
     return (
-      <div>
+      <div style={{ height: "100vh", width: "100vw", overflowY: "auto" }}>
         <Head>
+          <meta charset="UTF-8" />
+          <meta
+            name="viewport"
+            content="initial-scale=1.0, width=device-width"
+          />
           <link
             href="https://fonts.googleapis.com/css?family=Raleway:400,800"
             rel="stylesheet"

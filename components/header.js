@@ -49,6 +49,7 @@ const NavItemMain = styled(NavItem)`
 `;
 
 const MobileMenuStyle = styled.div`
+  overflow-y: auto;
   transition: transform 0.3s cubic-bezier(0.17, 0.67, 0.83, 0.67);
   width: 100vw;
   height: 100vh;
@@ -105,7 +106,7 @@ class Header extends React.Component {
 
   openCloseMenu(val) {
     this.setState({ smallMenuOpen: val });
-    this.props.fullPageApi(!val);
+    //this.props.fullPageApi(!val);
   }
 
   getMainItem() {
@@ -137,19 +138,24 @@ class Header extends React.Component {
           })}
         </LargeMenu>
         <SmallMenu size={980}>
-          <NavItemMain>{this.getMainItem().title}</NavItemMain>
+          <NavItemMain href={this.getMainItem().link}>
+            {this.getMainItem().title}
+          </NavItemMain>
           <Hamburger
             smallMenuOpen={this.state.smallMenuOpen}
             setOpen={val => this.openCloseMenu(val)}
           />
-          <MobileMenu pose={this.state.smallMenuOpen ? "visible" : "hidden"}>
+          <MobileMenu
+            id="mobile-menu"
+            pose={this.state.smallMenuOpen ? "visible" : "hidden"}
+          >
             {this.props.items.map(
               item =>
                 !item.main && (
                   <MobileItem
                     key={item.id}
                     href={item.link}
-                    onClick={item.onClick}
+                    onClick={() => this.openCloseMenu(false)}
                   >
                     {item.title}
                   </MobileItem>

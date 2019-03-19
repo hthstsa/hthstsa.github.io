@@ -135,6 +135,10 @@ export default class Music extends Component {
     playing: 0
   };
   componentDidMount() {
+    if (window.location.href.includes("#music")) {
+      this.setState({ open: true });
+    }
+    console.log("Mounted");
     window.onhashchange = () => {
       if (window.location.href.includes("#music")) {
         this.setState({ open: true });
@@ -157,6 +161,7 @@ export default class Music extends Component {
   }
   closeWindow() {
     this.setState({ open: false });
+    window.history.back();
   }
   render() {
     return (
