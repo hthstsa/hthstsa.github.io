@@ -1393,6 +1393,9 @@ function (_React$Component) {
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(NavItemMain, {
         href: this.getMainItem().link,
+        style: {
+          textAlign: "left"
+        },
         __source: {
           fileName: _jsxFileName,
           lineNumber: 143
@@ -1405,7 +1408,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 146
+          lineNumber: 149
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MobileMenu, {
@@ -1413,7 +1416,7 @@ function (_React$Component) {
         pose: this.state.smallMenuOpen ? "visible" : "hidden",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 150
+          lineNumber: 153
         },
         __self: this
       }, this.props.items.map(function (item) {
@@ -1425,7 +1428,7 @@ function (_React$Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 157
+            lineNumber: 160
           },
           __self: this
         }, item.title);
@@ -1540,8 +1543,8 @@ var _jsxFileName = "/home/kusti8/Documents/Github/webmaster2019/components/music
 var Container = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div.withConfig({
   displayName: "music__Container",
   componentId: "sc-1e13pm4-0"
-})(["height:100%;width:100%;position:absolute;top:0;left:0;z-index:5;background-color:#fff;transform:", ";transition:transform 0.7s;transition-timing-function:cubic-bezier(0.86,0.01,0.77,0.78);"], function (props) {
-  return props.modalOpen ? "translateX(0)" : "translateX(-100%)";
+})(["height:100%;width:100%;position:absolute;top:0;left:-100%;z-index:5;background-color:#fff;transform:", ";transition:transform 0.7s;transition-timing-function:cubic-bezier(0.86,0.01,0.77,0.78);"], function (props) {
+  return props.modalOpen ? "translateX(100%)" : "translateX(0)";
 });
 var AlbumContainer = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div.withConfig({
   displayName: "music__AlbumContainer",

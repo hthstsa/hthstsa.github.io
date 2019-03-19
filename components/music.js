@@ -7,11 +7,11 @@ const Container = styled.div`
   width: 100%;
   position: absolute;
   top: 0;
-  left: 0;
+  left: -100%;
   z-index: 5;
   background-color: #fff;
   transform: ${props =>
-    props.modalOpen ? "translateX(0)" : "translateX(-100%)"};
+    props.modalOpen ? "translateX(100%)" : "translateX(0)"};
   transition: transform 0.7s;
   transition-timing-function: cubic-bezier(0.86, 0.01, 0.77, 0.78);
 `;

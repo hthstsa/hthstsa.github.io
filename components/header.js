@@ -140,7 +140,10 @@ class Header extends React.Component {
           })}
         </LargeMenu>
         <SmallMenu size={980}>
-          <NavItemMain href={this.getMainItem().link}>
+          <NavItemMain
+            href={this.getMainItem().link}
+            style={{ textAlign: "left" }}
+          >
             {this.getMainItem().title}
           </NavItemMain>
           <Hamburger
