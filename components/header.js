@@ -42,6 +42,8 @@ const NavItem = styled.a`
   letter-spacing: 0.4em;
   margin: 25px;
   text-decoration: none;
+  flex: 1;
+  text-align: center;
 `;
 
 const NavItemMain = styled(NavItem)`

@@ -648,7 +648,7 @@ var Container = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].div.wi
 var NavItem = styled_components__WEBPACK_IMPORTED_MODULE_8__["default"].a.withConfig({
   displayName: "header__NavItem",
   componentId: "sc-1sao6py-3"
-})(["color:#f2f5f9;font-family:\"Raleway\",sans-serif;text-transform:uppercase;letter-spacing:0.4em;margin:25px;text-decoration:none;"]);
+})(["color:#f2f5f9;font-family:\"Raleway\",sans-serif;text-transform:uppercase;letter-spacing:0.4em;margin:25px;text-decoration:none;flex:1;text-align:center;"]);
 var NavItemMain = Object(styled_components__WEBPACK_IMPORTED_MODULE_8__["default"])(NavItem).withConfig({
   displayName: "header__NavItemMain",
   componentId: "sc-1sao6py-4"
@@ -733,14 +733,14 @@ function (_React$Component) {
       return react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(Container, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 122
+          lineNumber: 124
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(LargeMenu, {
         size: 980,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123
+          lineNumber: 125
         },
         __self: this
       }, this.props.items.map(function (item) {
@@ -750,7 +750,7 @@ function (_React$Component) {
             href: item.link,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 127
+              lineNumber: 129
             },
             __self: this
           }, item.title);
@@ -761,7 +761,7 @@ function (_React$Component) {
             onClick: item.onClick,
             __source: {
               fileName: _jsxFileName,
-              lineNumber: 133
+              lineNumber: 135
             },
             __self: this
           }, item.title);
@@ -770,14 +770,14 @@ function (_React$Component) {
         size: 980,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 140
+          lineNumber: 142
         },
         __self: this
       }, react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(NavItemMain, {
         href: this.getMainItem().link,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 141
+          lineNumber: 143
         },
         __self: this
       }, this.getMainItem().title), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(_hamburger__WEBPACK_IMPORTED_MODULE_9__["default"], {
@@ -787,7 +787,7 @@ function (_React$Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 144
+          lineNumber: 146
         },
         __self: this
       }), react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement(MobileMenu, {
@@ -795,7 +795,7 @@ function (_React$Component) {
         pose: this.state.smallMenuOpen ? "visible" : "hidden",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 148
+          lineNumber: 150
         },
         __self: this
       }, this.props.items.map(function (item) {
@@ -807,7 +807,7 @@ function (_React$Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 155
+            lineNumber: 157
           },
           __self: this
         }, item.title);

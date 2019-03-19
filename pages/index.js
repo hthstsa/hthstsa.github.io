@@ -19,6 +19,9 @@ import WhatIsTSA from "../components/what_is_tsa";
 import WhoAreWe from "../components/who_are_we";
 import Activities from "../components/activities";
 import Officers from "../components/officers";
+import Competitions from "../components/competitions";
+import Awards from "../components/awards";
+import Footer from "../components/footer";
 
 library.add(faBars);
 library.add(faPlay);
@@ -86,7 +89,16 @@ class Index extends React.Component {
           navigation
           scrollOverflow
           normalScrollElements="#scroller"
-          anchors={["main", "tsa", "hths", "activities", "officers"]}
+          anchors={[
+            "main",
+            "tsa",
+            "hths",
+            "activities",
+            "officers",
+            "competitions",
+            "awards",
+            "footer"
+          ]}
           render={({ state, fullpageApi }) => {
             if (fullpageApi) {
               fullpageApi.setAllowScrolling(this.state.enabled);
@@ -120,6 +132,18 @@ class Index extends React.Component {
                   className="section fp-noscroll"
                 >
                   <Officers />
+                </div>
+                <div style={{ position: "relative" }} className="section">
+                  <Competitions />
+                </div>
+                <div style={{ position: "relative" }} className="section">
+                  <Awards />
+                </div>
+                <div
+                  style={{ position: "relative" }}
+                  className="section fp-auto-height"
+                >
+                  <Footer />
                 </div>
               </ReactFullpage.Wrapper>
             );
