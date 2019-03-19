@@ -21,7 +21,7 @@ const TotalContainer = styled.div`
 
   &:before {
     content: "";
-    background-image: url("/static/laptop-working.jpg");
+    background-image: url("https://hthstsa-af51.kxcdn.com/static/laptop-working.jpg");
     background-size: cover;
     opacity: 0.5;
     top: 0;
@@ -120,7 +120,7 @@ const GeneralMeetings = props => (
       </Content>
     </LeftContainer>
     <RightContainer>
-      <RightImage src="/static/meeting.jpeg" />
+      <RightImage src="https://hthstsa-af51.kxcdn.com/static/meeting.jpeg" />
     </RightContainer>
   </div>
 );
@@ -135,7 +135,7 @@ const LeadershipConference = props => (
       </Content>
     </LeftContainer>
     <RightContainer>
-      <RightImage src="/static/meeting.jpeg" />
+      <RightImage src="https://hthstsa-af51.kxcdn.com/static/meeting.jpeg" />
     </RightContainer>
   </div>
 );
@@ -150,7 +150,7 @@ const CheckIns = props => (
       </Content>
     </LeftContainer>
     <RightContainer>
-      <RightImage src="/static/meeting.jpeg" />
+      <RightImage src="https://hthstsa-af51.kxcdn.com/static/meeting.jpeg" />
     </RightContainer>
   </div>
 );
@@ -165,7 +165,7 @@ const RelayForLife = props => (
       </Content>
     </LeftContainer>
     <RightContainer>
-      <RightImage src="/static/meeting.jpeg" />
+      <RightImage src="https://hthstsa-af51.kxcdn.com/static/meeting.jpeg" />
     </RightContainer>
   </div>
 );
@@ -180,7 +180,7 @@ const EndOfYear = props => (
       </Content>
     </LeftContainer>
     <RightContainer>
-      <RightImage src="/static/meeting.jpeg" />
+      <RightImage src="https://hthstsa-af51.kxcdn.com/static/meeting.jpeg" />
     </RightContainer>
   </div>
 );

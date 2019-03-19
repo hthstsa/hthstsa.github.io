@@ -18,7 +18,7 @@ const TotalContainer = styled.div`
 
   &:before {
     content: "";
-    background-image: url("/static/officer-background.jpeg");
+    background-image: url("https://hthstsa-af51.kxcdn.com/static/officer-background.jpeg");
     background-size: cover;
     opacity: 0.5;
     top: 0;
@@ -124,7 +124,7 @@ export default class Officers extends Component {
             <Slider dots={false} infinite>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="/static/meeting.jpeg"
+                  src="https://hthstsa-af51.kxcdn.com/static/meeting.jpeg"
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Name</OfficerName>
@@ -132,7 +132,7 @@ export default class Officers extends Component {
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="/static/meeting.jpeg"
+                  src="https://hthstsa-af51.kxcdn.com/static/meeting.jpeg"
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Name</OfficerName>
@@ -140,7 +140,7 @@ export default class Officers extends Component {
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="/static/meeting.jpeg"
+                  src="https://hthstsa-af51.kxcdn.com/static/meeting.jpeg"
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Name</OfficerName>

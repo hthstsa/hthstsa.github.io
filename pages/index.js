@@ -88,6 +88,7 @@ class Index extends React.Component {
         <ReactFullpage
           navigation
           scrollOverflow
+          bigSectionsDestination="top"
           normalScrollElements="#scroller"
           anchors={[
             "main",
@@ -106,7 +107,9 @@ class Index extends React.Component {
             return (
               <ReactFullpage.Wrapper>
                 <div style={{ position: "relative" }} className="section">
-                  <BackgroundSplash url={"/static/tsa-splash.jpg"}>
+                  <BackgroundSplash
+                    url={"https://hthstsa-af51.kxcdn.com/static/tsa-splash.jpg"}
+                  >
                     HTHS TSA
                   </BackgroundSplash>
                 </div>

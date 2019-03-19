@@ -20,7 +20,7 @@ const TotalContainer = styled.div`
 
   &:before {
     content: "";
-    background-image: url("/static/awards.png");
+    background-image: url("https://hthstsa-af51.kxcdn.com/static/awards.png");
     background-size: cover;
     opacity: 0.5;
     top: 0;

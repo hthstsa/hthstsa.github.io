@@ -19,7 +19,7 @@ const TotalContainer = styled.div`
 
   &:before {
     content: "";
-    background-image: url("/static/hths-tsa.jpg_large");
+    background-image: url("https://hthstsa-af51.kxcdn.com/static/hths-tsa.jpg_large");
     background-size: cover;
     opacity: 0.5;
     top: 0;
@@ -124,7 +124,7 @@ export default class WhoAreWe extends Component {
         Who Are We?
         <Container>
           <Description>
-            <HTHSLogo src="/static/hths.jpg" />
+            <HTHSLogo src="https://hthstsa-af51.kxcdn.com/static/hths.jpg" />
             <HTHSDesc>This is a test</HTHSDesc>
           </Description>
           <Facts>

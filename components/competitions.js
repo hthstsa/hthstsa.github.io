@@ -21,7 +21,7 @@ const TotalContainer = styled.div`
 
   &:before {
     content: "";
-    background-image: url("/static/conference.jpg");
+    background-image: url("https://hthstsa-af51.kxcdn.com/static/conference.jpg");
     background-size: cover;
     opacity: 0.5;
     top: 0;
@@ -120,7 +120,7 @@ const StateConference = props => (
       </Content>
     </LeftContainer>
     <RightContainer>
-      <RightImage src="/static/meeting.jpeg" />
+      <RightImage src="https://hthstsa-af51.kxcdn.com/static/meeting.jpeg" />
     </RightContainer>
   </div>
 );
@@ -135,7 +135,7 @@ const NationalConference = props => (
       </Content>
     </LeftContainer>
     <RightContainer>
-      <RightImage src="/static/meeting.jpeg" />
+      <RightImage src="https://hthstsa-af51.kxcdn.com/static/meeting.jpeg" />
     </RightContainer>
   </div>
 );

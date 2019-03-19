@@ -11,55 +11,55 @@ const items = [
     name: "Basic T shirt",
     price: 25.5,
     id: 1,
-    picture: "/static/t-shirt.jpg"
+    picture: "https://hthstsa-af51.kxcdn.com/static/t-shirt.jpg"
   },
   {
     name: "Basic T shirt",
     price: 25.5,
     id: 1,
-    picture: "/static/t-shirt.jpg"
+    picture: "https://hthstsa-af51.kxcdn.com/static/t-shirt.jpg"
   },
   {
     name: "Basic T shirt",
     price: 25.5,
     id: 1,
-    picture: "/static/t-shirt.jpg"
+    picture: "https://hthstsa-af51.kxcdn.com/static/t-shirt.jpg"
   },
   {
     name: "Basic T shirt",
     price: 25.5,
     id: 1,
-    picture: "/static/t-shirt.jpg"
+    picture: "https://hthstsa-af51.kxcdn.com/static/t-shirt.jpg"
   },
   {
     name: "Basic T shirt",
     price: 25.5,
     id: 1,
-    picture: "/static/t-shirt.jpg"
+    picture: "https://hthstsa-af51.kxcdn.com/static/t-shirt.jpg"
   },
   {
     name: "Basic T shirt",
     price: 25.5,
     id: 1,
-    picture: "/static/t-shirt.jpg"
+    picture: "https://hthstsa-af51.kxcdn.com/static/t-shirt.jpg"
   },
   {
     name: "Basic T shirt",
     price: 25.5,
     id: 1,
-    picture: "/static/t-shirt.jpg"
+    picture: "https://hthstsa-af51.kxcdn.com/static/t-shirt.jpg"
   },
   {
     name: "Basic T shirt",
     price: 25.5,
     id: 1,
-    picture: "/static/t-shirt.jpg"
+    picture: "https://hthstsa-af51.kxcdn.com/static/t-shirt.jpg"
   },
   {
     name: "Captcha! World Tour",
     price: 99.99,
     id: 1,
-    picture: "/static/guitar.jpg"
+    picture: "https://hthstsa-af51.kxcdn.com/static/guitar.jpg"
   }
 ];
 

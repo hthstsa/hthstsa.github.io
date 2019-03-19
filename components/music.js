@@ -183,7 +183,10 @@ export default class Music extends Component {
             </SongsList>
           </SongContent>
         </Songs>
-        <Cancel src="/static/cancel.svg" onClick={() => this.closeWindow()} />
+        <Cancel
+          src="https://hthstsa-af51.kxcdn.com/static/cancel.svg"
+          onClick={() => this.closeWindow()}
+        />
       </Container>
     );
   }

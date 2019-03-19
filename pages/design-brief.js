@@ -90,6 +90,7 @@ class Index extends React.Component {
         <ReactFullpage
           navigation
           scrollOverflow
+          bigSectionsDestination="top"
           normalScrollElements="#mobile-menu"
           anchors={["main", "tour", "media"]}
           afterLoad={(anchor, index) => {
