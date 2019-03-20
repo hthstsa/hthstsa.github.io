@@ -17,6 +17,10 @@ const Title = styled.h1`
   font-size: 50px;
   color: #fff;
 `;
+const TitleInside = styled(Title)`
+  margin-left: 0%;
+  margin-top: 50px;
+`;
 
 const Info = styled.p`
   margin-left: 15%;
@@ -30,35 +34,28 @@ export default class WhatIsTSA extends Component {
   render() {
     return (
       <Container>
-        <Title>WHAT IS TSA?</Title>
+        <Title>ABOUT TSA</Title>
         <Info>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-          efficitur dolor lacus, id feugiat diam posuere nec. Quisque laoreet
-          vestibulum hendrerit. Ut justo leo, sagittis ac urna in, finibus
-          tempus quam. Aenean consequat magna et turpis posuere, non ullamcorper
-          risus elementum. Etiam ac augue mattis, lacinia nibh in, mollis eros.
-          Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent
-          convallis justo at nulla rutrum euismod. Sed sodales luctus lectus.
-          Suspendisse fermentum justo vitae dui mattis, quis feugiat mauris
-          ultrices. Praesent vulputate mauris vel enim bibendum dignissim.
-          Aliquam volutpat augue sapien, eu fermentum tortor sodales at. Sed
-          venenatis ut augue at faucibus. Phasellus mollis elit ac neque
-          lacinia, eleifend rhoncus quam facilisis. Phasellus rhoncus velit
-          quam, quis aliquet eros pretium mattis. Sed commodo erat et iaculis
-          laoreet. Quisque ultricies, velit a tincidunt ullamcorper, urna lectus
-          pellentesque ipsum, non congue magna nulla nec dui. In metus augue,
-          condimentum vel blandit non, egestas a libero. Nam sagittis ante leo,
-          quis gravida ante accumsan ac. Integer fringilla leo sed velit
-          pharetra congue. Aliquam erat volutpat. Phasellus at nibh felis.
-          Aliquam aliquet feugiat lorem a scelerisque. Quisque ut semper velit,
-          vel facilisis urna. Nullam tempor quam vitae sagittis vulputate. Ut
-          commodo orci vitae purus tincidunt, at suscipit neque imperdiet.
-          Aliquam efficitur tellus quis fermentum gravida. In venenatis suscipit
-          posuere. Cras elit massa, interdum a tristique mollis, rutrum
-          scelerisque arcu. Pellentesque habitant morbi tristique senectus et
-          netus et malesuada fames ac turpis egestas. Fusce placerat sapien eu
-          felis fringilla tristique. Fusce a convallis sem. Curabitur pharetra
-          congue maximus.
+          The Technology Student Association (TSA) enhances personal
+          development, leadership, and career opportunities in science,
+          technology, engineering, and math (STEM), whereby members apply and
+          integrate these concepts through intracurricular activities,
+          competitions, and related programs.
+          <TitleInside>CREED</TitleInside>I believe that Technology Education
+          holds an important place in my life in the technical world. I believe
+          there is a need for the development of good attitudes concerning work,
+          tools, materials, experimentation, and processes of industry. Guided
+          by my teachers, artisans from industry, and my own initiative, I will
+          strive to do my best in making my school, community, state, and nation
+          better places in which to live. I will accept the responsibilities
+          that are mine. I will accept the theories that are supported by proper
+          evidence. I will explore on my own for safer, more effective methods
+          of working and living. I will strive to develop a cooperative attitude
+          and will exercise tact and respect for other individuals. Through the
+          work of my hands and mind, I will express my ideas to the best of my
+          ability. I will make it my goal to do better each day the task before
+          me, and to be steadfast in my belief in my God, and my fellow
+          Americans.
         </Info>
       </Container>
     );

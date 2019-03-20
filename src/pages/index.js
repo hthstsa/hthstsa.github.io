@@ -65,7 +65,7 @@ class Index extends React.Component {
           navigation
           scrollOverflow
           bigSectionsDestination="top"
-          normalScrollElements="#scroller"
+          normalScrollElements="#scroller, .no-scroll"
           anchors={[
             "main",
             "tsa",

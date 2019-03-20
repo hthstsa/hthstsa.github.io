@@ -51241,8 +51241,18 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
-function _templateObject3() {
+function _templateObject4() {
   var data = _taggedTemplateLiteral(["\n  margin-left: 15%;\n  margin-right: 15%;\n  font-family: \"Raleway\";\n  color: #fff;\n  font-size: 25px;\n"]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  var data = _taggedTemplateLiteral(["\n  margin-left: 0%;\n  margin-top: 50px;\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -51277,7 +51287,9 @@ var Container = _styledComponents.default.div(_templateObject());
 
 var Title = _styledComponents.default.h1(_templateObject2());
 
-var Info = _styledComponents.default.p(_templateObject3());
+var TitleInside = (0, _styledComponents.default)(Title)(_templateObject3());
+
+var Info = _styledComponents.default.p(_templateObject4());
 
 var WhatIsTSA =
 /*#__PURE__*/
@@ -51293,7 +51305,7 @@ function (_Component) {
   _createClass(WhatIsTSA, [{
     key: "render",
     value: function render() {
-      return _react.default.createElement(Container, null, _react.default.createElement(Title, null, "WHAT IS TSA?"), _react.default.createElement(Info, null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer efficitur dolor lacus, id feugiat diam posuere nec. Quisque laoreet vestibulum hendrerit. Ut justo leo, sagittis ac urna in, finibus tempus quam. Aenean consequat magna et turpis posuere, non ullamcorper risus elementum. Etiam ac augue mattis, lacinia nibh in, mollis eros. Interdum et malesuada fames ac ante ipsum primis in faucibus. Praesent convallis justo at nulla rutrum euismod. Sed sodales luctus lectus. Suspendisse fermentum justo vitae dui mattis, quis feugiat mauris ultrices. Praesent vulputate mauris vel enim bibendum dignissim. Aliquam volutpat augue sapien, eu fermentum tortor sodales at. Sed venenatis ut augue at faucibus. Phasellus mollis elit ac neque lacinia, eleifend rhoncus quam facilisis. Phasellus rhoncus velit quam, quis aliquet eros pretium mattis. Sed commodo erat et iaculis laoreet. Quisque ultricies, velit a tincidunt ullamcorper, urna lectus pellentesque ipsum, non congue magna nulla nec dui. In metus augue, condimentum vel blandit non, egestas a libero. Nam sagittis ante leo, quis gravida ante accumsan ac. Integer fringilla leo sed velit pharetra congue. Aliquam erat volutpat. Phasellus at nibh felis. Aliquam aliquet feugiat lorem a scelerisque. Quisque ut semper velit, vel facilisis urna. Nullam tempor quam vitae sagittis vulputate. Ut commodo orci vitae purus tincidunt, at suscipit neque imperdiet. Aliquam efficitur tellus quis fermentum gravida. In venenatis suscipit posuere. Cras elit massa, interdum a tristique mollis, rutrum scelerisque arcu. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce placerat sapien eu felis fringilla tristique. Fusce a convallis sem. Curabitur pharetra congue maximus."));
+      return _react.default.createElement(Container, null, _react.default.createElement(Title, null, "ABOUT TSA"), _react.default.createElement(Info, null, "The Technology Student Association (TSA) enhances personal development, leadership, and career opportunities in science, technology, engineering, and math (STEM), whereby members apply and integrate these concepts through intracurricular activities, competitions, and related programs.", _react.default.createElement(TitleInside, null, "CREED"), "I believe that Technology Education holds an important place in my life in the technical world. I believe there is a need for the development of good attitudes concerning work, tools, materials, experimentation, and processes of industry. Guided by my teachers, artisans from industry, and my own initiative, I will strive to do my best in making my school, community, state, and nation better places in which to live. I will accept the responsibilities that are mine. I will accept the theories that are supported by proper evidence. I will explore on my own for safer, more effective methods of working and living. I will strive to develop a cooperative attitude and will exercise tact and respect for other individuals. Through the work of my hands and mind, I will express my ideas to the best of my ability. I will make it my goal to do better each day the task before me, and to be steadfast in my belief in my God, and my fellow Americans."));
     }
   }]);
 
@@ -51336,7 +51348,7 @@ function _inherits(subClass, superClass) { if (typeof superClass !== "function" 
 function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
 
 function _templateObject8() {
-  var data = _taggedTemplateLiteral(["\n  font-family: \"Raleway\";\n  font-size: 3vmax;\n  font-weight: 400;\n  color: #fff;\n  margin-left: 10%;\n  line-height: 200%;\n  @media screen and (min-width: 1300px) {\n    font-size: 39px;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  font-family: \"Raleway\";\n  font-size: 2vmax;\n  font-weight: 400;\n  color: #fff;\n  margin-left: 10%;\n  line-height: 150%;\n  @media screen and (min-width: 1300px) {\n    font-size: 26px;\n  }\n"]);
 
   _templateObject8 = function _templateObject8() {
     return data;
@@ -51356,7 +51368,7 @@ function _templateObject7() {
 }
 
 function _templateObject6() {
-  var data = _taggedTemplateLiteral(["\n  font-family: \"Raleway\";\n  font-size: 2vmax;\n  padding-left: 10%;\n  padding-right: 10%;\n  color: #000;\n  font-weight: 400;\n  @media screen and (min-width: 1300px) {\n    font-size: 26px;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  font-family: \"Raleway\";\n  font-size: 1.3vmax;\n  padding-left: 10%;\n  padding-right: 10%;\n  color: #000;\n  font-weight: 400;\n  @media screen and (min-width: 1300px) {\n    font-size: 17px;\n  }\n"]);
 
   _templateObject6 = function _templateObject6() {
     return data;
@@ -51366,7 +51378,7 @@ function _templateObject6() {
 }
 
 function _templateObject5() {
-  var data = _taggedTemplateLiteral(["\n  width: auto;\n  max-height: 60%;\n  margin-top: 8.5%;\n  display: block;\n  margin: auto;\n  margin-top: 6.5%;\n"]);
+  var data = _taggedTemplateLiteral(["\n  width: auto;\n  max-height: 30%;\n  margin-top: 8.5%;\n  display: block;\n  margin: auto;\n  margin-top: 6.5%;\n"]);
 
   _templateObject5 = function _templateObject5() {
     return data;
@@ -51376,7 +51388,7 @@ function _templateObject5() {
 }
 
 function _templateObject4() {
-  var data = _taggedTemplateLiteral(["\n  width: 50%;\n  height: 100%;\n  float: right;\n  background-color: #697896;\n  @media only screen and (max-width: 700px) {\n    width: 100%;\n    height: 50%;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  width: 50%;\n  height: 100%;\n  float: right;\n  background-color: #697896;\n  @media only screen and (max-width: 700px) {\n    width: 100%;\n    height: 50%;\n  }\n  overflow-y: auto;\n"]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -51386,7 +51398,7 @@ function _templateObject4() {
 }
 
 function _templateObject3() {
-  var data = _taggedTemplateLiteral(["\n  width: 50%;\n  height: 100%;\n  float: left;\n  background-color: #fafafa;\n  @media only screen and (max-width: 700px) {\n    width: 100%;\n    height: 50%;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  width: 50%;\n  height: 100%;\n  float: left;\n  background-color: #fafafa;\n  @media only screen and (max-width: 700px) {\n    width: 100%;\n    height: 50%;\n  }\n  overflow-y: auto;\n"]);
 
   _templateObject3 = function _templateObject3() {
     return data;
@@ -51447,9 +51459,13 @@ function (_Component) {
   _createClass(WhoAreWe, [{
     key: "render",
     value: function render() {
-      return _react.default.createElement(TotalContainer, null, "Who Are We?", _react.default.createElement(Container, null, _react.default.createElement(Description, null, _react.default.createElement(HTHSLogo, {
+      return _react.default.createElement(TotalContainer, null, "Who Are We?", _react.default.createElement(Container, null, _react.default.createElement(Description, {
+        className: "no-scroll"
+      }, _react.default.createElement(HTHSLogo, {
         src: "https://hthstsa-af51.kxcdn.com/static/hths.jpg"
-      }), _react.default.createElement(HTHSDesc, null, "This is a test")), _react.default.createElement(Facts, null, _react.default.createElement(FactsTitle, null, "Facts"), _react.default.createElement(FactsInfo, null, "Stuff", _react.default.createElement("br", null), "More Stuff"))));
+      }), _react.default.createElement(HTHSDesc, null, "High Technology High School is one of New Jersey\u2019s premier TSA chapters, placing at least one team in the top 3 for 54% of the NJ State Conference\u2019s events last year. Many of these teams went on to compete at the 2018 National Conference, including 8 national semi-finalist teams, 6 national finalist teams, a second place team in Software Development and 1st & 3rd place finishes in VEX robot skills and excellence awards respectively. We are also proud to have many of our students serve as state officers over the years.", " ")), _react.default.createElement(Facts, {
+        className: "no-scroll"
+      }, _react.default.createElement(FactsTitle, null, "Facts"), _react.default.createElement(FactsInfo, null, "- The HTHS TSA chapter was founded in 1991", _react.default.createElement("br", null), "- The chapter currently has over 170 members, representing over 50% of the school\u2019s population", _react.default.createElement("br", null), "- TSA is High Tech\u2019s most popular club and extracurricular activity"))));
     }
   }]);
 
@@ -63896,6 +63912,16 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
+function _templateObject8() {
+  var data = _taggedTemplateLiteral(["\n  height: calc(100% - 48px);\n  overflow-y: auto;\n"]);
+
+  _templateObject8 = function _templateObject8() {
+    return data;
+  };
+
+  return data;
+}
+
 function _templateObject7() {
   var data = _taggedTemplateLiteral(["\n  float: left;\n  width: 100%;\n  height: 100%;\n"]);
 
@@ -63982,24 +64008,36 @@ var RightImage = _styledComponents.default.img(_templateObject6());
 
 var LeftContainer = _styledComponents.default.div(_templateObject7());
 
+var InnerContainer = _styledComponents.default.div(_templateObject8());
+
 var GeneralMeetings = function GeneralMeetings(props) {
-  return _react.default.createElement("div", null, _react.default.createElement(LeftContainer, null, _react.default.createElement(Title, null, "General Meetings"), _react.default.createElement(Content, null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac mi quis lectus gravida aliquam sit amet eu lorem.")));
+  return _react.default.createElement(InnerContainer, {
+    className: "no-scroll"
+  }, _react.default.createElement(LeftContainer, null, _react.default.createElement(Title, null, "General Meetings"), _react.default.createElement(Content, null, "At the beginning of the school year, the HTHS chapter officers hold a general interest meeting to attract new members to TSA, remind returning members to join the club, and explain any changes to the event selection process for the year. During the remainder of the school year, the chapter holds additional periodic meetings to help project teams set deadlines and stay on track.")));
 };
 
 var LeadershipConference = function LeadershipConference(props) {
-  return _react.default.createElement("div", null, _react.default.createElement(LeftContainer, null, _react.default.createElement(Title, null, "Leadership Conference"), _react.default.createElement(Content, null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac mi quis lectus gravida aliquam sit amet eu lorem.")));
+  return _react.default.createElement(InnerContainer, {
+    className: "no-scroll"
+  }, _react.default.createElement(LeftContainer, null, _react.default.createElement(Title, null, "Leadership Conference"), _react.default.createElement(Content, null, "In the fall, the HTHS TSA chapter officers attend a leadership conference along with their peers at other New Jersey high schools where they participate in team building activities and work with other officers to learn how they can continue to grow as leaders and how they can help improve their TSA chapter through their position\u2019s responsibilities.")));
 };
 
 var CheckIns = function CheckIns(props) {
-  return _react.default.createElement("div", null, _react.default.createElement(LeftContainer, null, _react.default.createElement(Title, null, "Check Ins"), _react.default.createElement(Content, null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac mi quis lectus gravida aliquam sit amet eu lorem.")));
+  return _react.default.createElement(InnerContainer, {
+    className: "no-scroll"
+  }, _react.default.createElement(LeftContainer, null, _react.default.createElement(Title, null, "Check Ins"), _react.default.createElement(Content, null, "As the New Jersey TSA State Conference approaches, the HTHS TSA officers hold mandatory check-ins where they make sure that all teams are making progress on their projects and are on pace to complete all pre-conference events, to be prepared for on-site events, and to achieve their goals prior to the state conference.")));
 };
 
 var RelayForLife = function RelayForLife(props) {
-  return _react.default.createElement("div", null, _react.default.createElement(LeftContainer, null, _react.default.createElement(Title, null, "Relay For Life"), _react.default.createElement(Content, null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac mi quis lectus gravida aliquam sit amet eu lorem.")));
+  return _react.default.createElement(InnerContainer, {
+    className: "no-scroll"
+  }, _react.default.createElement(LeftContainer, null, _react.default.createElement(Title, null, "Community Service"), _react.default.createElement(Content, null, "Beginning in 2016, the HTHS TSA chapter has sent teams from each of the school\u2019s classes to participate in the Middletown, NJ Relay for Life event annually in order to raise money for TSA\u2019s National Service Project and contribute to the National Cancer Society. The HTHS TSA chapter raises funds for this charitable event through luminaria sales and through generous donations. At the Relay for Life event, participating chapter members get to hear the inspiring stories of cancer survivors and cancer researchers. Our TSA chapter is constantly working to increase participation in Relay for Life and to raise our yearly donation total.")));
 };
 
 var EndOfYear = function EndOfYear(props) {
-  return _react.default.createElement("div", null, _react.default.createElement(LeftContainer, null, _react.default.createElement(Title, null, "End of Year Wrap Up"), _react.default.createElement(Content, null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac mi quis lectus gravida aliquam sit amet eu lorem.")));
+  return _react.default.createElement(InnerContainer, {
+    className: "no-scroll"
+  }, _react.default.createElement(LeftContainer, null, _react.default.createElement(Title, null, "End of Year Wrap Up"), _react.default.createElement(Content, null, "At the conclusion of the TSA year, the HTHS TSA chapter gathers to reflect on and celebrate a successful year of learning and growing through TSA at the annual TSA club pizza party. Additionally, graduating chapter officers pass the torch off to the newly elected TSA officers who are ready to continue the storied legacy of HTHS TSA.")));
 };
 
 var Activities =
@@ -64049,7 +64087,7 @@ function (_Component) {
       }), _react.default.createElement(_Tab.default, {
         label: "Check-Ins"
       }), _react.default.createElement(_Tab.default, {
-        label: "Relay For Life"
+        label: "Community Service"
       }), _react.default.createElement(_Tab.default, {
         label: "End of Year Wrap Up"
       })), this.state.tab == 0 && _react.default.createElement(GeneralMeetings, null), this.state.tab == 1 && _react.default.createElement(LeadershipConference, null), this.state.tab == 2 && _react.default.createElement(CheckIns, null), this.state.tab == 3 && _react.default.createElement(RelayForLife, null), this.state.tab == 4 && _react.default.createElement(EndOfYear, null))));
@@ -68806,11 +68844,11 @@ var RightImage = _styledComponents.default.img(_templateObject6());
 var LeftContainer = _styledComponents.default.div(_templateObject7());
 
 var StateConference = function StateConference(props) {
-  return _react.default.createElement("div", null, _react.default.createElement(LeftContainer, null, _react.default.createElement(Title, null, "State Conference"), _react.default.createElement(Content, null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac mi quis lectus gravida aliquam sit amet eu lorem.")));
+  return _react.default.createElement("div", null, _react.default.createElement(LeftContainer, null, _react.default.createElement(Title, null, "State Conference"), _react.default.createElement(Content, null, "At the New Jersey TSA state conference, all of New Jersey\u2019s high school TSA chapters gather to compete in on-site events, view other schools pre-conference projects, attend the awards presentation, and celebrate TSA\u2019s STEM and life values.")));
 };
 
 var NationalConference = function NationalConference(props) {
-  return _react.default.createElement("div", null, _react.default.createElement(LeftContainer, null, _react.default.createElement(Title, null, "National Conference"), _react.default.createElement(Content, null, "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac mi quis lectus gravida aliquam sit amet eu lorem.")));
+  return _react.default.createElement("div", null, _react.default.createElement(LeftContainer, null, _react.default.createElement(Title, null, "National Conference"), _react.default.createElement(Content, null, "At the TSA national conference, middle and high schools from all across the United States and beyond gather to compete in on-site events, be interviewed by judges about their exemplary LEAP leadership, attend seminars and presentations, view other schools pre-conference projects, attend the awards presentation, and celebrate TSA\u2019s STEM and life values.")));
 };
 
 var Competitions =
@@ -69262,7 +69300,7 @@ function (_React$Component) {
         navigation: true,
         scrollOverflow: true,
         bigSectionsDestination: "top",
-        normalScrollElements: "#scroller",
+        normalScrollElements: "#scroller, .no-scroll",
         anchors: ["main", "tsa", "hths", "activities", "officers", "competitions", "awards", "footer"],
         render: function render(_ref) {
           var state = _ref.state,
@@ -69361,7 +69399,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "0.0.0.0" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "39863" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "33381" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

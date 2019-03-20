@@ -62,6 +62,7 @@ const Description = styled.div`
     width: 100%;
     height: 50%;
   }
+  overflow-y: auto;
 `;
 const Facts = styled.div`
   width: 50%;
@@ -72,11 +73,12 @@ const Facts = styled.div`
     width: 100%;
     height: 50%;
   }
+  overflow-y: auto;
 `;
 
 const HTHSLogo = styled.img`
   width: auto;
-  max-height: 60%;
+  max-height: 30%;
   margin-top: 8.5%;
   display: block;
   margin: auto;
@@ -85,13 +87,13 @@ const HTHSLogo = styled.img`
 
 const HTHSDesc = styled.p`
   font-family: "Raleway";
-  font-size: 2vmax;
+  font-size: 1.3vmax;
   padding-left: 10%;
   padding-right: 10%;
   color: #000;
   font-weight: 400;
   @media screen and (min-width: 1300px) {
-    font-size: 26px;
+    font-size: 17px;
   }
 `;
 
@@ -107,13 +109,13 @@ const FactsTitle = styled.h1`
 
 const FactsInfo = styled.div`
   font-family: "Raleway";
-  font-size: 3vmax;
+  font-size: 2vmax;
   font-weight: 400;
   color: #fff;
   margin-left: 10%;
-  line-height: 200%;
+  line-height: 150%;
   @media screen and (min-width: 1300px) {
-    font-size: 39px;
+    font-size: 26px;
   }
 `;
 
@@ -123,16 +125,28 @@ export default class WhoAreWe extends Component {
       <TotalContainer>
         Who Are We?
         <Container>
-          <Description>
+          <Description className="no-scroll">
             <HTHSLogo src="https://hthstsa-af51.kxcdn.com/static/hths.jpg" />
-            <HTHSDesc>This is a test</HTHSDesc>
+            <HTHSDesc>
+              High Technology High School is one of New Jersey’s premier TSA
+              chapters, placing at least one team in the top 3 for 54% of the NJ
+              State Conference’s events last year. Many of these teams went on
+              to compete at the 2018 National Conference, including 8 national
+              semi-finalist teams, 6 national finalist teams, a second place
+              team in Software Development and 1st & 3rd place finishes in VEX
+              robot skills and excellence awards respectively. We are also proud
+              to have many of our students serve as state officers over the
+              years.{" "}
+            </HTHSDesc>
           </Description>
-          <Facts>
+          <Facts className="no-scroll">
             <FactsTitle>Facts</FactsTitle>
             <FactsInfo>
-              Stuff
-              <br />
-              More Stuff
+              - The HTHS TSA chapter was founded in 1991
+              <br />- The chapter currently has over 170 members, representing
+              over 50% of the school’s population
+              <br />- TSA is High Tech’s most popular club and extracurricular
+              activity
             </FactsInfo>
           </Facts>
         </Container>

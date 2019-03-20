@@ -98,64 +98,91 @@ const LeftContainer = styled.div`
   height: 100%;
 `;
 
+const InnerContainer = styled.div`
+  height: calc(100% - 48px);
+  overflow-y: auto;
+`;
+
 const GeneralMeetings = props => (
-  <div>
+  <InnerContainer className="no-scroll">
     <LeftContainer>
       <Title>General Meetings</Title>
       <Content>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac mi
-        quis lectus gravida aliquam sit amet eu lorem.
+        At the beginning of the school year, the HTHS chapter officers hold a
+        general interest meeting to attract new members to TSA, remind returning
+        members to join the club, and explain any changes to the event selection
+        process for the year. During the remainder of the school year, the
+        chapter holds additional periodic meetings to help project teams set
+        deadlines and stay on track.
       </Content>
     </LeftContainer>
-  </div>
+  </InnerContainer>
 );
 
 const LeadershipConference = props => (
-  <div>
+  <InnerContainer className="no-scroll">
     <LeftContainer>
       <Title>Leadership Conference</Title>
       <Content>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac mi
-        quis lectus gravida aliquam sit amet eu lorem.
+        In the fall, the HTHS TSA chapter officers attend a leadership
+        conference along with their peers at other New Jersey high schools where
+        they participate in team building activities and work with other
+        officers to learn how they can continue to grow as leaders and how they
+        can help improve their TSA chapter through their position’s
+        responsibilities.
       </Content>
     </LeftContainer>
-  </div>
+  </InnerContainer>
 );
 
 const CheckIns = props => (
-  <div>
+  <InnerContainer className="no-scroll">
     <LeftContainer>
       <Title>Check Ins</Title>
       <Content>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac mi
-        quis lectus gravida aliquam sit amet eu lorem.
+        As the New Jersey TSA State Conference approaches, the HTHS TSA officers
+        hold mandatory check-ins where they make sure that all teams are making
+        progress on their projects and are on pace to complete all
+        pre-conference events, to be prepared for on-site events, and to achieve
+        their goals prior to the state conference.
       </Content>
     </LeftContainer>
-  </div>
+  </InnerContainer>
 );
 
 const RelayForLife = props => (
-  <div>
+  <InnerContainer className="no-scroll">
     <LeftContainer>
-      <Title>Relay For Life</Title>
+      <Title>Community Service</Title>
       <Content>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac mi
-        quis lectus gravida aliquam sit amet eu lorem.
+        Beginning in 2016, the HTHS TSA chapter has sent teams from each of the
+        school’s classes to participate in the Middletown, NJ Relay for Life
+        event annually in order to raise money for TSA’s National Service
+        Project and contribute to the National Cancer Society. The HTHS TSA
+        chapter raises funds for this charitable event through luminaria sales
+        and through generous donations. At the Relay for Life event,
+        participating chapter members get to hear the inspiring stories of
+        cancer survivors and cancer researchers. Our TSA chapter is constantly
+        working to increase participation in Relay for Life and to raise our
+        yearly donation total.
       </Content>
     </LeftContainer>
-  </div>
+  </InnerContainer>
 );
 
 const EndOfYear = props => (
-  <div>
+  <InnerContainer className="no-scroll">
     <LeftContainer>
       <Title>End of Year Wrap Up</Title>
       <Content>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac mi
-        quis lectus gravida aliquam sit amet eu lorem.
+        At the conclusion of the TSA year, the HTHS TSA chapter gathers to
+        reflect on and celebrate a successful year of learning and growing
+        through TSA at the annual TSA club pizza party. Additionally, graduating
+        chapter officers pass the torch off to the newly elected TSA officers
+        who are ready to continue the storied legacy of HTHS TSA.
       </Content>
     </LeftContainer>
-  </div>
+  </InnerContainer>
 );
 
 export default class Activities extends Component {
@@ -178,7 +205,7 @@ export default class Activities extends Component {
               <Tab label="General Meetings" />
               <Tab label="Leadership Conference" />
               <Tab label="Check-Ins" />
-              <Tab label="Relay For Life" />
+              <Tab label="Community Service" />
               <Tab label="End of Year Wrap Up" />
             </Tabs>
             {this.state.tab == 0 && <GeneralMeetings />}

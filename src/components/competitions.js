@@ -102,8 +102,10 @@ const StateConference = props => (
     <LeftContainer>
       <Title>State Conference</Title>
       <Content>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac mi
-        quis lectus gravida aliquam sit amet eu lorem.
+        At the New Jersey TSA state conference, all of New Jersey’s high school
+        TSA chapters gather to compete in on-site events, view other schools
+        pre-conference projects, attend the awards presentation, and celebrate
+        TSA’s STEM and life values.
       </Content>
     </LeftContainer>
   </div>
@@ -114,8 +116,12 @@ const NationalConference = props => (
     <LeftContainer>
       <Title>National Conference</Title>
       <Content>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac mi
-        quis lectus gravida aliquam sit amet eu lorem.
+        At the TSA national conference, middle and high schools from all across
+        the United States and beyond gather to compete in on-site events, be
+        interviewed by judges about their exemplary LEAP leadership, attend
+        seminars and presentations, view other schools pre-conference projects,
+        attend the awards presentation, and celebrate TSA’s STEM and life
+        values.
       </Content>
     </LeftContainer>
   </div>
