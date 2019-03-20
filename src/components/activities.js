@@ -81,8 +81,8 @@ const Content = styled.p`
   margin-left: 40px;
   margin-right: 40px;
   margin-top: 20px;
-  @media screen and (min-width: 1460px) {
-    font-size: 29px;
+  @media screen and (min-width: 1240px) {
+    font-size: 25px;
   }
 `;
 
