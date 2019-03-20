@@ -9,28 +9,28 @@ const tours = [
     location: "LAS VEGAS, NV"
   },
   {
-    date: "APR 29",
+    date: "MAY 13",
     year: "2019",
-    name: "Park Theater",
-    location: "LAS VEGAS, NV"
+    name: "The Fillmore",
+    location: "SAN FRANCISCO, CA"
   },
   {
-    date: "APR 29",
+    date: "JUNE 11",
     year: "2019",
-    name: "Park Theater",
-    location: "LAS VEGAS, NV"
+    name: "Madison Square Garden",
+    location: "NEW YORK, NY"
   },
   {
-    date: "APR 29",
+    date: "AUG 13",
     year: "2019",
-    name: "Park Theater",
-    location: "LAS VEGAS, NV"
+    name: "La Maroquinerie",
+    location: "PARIS, FRANCE"
   },
   {
-    date: "APR 29",
+    date: "SEP 07",
     year: "2019",
-    name: "Park Theater",
-    location: "LAS VEGAS, NV"
+    name: "Loppen",
+    location: "COPENHAGEN, DENMARK"
   }
 ];
 
