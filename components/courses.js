@@ -5,6 +5,10 @@ import DeveloperBoard from "@material-ui/icons/DeveloperBoard";
 import SettingsInputComponent from "@material-ui/icons/SettingsInputComponent";
 import Keyboard from "@material-ui/icons/Keyboard";
 import Computer from "@material-ui/icons/Computer";
+import PowerInput from "@material-ui/icons/PowerInput";
+import Train from "@material-ui/icons/Train";
+import Landscape from "@material-ui/icons/Landscape";
+import Build from "@material-ui/icons/Build";
 import {
   VerticalTimeline,
   VerticalTimelineElement
@@ -101,11 +105,59 @@ export default class Courses extends Component {
             </VerticalTimelineElement>
             <VerticalTimelineElement
               date="11th Grade"
-              iconStyle={{ background: "#a0203e", color: "#fff" }}
-              icon={<Courses />}
+              iconStyle={{ background: "#c4601d", color: "#fff" }}
+              icon={<Computer />}
             >
-              <h3>Computer Science & Software Engineering</h3>
+              <h3>Computer Science &amp; Software Engineering</h3>
               <h4>Mr. Hanas</h4>
+              <p>
+                Creative Direction, User Experience, Visual Design, Project
+                Management, Team Leading
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              date="11th Grade"
+              iconStyle={{ background: "#c4a81d", color: "#fff" }}
+              icon={<PowerInput />}
+            >
+              <h3>Digital Electronics</h3>
+              <h4>Mr. Borchardt</h4>
+              <p>
+                Creative Direction, User Experience, Visual Design, Project
+                Management, Team Leading
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              date="11th Grade"
+              iconStyle={{ background: "#1dad82", color: "#fff" }}
+              icon={<Train />}
+            >
+              <h3>Civil Engineering and Architecture</h3>
+              <h4>Ms. Garrity</h4>
+              <p>
+                Creative Direction, User Experience, Visual Design, Project
+                Management, Team Leading
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              date="11th Grade"
+              iconStyle={{ background: "#1d27ad", color: "#fff" }}
+              icon={<Landscape />}
+            >
+              <h3>Biological Engineering &amp; Environmental Sustainability</h3>
+              <h4>Dr. Ellesworth</h4>
+              <p>
+                Creative Direction, User Experience, Visual Design, Project
+                Management, Team Leading
+              </p>
+            </VerticalTimelineElement>
+            <VerticalTimelineElement
+              date="12th Grade"
+              iconStyle={{ background: "#a50192", color: "#fff" }}
+              icon={<Build />}
+            >
+              <h3>Engineering Design &amp; Development</h3>
+              <h4>Ms. Grunthaner &amp; Dr. Eng</h4>
               <p>
                 Creative Direction, User Experience, Visual Design, Project
                 Management, Team Leading

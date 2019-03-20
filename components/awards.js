@@ -96,49 +96,67 @@ const StateConference = props => (
     <AwardsTable>
       <tr>
         <td>Webmaster</td>
-        <td>1st <i class="em em-first_place_medal"></i></td>
+        <td>
+          1st <i className="em em-first_place_medal" />
+        </td>
         <td>HTHS</td>
-        <td>2nd <i class="em em-second_place_medal"></i></td>
+        <td>
+          2nd <i className="em em-second_place_medal" />
+        </td>
       </tr>
-            <tr>
+      <tr>
         <td>Webmaster</td>
-        <td>1st <i class="em em-first_place_medal"></i></td>
-        <td>HTHS</td>
-        <td>2nd 🥈</td>
-      </tr>
-            <tr>
-        <td>Webmaster</td>
-        <td>1st <i class="em em-first_place_medal"></i></td>
-        <td>HTHS</td>
-        <td>2nd 🥈</td>
-      </tr>
-            <tr>
-        <td>Webmaster</td>
-        <td>1st <i class="em em-first_place_medal"></i></td>
+        <td>
+          1st <i className="em em-first_place_medal" />
+        </td>
         <td>HTHS</td>
         <td>2nd 🥈</td>
       </tr>
-            <tr>
+      <tr>
         <td>Webmaster</td>
-        <td>1st <i class="em em-first_place_medal"></i></td>
+        <td>
+          1st <i className="em em-first_place_medal" />
+        </td>
         <td>HTHS</td>
         <td>2nd 🥈</td>
       </tr>
-            <tr>
+      <tr>
         <td>Webmaster</td>
-        <td>1st <i class="em em-first_place_medal"></i></td>
+        <td>
+          1st <i className="em em-first_place_medal" />
+        </td>
         <td>HTHS</td>
         <td>2nd 🥈</td>
       </tr>
-            <tr>
+      <tr>
         <td>Webmaster</td>
-        <td>1st <i class="em em-first_place_medal"></i></td>
+        <td>
+          1st <i className="em em-first_place_medal" />
+        </td>
         <td>HTHS</td>
         <td>2nd 🥈</td>
       </tr>
-            <tr>
+      <tr>
         <td>Webmaster</td>
-        <td>1st <i class="em em-first_place_medal"></i></td>
+        <td>
+          1st <i className="em em-first_place_medal" />
+        </td>
+        <td>HTHS</td>
+        <td>2nd 🥈</td>
+      </tr>
+      <tr>
+        <td>Webmaster</td>
+        <td>
+          1st <i className="em em-first_place_medal" />
+        </td>
+        <td>HTHS</td>
+        <td>2nd 🥈</td>
+      </tr>
+      <tr>
+        <td>Webmaster</td>
+        <td>
+          1st <i className="em em-first_place_medal" />
+        </td>
         <td>HTHS</td>
         <td>2nd 🥈</td>
       </tr>

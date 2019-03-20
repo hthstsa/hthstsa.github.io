@@ -57,7 +57,7 @@ class Index extends React.Component {
       <div>
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta charset="UTF-8" />
+          <meta charSet="UTF-8" />
           <link
             href="https://fonts.googleapis.com/css?family=Raleway:400,800"
             rel="stylesheet"
@@ -78,7 +78,11 @@ class Index extends React.Component {
             charset="UTF-8"
             href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
           />
-          <link href="https://afeld.github.io/emoji-css/emoji.css" charset="UTF-8" rel="stylesheet" />
+          <link
+            href="https://afeld.github.io/emoji-css/emoji.css"
+            charset="UTF-8"
+            rel="stylesheet"
+          />
         </Head>
         <Header
           maxSize={1000}
@@ -93,7 +97,7 @@ class Index extends React.Component {
           normalScrollElements="#scroller"
           anchors={[
             "main",
-            "tsa",
+            "courses",
             "hths",
             "activities",
             "officers",
@@ -108,9 +112,7 @@ class Index extends React.Component {
             return (
               <ReactFullpage.Wrapper>
                 <div style={{ position: "relative" }} className="section">
-                  <BackgroundSplash
-                    url={"/static/circuitboard.jpg"}
-                  >
+                  <BackgroundSplash url={"/static/circuitboard.jpg"}>
                     HTHS CTE
                   </BackgroundSplash>
                 </div>
