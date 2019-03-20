@@ -18,7 +18,7 @@ import Music from "../components/music";
 import Courses from "../components/courses";
 import WhoAreWe from "../components/who_are_we";
 import Activities from "../components/activities";
-import Officers from "../components/officers";
+import Teachers from "../components/teachers";
 import Competitions from "../components/competitions";
 import Awards from "../components/awards";
 import Footer from "../components/footer";
@@ -95,7 +95,7 @@ class Index extends React.Component {
           scrollOverflow
           bigSectionsDestination="top"
           normalScrollElements="#scroller"
-          anchors={["main", "courses", "officers", "footer"]}
+          anchors={["main", "courses", "teachers", "footer"]}
           render={({ state, fullpageApi }) => {
             if (fullpageApi) {
               fullpageApi.setAllowScrolling(this.state.enabled);
@@ -122,7 +122,7 @@ class Index extends React.Component {
                   style={{ position: "relative" }}
                   className="section fp-noscroll"
                 >
-                  <Officers />
+                  <Teachers />
                 </div>
                 <div
                   style={{ position: "relative" }}
