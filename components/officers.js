@@ -73,6 +73,7 @@ const OfficerContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: space-around;
+  overflow-y: auto;
 `;
 
 const OfficerAvatar = styled(Avatar)`
@@ -91,7 +92,7 @@ const OfficerAvatar = styled(Avatar)`
 
 const OfficerName = styled.div`
   font-family: "Raleway";
-  font-size: 4vmax;
+  font-size: calc(2vh + 2vw);
   font-weight: 400;
   text-align: center;
   padding-top: 20px;
@@ -106,8 +107,8 @@ const OfficerBio = styled.p`
   font-size: 1.5vmax;
   text-align: center;
   margin: 20px;
-  @media screen and (min-width: 1022px) {
-    font-size: 15px;
+  @media screen and (min-width: 1300px) {
+    font-size: 19px;
   }
 `;
 
