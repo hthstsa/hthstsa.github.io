@@ -91,23 +91,23 @@ const OfficerAvatar = styled(Avatar)`
 
 const OfficerName = styled.div`
   font-family: "Raleway";
-  font-size: 5.5vmax;
+  font-size: 4vmax;
   font-weight: 400;
   text-align: center;
   padding-top: 20px;
   @media screen and (min-width: 1300px) {
-    font-size: 71px;
+    font-size: 52px;
   }
 `;
 
 const OfficerBio = styled.p`
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 2.5vmax;
+  font-size: 1.5vmax;
   text-align: center;
   margin: 20px;
   @media screen and (min-width: 1300px) {
-    font-size: 33px;
+    font-size: 19px;
   }
 `;
 
@@ -124,27 +124,51 @@ export default class Teachers extends Component {
             <Slider dots={false} infinite>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="https://hthstsa-af51.kxcdn.com/static/meeting.jpeg"
+                  src="/static/Dr. Ellsworth.png"
                   classes={{ img: "avatar" }}
                 />
-                <OfficerName>Name</OfficerName>
-                <OfficerBio>This is a bio.</OfficerBio>
+                <OfficerName>Dr. Ellsworth</OfficerName>
+                <OfficerBio />
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="https://hthstsa-af51.kxcdn.com/static/meeting.jpeg"
+                  src="/static/Dr. Eng.png"
                   classes={{ img: "avatar" }}
                 />
-                <OfficerName>Name</OfficerName>
-                <OfficerBio>This is a bio.</OfficerBio>
+                <OfficerName>Dr. Eng</OfficerName>
+                <OfficerBio />
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="https://hthstsa-af51.kxcdn.com/static/meeting.jpeg"
+                  src="/static/Mr. B.png"
                   classes={{ img: "avatar" }}
                 />
-                <OfficerName>Name</OfficerName>
-                <OfficerBio>This is a bio.</OfficerBio>
+                <OfficerName>Mr. Borchardt</OfficerName>
+                <OfficerBio />
+              </OfficerContainer>
+              <OfficerContainer>
+                <OfficerAvatar
+                  src="/static/Mr. Hanas.png"
+                  classes={{ img: "avatar" }}
+                />
+                <OfficerName>Mr. Hanas</OfficerName>
+                <OfficerBio />
+              </OfficerContainer>
+              <OfficerContainer>
+                <OfficerAvatar
+                  src="/static/Ms. G.png"
+                  classes={{ img: "avatar" }}
+                />
+                <OfficerName>Ms. Grunthaner</OfficerName>
+                <OfficerBio />
+              </OfficerContainer>
+              <OfficerContainer>
+                <OfficerAvatar
+                  src="/static/Ms. Garrity.png"
+                  classes={{ img: "avatar" }}
+                />
+                <OfficerName>Ms. Garrity</OfficerName>
+                <OfficerBio />
               </OfficerContainer>
             </Slider>
           </ActivitiesContainer>

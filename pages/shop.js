@@ -62,10 +62,16 @@ const items = [
     picture: "/static/Wristband.jpg"
   },
   {
-    name: "Captcha! World Tour",
+    name: '"Select All" World Tour',
     price: 99.99,
     id: 1,
     picture: "/static/guitar.jpg"
+  },
+  {
+    name: "Try Again",
+    price: 14.99,
+    id: 1,
+    picture: "/static/sdas.jpg"
   }
 ];
 

@@ -95,6 +95,12 @@ class Index extends React.Component {
           anchors={["main", "tour", "media"]}
           afterLoad={(anchor, index) => {
             document.getElementById("player").play();
+            if (document.getElementsByClassName("players")) {
+              var x = document.getElementsByClassName("players");
+              for (let i = 0; i < x.length; i++) {
+                x[i].play();
+              }
+            }
           }}
           render={({ state, fullpageApi }) => {
             if (fullpageApi) {

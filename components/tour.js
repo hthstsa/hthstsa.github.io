@@ -147,7 +147,7 @@ export default class Tour extends Component {
   render() {
     return (
       <Container className="section">
-        <Title>THE CAPTCHA! WORLD TOUR</Title>
+        <Title>"SELECT ALL" WORLD TOUR</Title>
         <TableContainer>
           <TourTable>
             <tbody>

@@ -170,6 +170,63 @@ export default class Officers extends Component {
                   her free time.
                 </OfficerBio>
               </OfficerContainer>
+              <OfficerContainer>
+                <OfficerAvatar
+                  src="/static/Sidhu.jpg"
+                  classes={{ img: "avatar" }}
+                />
+                <OfficerName>Sidhu Arakkal</OfficerName>
+                <OfficerBio>
+                  Sidhu Arakkal is a senior at High Technology High School and
+                  the chapter vice president. He is interested in computer
+                  science and biology and enjoys playing soccer and going hiking
+                  in his free time.
+                </OfficerBio>
+              </OfficerContainer>
+              <OfficerContainer>
+                <OfficerAvatar
+                  src="/static/Adithya.jpg"
+                  classes={{ img: "avatar" }}
+                />
+                <OfficerName>Adithya Paramasivam</OfficerName>
+                <OfficerBio>
+                  Adithya Paramasivam is a senior at High Technology High School
+                  and is the chapter treasurer. He plans to study computer
+                  science in college and enjoys playing tennis.
+                </OfficerBio>
+              </OfficerContainer>
+              <OfficerContainer>
+                <OfficerAvatar
+                  src="/static/Nia.jpg"
+                  classes={{ img: "avatar" }}
+                />
+                <OfficerName>Nia Mallangada</OfficerName>
+                <OfficerBio>
+                  Nia Mallangada is a junior at High Technology High School. She
+                  has an interest in medicine and robotics and enjoys
+                  volunteering at a local hospital.
+                </OfficerBio>
+              </OfficerContainer>
+              <OfficerContainer>
+                <OfficerAvatar
+                  src="/static/Mary.jpg"
+                  classes={{ img: "avatar" }}
+                />
+                <OfficerName>Mary Chen</OfficerName>
+                <OfficerBio>
+                  Mary Chen is a junior at High Technology High School and is
+                  the chapter sergeant-at-arms. She is interested in finance and
+                  international relations and likes to bake in her spare time.
+                </OfficerBio>
+              </OfficerContainer>
+              <OfficerContainer>
+                <OfficerAvatar
+                  src="/static/Ms. Garrity.png"
+                  classes={{ img: "avatar" }}
+                />
+                <OfficerName>Ms. Garrity</OfficerName>
+                <OfficerBio />
+              </OfficerContainer>
             </Slider>
           </ActivitiesContainer>
         </Container>
