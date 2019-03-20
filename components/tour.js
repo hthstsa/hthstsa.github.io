@@ -161,14 +161,20 @@ export default class Tour extends Component {
                     <LocationName>{tour.name}</LocationName>
                     <LocationPlace>{tour.location}</LocationPlace>
                     {this.state.small && (
-                      <TicketButton small={this.state.small}>
+                      <TicketButton
+                        onClick={() => (window.location = "/shop")}
+                        small={this.state.small}
+                      >
                         TICKETS
                       </TicketButton>
                     )}
                   </LocationRow>
                   {!this.state.small && (
                     <TicketRow>
-                      <TicketButton small={this.state.small}>
+                      <TicketButton
+                        onClick={() => (window.location = "/shop")}
+                        small={this.state.small}
+                      >
                         TICKETS
                       </TicketButton>
                     </TicketRow>

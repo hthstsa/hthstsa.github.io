@@ -104,7 +104,7 @@ export default class Courses extends Component {
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-              date="11th Grade"
+              date="11th Grade (Elective)"
               iconStyle={{ background: "#c4601d", color: "#fff" }}
               icon={<Computer />}
             >
@@ -116,7 +116,7 @@ export default class Courses extends Component {
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-              date="11th Grade"
+              date="11th Grade (Elective)"
               iconStyle={{ background: "#c4a81d", color: "#fff" }}
               icon={<PowerInput />}
             >
@@ -128,7 +128,7 @@ export default class Courses extends Component {
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-              date="11th Grade"
+              date="11th Grade (Elective)"
               iconStyle={{ background: "#1dad82", color: "#fff" }}
               icon={<Train />}
             >
@@ -140,7 +140,7 @@ export default class Courses extends Component {
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
-              date="11th Grade"
+              date="11th Grade (Elective)"
               iconStyle={{ background: "#1d27ad", color: "#fff" }}
               icon={<Landscape />}
             >

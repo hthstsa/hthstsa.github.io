@@ -91,23 +91,23 @@ const OfficerAvatar = styled(Avatar)`
 
 const OfficerName = styled.div`
   font-family: "Raleway";
-  font-size: 5.5vmax;
+  font-size: 4vmax;
   font-weight: 400;
   text-align: center;
   padding-top: 20px;
   @media screen and (min-width: 1300px) {
-    font-size: 71px;
+    font-size: 52px;
   }
 `;
 
 const OfficerBio = styled.p`
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 2.5vmax;
+  font-size: 1.5vmax;
   text-align: center;
   margin: 20px;
   @media screen and (min-width: 1300px) {
-    font-size: 33px;
+    font-size: 19px;
   }
 `;
 
@@ -124,27 +124,51 @@ export default class Officers extends Component {
             <Slider dots={false} infinite>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="https://hthstsa-af51.kxcdn.com/static/meeting.jpeg"
+                  src="/static/Anjali.jpg"
                   classes={{ img: "avatar" }}
                 />
-                <OfficerName>Name</OfficerName>
-                <OfficerBio>This is a bio.</OfficerBio>
+                <OfficerName>Anjali Chakradhar</OfficerName>
+                <OfficerBio>
+                  Anjali Chakradhar is a senior at High Technology High School.
+                  She is interested in medicine and loves exploring new places
+                  with her friends.
+                </OfficerBio>
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="https://hthstsa-af51.kxcdn.com/static/meeting.jpeg"
+                  src="/static/Karena.jpg"
                   classes={{ img: "avatar" }}
                 />
-                <OfficerName>Name</OfficerName>
-                <OfficerBio>This is a bio.</OfficerBio>
+                <OfficerName>Karena Yan</OfficerName>
+                <OfficerBio>
+                  Karena Yan is a senior at High Technology High School. She
+                  hopes to study environmental engineering in the future and is
+                  an avid dancer.
+                </OfficerBio>
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="https://hthstsa-af51.kxcdn.com/static/meeting.jpeg"
+                  src="/static/Daniel.jpg"
                   classes={{ img: "avatar" }}
                 />
-                <OfficerName>Name</OfficerName>
-                <OfficerBio>This is a bio.</OfficerBio>
+                <OfficerName>Daniel Du</OfficerName>
+                <OfficerBio>
+                  Daniel Du is a senior at High Technology High School. He plans
+                  on studying the intersection between biomedical engineering
+                  and neuroscience and enjoys playing guitar in his free time.
+                </OfficerBio>
+              </OfficerContainer>
+              <OfficerContainer>
+                <OfficerAvatar
+                  src="/static/Khushi.jpg"
+                  classes={{ img: "avatar" }}
+                />
+                <OfficerName>Khushi Sabuwala</OfficerName>
+                <OfficerBio>
+                  Khushi Sabuwala is a sophomore at High Technology High School.
+                  She likes to play the trumpet, dance, and watch football in
+                  her free time.
+                </OfficerBio>
               </OfficerContainer>
             </Slider>
           </ActivitiesContainer>

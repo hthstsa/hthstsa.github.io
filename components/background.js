@@ -19,10 +19,7 @@ export default class Background extends Component {
   render() {
     return (
       <VideoBackground id="player" autoPlay muted loop>
-        <source
-          src="https://hthstsa-af51.kxcdn.com/static/background.mp4"
-          type="video/mp4"
-        />
+        <source src="/static/background-cut.mp4" type="video/mp4" />
       </VideoBackground>
     );
   }

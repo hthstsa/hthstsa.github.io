@@ -59,9 +59,9 @@ const ActivitiesContainer = styled.div`
 const Content = styled.div`
   font-family: "Raleway";
   font-weight: 400;
-  font-size: 2vmax;
+  font-size: 1.5vmax;
   @media screen and (min-width: 1460px) {
-    font-size: 29px;
+    font-size: 22px;
   }
   display: flex;
   justify-content: center;
@@ -73,7 +73,7 @@ const Content = styled.div`
 const AwardsTable = styled.table`
   width: 93%;
   & tr:not(:last-child) td {
-    padding-bottom: 20px;
+    padding-bottom: 0px;
   }
   & td:last-child {
     width: 1%;
@@ -81,6 +81,7 @@ const AwardsTable = styled.table`
   }
   margin-top: 20px;
   margin-bottom: 20px;
+  text-align: left;
 `;
 
 const FullTitle = styled.div`
@@ -95,70 +96,130 @@ const StateConference = props => (
   <Content>
     <AwardsTable>
       <tr>
-        <td>Webmaster</td>
+        <td>Animatronics</td>
         <td>
-          1st <i className="em em-first_place_medal" />
+          <i className="em em-first_place_medal" />
         </td>
-        <td>HTHS</td>
+        <td>Biomimicry</td>
         <td>
-          2nd <i className="em em-second_place_medal" />
+          <i className="em em-first_place_medal" />
+        </td>
+      </tr>
+      <tr>
+        <td>Biotechnology Design</td>
+        <td>
+          <i className="em em-third_place_medal" />
+        </td>
+        <td>Chapter Team</td>
+        <td>
+          <i className="em em-first_place_medal" />
+        </td>
+      </tr>
+      <tr>
+        <td>Coding (Team 1)</td>
+        <td>
+          <i className="em em-first_place_medal" />
+        </td>
+        <td>Coding (Team 2)</td>
+        <td>
+          <i className="em em-third_place_medal" />
+        </td>
+      </tr>
+      <tr>
+        <td>CIM</td>
+        <td>
+          <i className="em em-third_place_medal" />
+        </td>
+        <td>CAD, Engineering</td>
+        <td>
+          <i className="em em-third_place_medal" />
+        </td>
+      </tr>
+      <tr>
+        <td>Digital Video Production</td>
+        <td>
+          <i className="em em-second_place_medal" />
+        </td>
+        <td>Engineering Design</td>
+        <td>
+          <i className="em em-first_place_medal" />
+        </td>
+      </tr>
+      <tr>
+        <td>On Demand Video</td>
+        <td>
+          <i className="em em-first_place_medal" />
+        </td>
+        <td>Optical Engineering</td>
+        <td>
+          <i className="em em-first_place_medal" />
+        </td>
+      </tr>
+      <tr>
+        <td>Photographic Technology</td>
+        <td>
+          <i className="em em-second_place_medal" />
+        </td>
+        <td>SciVis</td>
+        <td>
+          <i className="em em-third_place_medal" />
+        </td>
+      </tr>
+      <tr>
+        <td>Software Development</td>
+        <td>
+          <i className="em em-second_place_medal" />
+        </td>
+        <td>STEM Careers</td>
+        <td>
+          <i className="em em-second_place_medal" />
+        </td>
+      </tr>
+      <tr>
+        <td>Structural Design and Engineering</td>
+        <td>
+          <i className="em em-first_place_medal" />
+        </td>
+        <td>System Control Technology (Team 1)</td>
+        <td>
+          <i className="em em-first_place_medal" />
+        </td>
+      </tr>
+      <tr>
+        <td>System Control Technology (Team 2)</td>
+        <td>
+          <i className="em em-third_place_medal" />
+        </td>
+        <td>Technology Bowl</td>
+        <td>
+          <i className="em em-first_place_medal" />
+        </td>
+      </tr>
+      <tr>
+        <td>Transportation Modeling</td>
+        <td>
+          <i className="em em-first_place_medal" />
+        </td>
+        <td>VEX Robotics (Tournament)</td>
+        <td>
+          <i className="em em-first_place_medal" />
+        </td>
+      </tr>
+      <tr>
+        <td>VEX Robotics (Skills)</td>
+        <td>
+          <i className="em em-first_place_medal" />
+        </td>
+        <td>Video Game Design</td>
+        <td>
+          <i className="em em-first_place_medal" />
         </td>
       </tr>
       <tr>
         <td>Webmaster</td>
         <td>
-          1st <i className="em em-first_place_medal" />
+          <i className="em em-third_place_medal" />
         </td>
-        <td>HTHS</td>
-        <td>2nd 🥈</td>
-      </tr>
-      <tr>
-        <td>Webmaster</td>
-        <td>
-          1st <i className="em em-first_place_medal" />
-        </td>
-        <td>HTHS</td>
-        <td>2nd 🥈</td>
-      </tr>
-      <tr>
-        <td>Webmaster</td>
-        <td>
-          1st <i className="em em-first_place_medal" />
-        </td>
-        <td>HTHS</td>
-        <td>2nd 🥈</td>
-      </tr>
-      <tr>
-        <td>Webmaster</td>
-        <td>
-          1st <i className="em em-first_place_medal" />
-        </td>
-        <td>HTHS</td>
-        <td>2nd 🥈</td>
-      </tr>
-      <tr>
-        <td>Webmaster</td>
-        <td>
-          1st <i className="em em-first_place_medal" />
-        </td>
-        <td>HTHS</td>
-        <td>2nd 🥈</td>
-      </tr>
-      <tr>
-        <td>Webmaster</td>
-        <td>
-          1st <i className="em em-first_place_medal" />
-        </td>
-        <td>HTHS</td>
-        <td>2nd 🥈</td>
-      </tr>
-      <tr>
-        <td>Webmaster</td>
-        <td>
-          1st <i className="em em-first_place_medal" />
-        </td>
-        <td>HTHS</td>
-        <td>2nd 🥈</td>
       </tr>
     </AwardsTable>
   </Content>

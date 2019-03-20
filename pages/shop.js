@@ -8,58 +8,64 @@ import { headerItems } from "./design-brief";
 
 const items = [
   {
-    name: "Basic T shirt",
-    price: 25.5,
+    name: "Hat",
+    price: 25.49,
     id: 1,
-    picture: "https://hthstsa-af51.kxcdn.com/static/t-shirt.jpg"
+    picture: "/static/Hat.png"
   },
   {
-    name: "Basic T shirt",
-    price: 25.5,
+    name: "Hoodie",
+    price: 74.99,
     id: 1,
-    picture: "https://hthstsa-af51.kxcdn.com/static/t-shirt.jpg"
+    picture: "/static/Hoodie.jpg"
   },
   {
-    name: "Basic T shirt",
-    price: 25.5,
+    name: "Long T-shirt",
+    price: 44.99,
     id: 1,
-    picture: "https://hthstsa-af51.kxcdn.com/static/t-shirt.jpg"
+    picture: "/static/longT.jpg"
   },
   {
-    name: "Basic T shirt",
-    price: 25.5,
+    name: "Guitar Pick",
+    price: 14.99,
     id: 1,
-    picture: "https://hthstsa-af51.kxcdn.com/static/t-shirt.jpg"
+    picture: "/static/Pick.jpg"
   },
   {
-    name: "Basic T shirt",
-    price: 25.5,
+    name: "Polo",
+    price: 54.99,
     id: 1,
-    picture: "https://hthstsa-af51.kxcdn.com/static/t-shirt.jpg"
+    picture: "/static/Polo.jpg"
   },
   {
-    name: "Basic T shirt",
-    price: 25.5,
+    name: "String Bag",
+    price: 34.99,
     id: 1,
-    picture: "https://hthstsa-af51.kxcdn.com/static/t-shirt.jpg"
+    picture: "/static/StringBag.jpg"
   },
   {
-    name: "Basic T shirt",
-    price: 25.5,
+    name: "Sweatshirt",
+    price: 54.99,
     id: 1,
-    picture: "https://hthstsa-af51.kxcdn.com/static/t-shirt.jpg"
+    picture: "/static/Sweatshirt.jpg"
   },
   {
-    name: "Basic T shirt",
-    price: 25.5,
+    name: "T shirt",
+    price: 25.49,
     id: 1,
-    picture: "https://hthstsa-af51.kxcdn.com/static/t-shirt.jpg"
+    picture: "/static/TShirt.jpg"
+  },
+  {
+    name: "Wristband",
+    price: 14.99,
+    id: 1,
+    picture: "/static/Wristband.jpg"
   },
   {
     name: "Captcha! World Tour",
     price: 99.99,
     id: 1,
-    picture: "https://hthstsa-af51.kxcdn.com/static/guitar.jpg"
+    picture: "/static/guitar.jpg"
   }
 ];
 
@@ -87,7 +93,7 @@ const FloatingCart = styled.div`
 const TitleHead = styled.div`
   margin: 0px;
   background-color: black;
-  color: white;
+  color: black;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -164,7 +170,8 @@ export default class Shop extends Component {
         <style jsx global>{`
           body {
             margin: 0px;
-            background-color: #111111;
+            background-image: url("/static/clothes.jpg");
+            background-size: cover;
           }
         `}</style>
       </div>

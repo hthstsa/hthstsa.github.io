@@ -20,6 +20,8 @@ const OuterItem = styled.div`
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 
+  background-color: whitesmoke;
+
   &:hover {
     border: 1px solid #eee;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -41,7 +43,7 @@ const Title = styled.h1`
   font-size: 24px;
   text-align: center;
   margin: 10px;
-  color: #fff;
+  color: #000;
 `;
 
 const Stopper = styled.div`
@@ -57,7 +59,7 @@ const Stopper = styled.div`
 const Price = styled.b`
   font-size: 1.5em;
   margin-left: 5px;
-  color: #fff;
+  color: #000;
 `;
 
 export default class ShopItem extends Component {
@@ -67,7 +69,7 @@ export default class ShopItem extends Component {
         <Image src={this.props.item.picture} />
         <Title>{this.props.item.name}</Title>
         <Stopper />
-        <small style={{ color: "#fff" }}>$</small>
+        <small style={{ color: "#000" }}>$</small>
         <Price>{this.props.item.price.toFixed(2)}</Price>
         <BuyBtn onClick={() => this.props.addToCart(this.props.item)}>
           Add to cart
