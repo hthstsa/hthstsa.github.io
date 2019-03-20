@@ -55,35 +55,6 @@ class Index extends React.Component {
   render() {
     return (
       <div>
-        <Head>
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta charSet="UTF-8" />
-          <link
-            href="https://fonts.googleapis.com/css?family=Raleway:400,800"
-            rel="stylesheet"
-          />
-          <link
-            rel="stylesheet"
-            href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
-          />
-          <link
-            rel="stylesheet"
-            type="text/css"
-            charset="UTF-8"
-            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css"
-          />
-          <link
-            rel="stylesheet"
-            type="text/css"
-            charset="UTF-8"
-            href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css"
-          />
-          <link
-            href="https://afeld.github.io/emoji-css/emoji.css"
-            charset="UTF-8"
-            rel="stylesheet"
-          />
-        </Head>
         <Header
           maxSize={1000}
           fullPageApi={val => this.setState({ enabled: val })}
@@ -171,4 +142,4 @@ class Index extends React.Component {
   }
 }
 
-export default Index;
+render(React.createElement(Index), document.getElementById("root"));
