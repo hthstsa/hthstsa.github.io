@@ -123,7 +123,7 @@ class Index extends React.Component {
                     style={{
                       width: "100%",
                       height: "100%",
-                      backgroundColor: "#800000"
+                      backgroundColor: "#697896"
                     }}
                   >
                     <WhatIsTSA />
