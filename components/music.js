@@ -31,7 +31,7 @@ const AlbumContainer = styled.div`
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url("/static/album.png");
+  background-image: url("https://hthstsa-af51.kxcdn.com/static/album.png");
 `;
 
 const Songs = styled.div`

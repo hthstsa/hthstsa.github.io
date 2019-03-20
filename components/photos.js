@@ -68,27 +68,27 @@ export default class Photos extends Component {
           <Image src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Masterplan_%28band%29_-_B%C3%B6rsencrash_Festival_Wuppertal_2016-AL2155.jpg" />
           <VideoContainer>
             <Video className="players" autoPlay muted loop preload>
-              <source src="/static/island.mp4" />
+              <source src="https://hthstsa-af51.kxcdn.com/static/island.mp4" />
             </Video>
           </VideoContainer>
           <VideoContainer>
             <Video className="players" autoPlay muted loop preload>
-              <source src="/static/volume.mp4" />
+              <source src="https://hthstsa-af51.kxcdn.com/static/volume.mp4" />
             </Video>
           </VideoContainer>
           <VideoContainer>
             <Video className="players" autoPlay muted loop preload>
-              <source src="/static/guitarist.mp4" />
+              <source src="https://hthstsa-af51.kxcdn.com/static/guitarist.mp4" />
             </Video>
           </VideoContainer>
           <VideoContainer>
             <Video className="players" autoPlay muted loop preload>
-              <source src="/static/record.mp4" />
+              <source src="https://hthstsa-af51.kxcdn.com/static/record.mp4" />
             </Video>
           </VideoContainer>
           <VideoContainer>
             <Video className="players" autoPlay muted loop preload>
-              <source src="/static/lights.mp4" />
+              <source src="https://hthstsa-af51.kxcdn.com/static/lights.mp4" />
             </Video>
           </VideoContainer>
         </Grid>

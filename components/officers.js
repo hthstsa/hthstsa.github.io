@@ -106,8 +106,8 @@ const OfficerBio = styled.p`
   font-size: 1.5vmax;
   text-align: center;
   margin: 20px;
-  @media screen and (min-width: 1300px) {
-    font-size: 19px;
+  @media screen and (min-width: 1022px) {
+    font-size: 15px;
   }
 `;
 
@@ -124,7 +124,7 @@ export default class Officers extends Component {
             <Slider dots={false} infinite>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="/static/Anjali.jpg"
+                  src="https://hthstsa-af51.kxcdn.com/static/Anjali.jpg"
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Anjali Chakradhar</OfficerName>
@@ -136,7 +136,7 @@ export default class Officers extends Component {
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="/static/Karena.jpg"
+                  src="https://hthstsa-af51.kxcdn.com/static/Karena.jpg"
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Karena Yan</OfficerName>
@@ -148,7 +148,7 @@ export default class Officers extends Component {
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="/static/Daniel.jpg"
+                  src="https://hthstsa-af51.kxcdn.com/static/Daniel.jpg"
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Daniel Du</OfficerName>
@@ -160,7 +160,7 @@ export default class Officers extends Component {
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="/static/Khushi.jpg"
+                  src="https://hthstsa-af51.kxcdn.com/static/Khushi.jpg"
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Khushi Sabuwala</OfficerName>
@@ -172,7 +172,7 @@ export default class Officers extends Component {
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="/static/Sidhu.jpg"
+                  src="https://hthstsa-af51.kxcdn.com/static/Sidhu.jpg"
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Sidhu Arakkal</OfficerName>
@@ -185,7 +185,7 @@ export default class Officers extends Component {
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="/static/Adithya.jpg"
+                  src="https://hthstsa-af51.kxcdn.com/static/Adithya.jpg"
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Adithya Paramasivam</OfficerName>
@@ -197,7 +197,7 @@ export default class Officers extends Component {
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="/static/Nia.jpg"
+                  src="https://hthstsa-af51.kxcdn.com/static/Nia.jpg"
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Nia Mallangada</OfficerName>
@@ -209,7 +209,7 @@ export default class Officers extends Component {
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="/static/Mary.jpg"
+                  src="https://hthstsa-af51.kxcdn.com/static/Mary.jpg"
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Mary Chen</OfficerName>
@@ -221,7 +221,7 @@ export default class Officers extends Component {
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="/static/Ms. Garrity.png"
+                  src="https://hthstsa-af51.kxcdn.com/static/Ms. Garrity.png"
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Ms. Garrity</OfficerName>

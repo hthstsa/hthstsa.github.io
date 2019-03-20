@@ -124,7 +124,7 @@ export default class Teachers extends Component {
             <Slider dots={false} infinite>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="/static/Dr. Ellsworth.png"
+                  src="https://hthstsa-af51.kxcdn.com/static/Dr. Ellsworth.png"
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Dr. Ellsworth</OfficerName>
@@ -132,7 +132,7 @@ export default class Teachers extends Component {
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="/static/Dr. Eng.png"
+                  src="https://hthstsa-af51.kxcdn.com/static/Dr. Eng.png"
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Dr. Eng</OfficerName>
@@ -140,7 +140,7 @@ export default class Teachers extends Component {
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="/static/Mr. B.png"
+                  src="https://hthstsa-af51.kxcdn.com/static/Mr. B.png"
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Mr. Borchardt</OfficerName>
@@ -148,7 +148,7 @@ export default class Teachers extends Component {
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="/static/Mr. Hanas.png"
+                  src="https://hthstsa-af51.kxcdn.com/static/Mr. Hanas.png"
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Mr. Hanas</OfficerName>
@@ -156,7 +156,7 @@ export default class Teachers extends Component {
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="/static/Ms. G.png"
+                  src="https://hthstsa-af51.kxcdn.com/static/Ms. G.png"
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Ms. Grunthaner</OfficerName>
@@ -164,7 +164,7 @@ export default class Teachers extends Component {
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="/static/Ms. Garrity.png"
+                  src="https://hthstsa-af51.kxcdn.com/static/Ms. Garrity.png"
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Ms. Garrity</OfficerName>
