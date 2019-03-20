@@ -95,16 +95,7 @@ class Index extends React.Component {
           scrollOverflow
           bigSectionsDestination="top"
           normalScrollElements="#scroller"
-          anchors={[
-            "main",
-            "courses",
-            "hths",
-            "activities",
-            "officers",
-            "competitions",
-            "awards",
-            "footer"
-          ]}
+          anchors={["main", "courses", "officers", "footer"]}
           render={({ state, fullpageApi }) => {
             if (fullpageApi) {
               fullpageApi.setAllowScrolling(this.state.enabled);
@@ -127,23 +118,11 @@ class Index extends React.Component {
                     <Courses />
                   </div>
                 </div>
-                <div style={{ position: "relative" }} className="section">
-                  <WhoAreWe />
-                </div>
-                <div style={{ position: "relative" }} className="section">
-                  <Activities />
-                </div>
                 <div
                   style={{ position: "relative" }}
                   className="section fp-noscroll"
                 >
                   <Officers />
-                </div>
-                <div style={{ position: "relative" }} className="section">
-                  <Competitions />
-                </div>
-                <div style={{ position: "relative" }} className="section">
-                  <Awards />
                 </div>
                 <div
                   style={{ position: "relative" }}
