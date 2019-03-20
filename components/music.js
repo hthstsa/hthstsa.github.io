@@ -31,7 +31,7 @@ const AlbumContainer = styled.div`
   background-size: contain;
   background-position: center center;
   background-repeat: no-repeat;
-  background-image: url("https://images-na.ssl-images-amazon.com/images/I/91KM9OX5V6L._SX450_.jpg");
+  background-image: url("/static/album.png");
 `;
 
 const Songs = styled.div`

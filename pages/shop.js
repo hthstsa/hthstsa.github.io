@@ -71,7 +71,7 @@ const items = [
     name: "Try Again",
     price: 14.99,
     id: 1,
-    picture: "/static/sdas.jpg"
+    picture: "/static/album.png"
   }
 ];
 
