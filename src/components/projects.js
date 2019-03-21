@@ -220,6 +220,27 @@ export default class Projects extends Component {
                   electronics to create it.
                 </OfficerBio>
               </OfficerContainer>
+              <OfficerContainer className="no-scroll">
+                <OfficerAvatar
+                  src="https://hthstsa-af51.kxcdn.com/static/Robot.PNG"
+                  classes={{ img: "avatar" }}
+                />
+                <OfficerName>VEX</OfficerName>
+                <OfficerBio>
+                  The VEX Robotics Competition (VRC) is a robotics event for
+                  high schoolers. Teams build robots to complete an annual
+                  challenge. For the 2019 season, the VRC challenge is TURNING
+                  POINT, in which two alliances, composed of 2 teams each, earn
+                  points by flipping flags and caps to their respective team
+                  color. Our school has two teams, 765A and 765X who both
+                  qualified for the state tournament by winning excellence
+                  awards at regional competitions. At the state championship,
+                  Team 765A punched a ticket to the 2019 VEX Worlds Competition
+                  held in Kentucky by becoming the NJ Skills State Champions as
+                  well as winning the prestigious Excellence Award at States,
+                  double qualifying them for the World Championship.
+                </OfficerBio>
+              </OfficerContainer>
             </Slider>
           </ActivitiesContainer>
         </Container>

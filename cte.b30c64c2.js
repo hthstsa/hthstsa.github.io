@@ -71256,7 +71256,14 @@ function (_Component) {
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "7 Segment Display"), _react.default.createElement(OfficerBio, null, "This project, in progress when the picture was taken, displays its creator's birthday on a 7-segment display. The birthday is displayed number-by-number repeatedly. Its creator had to make use of knowledge of k-mapping, boolean logic, and synchronous electronics to create it."))))), _react.default.createElement("style", {
+      }), _react.default.createElement(OfficerName, null, "7 Segment Display"), _react.default.createElement(OfficerBio, null, "This project, in progress when the picture was taken, displays its creator's birthday on a 7-segment display. The birthday is displayed number-by-number repeatedly. Its creator had to make use of knowledge of k-mapping, boolean logic, and synchronous electronics to create it.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
+        src: "https://hthstsa-af51.kxcdn.com/static/Robot.PNG",
+        classes: {
+          img: "avatar"
+        }
+      }), _react.default.createElement(OfficerName, null, "VEX"), _react.default.createElement(OfficerBio, null, "The VEX Robotics Competition (VRC) is a robotics event for high schoolers. Teams build robots to complete an annual challenge. For the 2019 season, the VRC challenge is TURNING POINT, in which two alliances, composed of 2 teams each, earn points by flipping flags and caps to their respective team color. Our school has two teams, 765A and 765X who both qualified for the state tournament by winning excellence awards at regional competitions. At the state championship, Team 765A punched a ticket to the 2019 VEX Worlds Competition held in Kentucky by becoming the NJ Skills State Champions as well as winning the prestigious Excellence Award at States, double qualifying them for the World Championship."))))), _react.default.createElement("style", {
         jsx: true,
         global: true
       }, "\n          .slick-slider {\n            height: 100%;\n            opacity: 1;\n            z-index: 2;\n            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),\n              0 6px 6px rgba(0, 0, 0, 0.23);\n          }\n          .slick-track,\n          .slick-list {\n            height: 100%;\n          }\n          .slick-slide {\n            background-color: #fafafa;\n          }\n          .slick-slide > div {\n            height: 100%;\n            width: 100%;\n          }\n          .avatar {\n            display: block;\n            position: absolute;\n            top: 50%;\n            left: 50%;\n            min-height: 100%;\n            min-width: 100%;\n            transform: translate(-50%, -50%);\n          }\n        "));
