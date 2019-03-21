@@ -112,14 +112,14 @@ const OfficerBio = styled.p`
   }
 `;
 
-export default class Projects extends Component {
+export default class Officers extends Component {
   state = {
     tab: 0
   };
   render() {
     return (
       <TotalContainer>
-        Projects
+        Officers
         <Container>
           <ActivitiesContainer>
             <Slider dots={false} infinite>
@@ -130,9 +130,9 @@ export default class Projects extends Component {
                 />
                 <OfficerName>Anjali Chakradhar</OfficerName>
                 <OfficerBio>
-                  Anjali Chakradhar is a senior at High Technology High School.
-                  She is interested in medicine and loves exploring new places
-                  with her friends.
+                  Anjali Chakradhar is a senior at High Technology High School
+                  and is the chapter president. She is interested in medicine
+                  and loves exploring new places with her friends.
                 </OfficerBio>
               </OfficerContainer>
               <OfficerContainer>
@@ -142,9 +142,9 @@ export default class Projects extends Component {
                 />
                 <OfficerName>Karena Yan</OfficerName>
                 <OfficerBio>
-                  Karena Yan is a senior at High Technology High School. She
-                  hopes to study environmental engineering in the future and is
-                  an avid dancer.
+                  Karena Yan is a senior at High Technology High School and the
+                  chapter secretary. She hopes to study environmental
+                  engineering in the future and is an avid dancer.
                 </OfficerBio>
               </OfficerContainer>
               <OfficerContainer>
@@ -154,9 +154,10 @@ export default class Projects extends Component {
                 />
                 <OfficerName>Daniel Du</OfficerName>
                 <OfficerBio>
-                  Daniel Du is a senior at High Technology High School. He plans
-                  on studying the intersection between biomedical engineering
-                  and neuroscience and enjoys playing guitar in his free time.
+                  Daniel Du is a senior at High Technology High School and the
+                  chapter reporter. He plans on studying the intersection
+                  between biomedical engineering and neuroscience and enjoys
+                  playing guitar in his free time.
                 </OfficerBio>
               </OfficerContainer>
               <OfficerContainer>
@@ -166,9 +167,9 @@ export default class Projects extends Component {
                 />
                 <OfficerName>Khushi Sabuwala</OfficerName>
                 <OfficerBio>
-                  Khushi Sabuwala is a sophomore at High Technology High School.
-                  She likes to play the trumpet, dance, and watch football in
-                  her free time.
+                  Khushi Sabuwala is a sophomore at High Technology High School
+                  and is the state parliamentarian. She has an interest in
+                  business and likes to play the trumpet and dance.
                 </OfficerBio>
               </OfficerContainer>
               <OfficerContainer>
@@ -203,9 +204,9 @@ export default class Projects extends Component {
                 />
                 <OfficerName>Nia Mallangada</OfficerName>
                 <OfficerBio>
-                  Nia Mallangada is a junior at High Technology High School. She
-                  has an interest in medicine and robotics and enjoys
-                  volunteering at a local hospital.
+                  Nia Mallangada is a junior at High Technology High School and
+                  is the chapter historian. She has an interest in medicine and
+                  robotics and enjoys volunteering at a local hospital.
                 </OfficerBio>
               </OfficerContainer>
               <OfficerContainer>

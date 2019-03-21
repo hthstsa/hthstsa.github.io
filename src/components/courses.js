@@ -96,7 +96,7 @@ export default class Courses extends Component {
               iconStyle={{ background: "#a0203e", color: "#fff" }}
               icon={<Keyboard />}
             >
-              <h3>Computer Programming for Engineers</h3>
+              <h3>AP Computer Science</h3>
               <h4>Mr. Borchardt</h4>
               <p>
                 Creative Direction, User Experience, Visual Design, Project
@@ -145,7 +145,7 @@ export default class Courses extends Component {
               icon={<Landscape />}
             >
               <h3>Biological Engineering &amp; Environmental Sustainability</h3>
-              <h4>Dr. Ellesworth</h4>
+              <h4>Dr. Ellsworth</h4>
               <p>
                 Creative Direction, User Experience, Visual Design, Project
                 Management, Team Leading
