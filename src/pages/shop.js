@@ -68,7 +68,7 @@ const items = [
     picture: "https://hthstsa-af51.kxcdn.com/static/guitar.jpg"
   },
   {
-    name: "Try Again",
+    name: "Try Again (EP)",
     price: 14.99,
     id: 1,
     picture: "https://hthstsa-af51.kxcdn.com/static/album.png"
