@@ -60974,7 +60974,7 @@ function (_Component) {
           color: "#fff"
         },
         icon: _react.default.createElement(_PowerInput.default, null)
-      }, _react.default.createElement("h3", null, "Digital Electronics"), _react.default.createElement("h4", null, "Mr. Borchardt"), _react.default.createElement("p", null, "Creative Direction, User Experience, Visual Design, Project Management, Team Leading")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
+      }, _react.default.createElement("h3", null, "Digital Electronics"), _react.default.createElement("h4", null, "Mr. Borchardt"), _react.default.createElement("p", null, "Digital Electronics teaches students to build and analyze electronic circuits that are used to process and control digital signals. The course introduce to the design process of combinational and sequential logic design, teamwork, communication methods, engineering standards, and technical documentation. DE applies and develops skills in science, technology, engineering, and math.")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
         date: "11th Grade (Elective)",
         iconStyle: {
           background: "#1dad82",

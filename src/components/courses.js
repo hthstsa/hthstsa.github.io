@@ -147,8 +147,13 @@ export default class Courses extends Component {
               <h3>Digital Electronics</h3>
               <h4>Mr. Borchardt</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                Digital Electronics teaches students to build and analyze
+                electronic circuits that are used to process and control digital
+                signals. The course introduce to the design process of
+                combinational and sequential logic design, teamwork,
+                communication methods, engineering standards, and technical
+                documentation. DE applies and develops skills in science,
+                technology, engineering, and math.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
