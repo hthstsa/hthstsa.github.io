@@ -123,7 +123,7 @@ export default class Projects extends Component {
         <Container>
           <ActivitiesContainer>
             <Slider dots={false} infinite>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/SoccerTower.PNG"
                   classes={{ img: "avatar" }}
@@ -137,7 +137,7 @@ export default class Projects extends Component {
                   into consideration when grading the project.
                 </OfficerBio>
               </OfficerContainer>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/CSEFinalProject.PNG"
                   classes={{ img: "avatar" }}
@@ -151,7 +151,7 @@ export default class Projects extends Component {
                   tree diagrams, hierarchical diagrams, and venn diagrams.
                 </OfficerBio>
               </OfficerContainer>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/EDDFinal.PNG"
                   classes={{ img: "avatar" }}
@@ -165,7 +165,7 @@ export default class Projects extends Component {
                   additional support once the walker was leaning backwards.
                 </OfficerBio>
               </OfficerContainer>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/BEES.png"
                   classes={{ img: "avatar" }}
@@ -180,7 +180,7 @@ export default class Projects extends Component {
                   it does have GMOs.
                 </OfficerBio>
               </OfficerContainer>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/CEA.png"
                   classes={{ img: "avatar" }}
@@ -194,7 +194,7 @@ export default class Projects extends Component {
                   the home.
                 </OfficerBio>
               </OfficerContainer>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/COPE.PNG"
                   classes={{ img: "avatar" }}

@@ -68661,47 +68661,65 @@ function (_Component) {
       return _react.default.createElement(TotalContainer, null, "Officers", _react.default.createElement(Container, null, _react.default.createElement(ActivitiesContainer, null, _react.default.createElement(_reactSlick.default, {
         dots: false,
         infinite: true
-      }, _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }, _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Anjali.jpg",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Anjali Chakradhar"), _react.default.createElement(OfficerBio, null, "Anjali Chakradhar is a senior at High Technology High School and is the chapter president. She is interested in medicine and loves exploring new places with her friends.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Anjali Chakradhar"), _react.default.createElement(OfficerBio, null, "Anjali Chakradhar is a senior at High Technology High School and is the chapter president. She is interested in medicine and loves exploring new places with her friends.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Karena.jpg",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Karena Yan"), _react.default.createElement(OfficerBio, null, "Karena Yan is a senior at High Technology High School and the chapter secretary. She hopes to study environmental engineering in the future and is an avid dancer.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Karena Yan"), _react.default.createElement(OfficerBio, null, "Karena Yan is a senior at High Technology High School and the chapter secretary. She hopes to study environmental engineering in the future and is an avid dancer.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Daniel.jpg",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Daniel Du"), _react.default.createElement(OfficerBio, null, "Daniel Du is a senior at High Technology High School and the chapter reporter. He plans on studying the intersection between biomedical engineering and neuroscience and enjoys playing guitar in his free time.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Daniel Du"), _react.default.createElement(OfficerBio, null, "Daniel Du is a senior at High Technology High School and the chapter reporter. He plans on studying the intersection between biomedical engineering and neuroscience and enjoys playing guitar in his free time.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Khushi.jpg",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Khushi Sabuwala"), _react.default.createElement(OfficerBio, null, "Khushi Sabuwala is a sophomore at High Technology High School and is the state parliamentarian. She has an interest in business and likes to play the trumpet and dance.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Khushi Sabuwala"), _react.default.createElement(OfficerBio, null, "Khushi Sabuwala is a sophomore at High Technology High School and is the state parliamentarian. She has an interest in business and likes to play the trumpet and dance.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Sidhu.jpg",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Sidhu Arakkal"), _react.default.createElement(OfficerBio, null, "Sidhu Arakkal is a senior at High Technology High School and the chapter vice president. He is interested in computer science and biology and enjoys playing soccer and going hiking in his free time.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Sidhu Arakkal"), _react.default.createElement(OfficerBio, null, "Sidhu Arakkal is a senior at High Technology High School and the chapter vice president. He is interested in computer science and biology and enjoys playing soccer and going hiking in his free time.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Adithya.jpg",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Adithya Paramasivam"), _react.default.createElement(OfficerBio, null, "Adithya Paramasivam is a senior at High Technology High School and is the chapter treasurer. He plans to study computer science in college and enjoys playing tennis.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Adithya Paramasivam"), _react.default.createElement(OfficerBio, null, "Adithya Paramasivam is a senior at High Technology High School and is the chapter treasurer. He plans to study computer science in college and enjoys playing tennis.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Nia.jpg",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Nia Mallangada"), _react.default.createElement(OfficerBio, null, "Nia Mallangada is a junior at High Technology High School and is the chapter historian. She has an interest in medicine and robotics and enjoys volunteering at a local hospital.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Nia Mallangada"), _react.default.createElement(OfficerBio, null, "Nia Mallangada is a junior at High Technology High School and is the chapter historian. She has an interest in medicine and robotics and enjoys volunteering at a local hospital.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Mary.jpg",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Mary Chen"), _react.default.createElement(OfficerBio, null, "Mary Chen is a junior at High Technology High School and is the chapter sergeant-at-arms. She is interested in finance and international relations and likes to bake in her spare time.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Mary Chen"), _react.default.createElement(OfficerBio, null, "Mary Chen is a junior at High Technology High School and is the chapter sergeant-at-arms. She is interested in finance and international relations and likes to bake in her spare time.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Ms. Garrity.png",
         classes: {
           img: "avatar"
@@ -69403,7 +69421,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "0.0.0.0" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37065" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41937" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

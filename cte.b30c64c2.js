@@ -70451,7 +70451,7 @@ function _templateObject7() {
 }
 
 function _templateObject6() {
-  var data = _taggedTemplateLiteral(["\n  font-family: \"Raleway\";\n  font-size: 4vmax;\n  font-weight: 400;\n  text-align: center;\n  padding-top: 20px;\n  @media screen and (min-width: 1300px) {\n    font-size: 52px;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  font-family: \"Raleway\";\n  font-size: calc(2vh + 2vw);\n  font-weight: 400;\n  text-align: center;\n  padding-top: 20px;\n  @media screen and (min-width: 1300px) {\n    font-size: 52px;\n  }\n"]);
 
   _templateObject6 = function _templateObject6() {
     return data;
@@ -70471,7 +70471,7 @@ function _templateObject5() {
 }
 
 function _templateObject4() {
-  var data = _taggedTemplateLiteral(["\n  height: 100%;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: space-around;\n"]);
+  var data = _taggedTemplateLiteral(["\n  height: 100%;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: space-around;\n  overflow-y: auto;\n"]);
 
   _templateObject4 = function _templateObject4() {
     return data;
@@ -70557,32 +70557,44 @@ function (_Component) {
       return _react.default.createElement(TotalContainer, null, "Teachers", _react.default.createElement(Container, null, _react.default.createElement(ActivitiesContainer, null, _react.default.createElement(_reactSlick.default, {
         dots: false,
         infinite: true
-      }, _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }, _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Dr. Ellsworth.png",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Dr. Ellsworth"), _react.default.createElement(OfficerBio, null, "Dr. Ellsworth teaches BEES and AP Biology. She also teaches Research Practicum and obtained her PHD in Molecular Biology from Princeton")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Dr. Ellsworth"), _react.default.createElement(OfficerBio, null, "Dr. Ellsworth teaches BEES and AP Biology. She also teaches Research Practicum and obtained her PHD in Molecular Biology from Princeton")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Dr. Eng.png",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Dr. Eng"), _react.default.createElement(OfficerBio, null, "Dr. Eng is nuclear engineer who currently teachers Pre-Calculus, Multivariable Calculus, and EDD. He coaches the Academic Team in his free time.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Dr. Eng"), _react.default.createElement(OfficerBio, null, "Dr. Eng is nuclear engineer who currently teachers Pre-Calculus, Multivariable Calculus, and EDD. He coaches the Academic Team in his free time.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Mr. B.png",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Mr. Borchardt"), _react.default.createElement(OfficerBio, null, "Mr. Borchardt is an electrical engineer who previously worked at Bell Labs, and teachers AP Computer Science and Digital Electronics.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Mr. Borchardt"), _react.default.createElement(OfficerBio, null, "Mr. Borchardt is an electrical engineer who previously worked at Bell Labs, and teachers AP Computer Science and Digital Electronics.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Mr. Hanas.png",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Mr. Hanas"), _react.default.createElement(OfficerBio, null, "Mr. Hanas is a mechanical engineer who teaches CSE and POE. He enjoys mountain biking in his spare time.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Mr. Hanas"), _react.default.createElement(OfficerBio, null, "Mr. Hanas is a mechanical engineer who teaches CSE and POE. He enjoys mountain biking in his spare time.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Ms. G.png",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Ms. Grunthaner"), _react.default.createElement(OfficerBio, null, "Ms. Grunthaner is a former paramedic and firefighter who teaches IED and EDD. She also manages the tech lab.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Ms. Grunthaner"), _react.default.createElement(OfficerBio, null, "Ms. Grunthaner is a former paramedic and firefighter who teaches IED and EDD. She also manages the tech lab.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Ms. Garrity.png",
         classes: {
           img: "avatar"
@@ -71195,32 +71207,44 @@ function (_Component) {
       return _react.default.createElement(TotalContainer, null, "Projects", _react.default.createElement(Container, null, _react.default.createElement(ActivitiesContainer, null, _react.default.createElement(_reactSlick.default, {
         dots: false,
         infinite: true
-      }, _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }, _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/SoccerTower.PNG",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Soccer Tower"), _react.default.createElement(OfficerBio, null, "The soccer tower project is one of the most popular projects of POE. It involves the design and construction of an eight foot tall newspaper tower that can hold the weight of a soccer ball. Weight, appearance, and strength were all factors taken into consideration when grading the project.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Soccer Tower"), _react.default.createElement(OfficerBio, null, "The soccer tower project is one of the most popular projects of POE. It involves the design and construction of an eight foot tall newspaper tower that can hold the weight of a soccer ball. Weight, appearance, and strength were all factors taken into consideration when grading the project.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/CSEFinalProject.PNG",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Chart.IT"), _react.default.createElement(OfficerBio, null, "This project is one example of the capstone project that makes up a large portion of the CSE curriculum. This particular site was designed and created to help students at High Tech create various charts online including flowcharts, mind maps, binary tree diagrams, hierarchical diagrams, and venn diagrams.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Chart.IT"), _react.default.createElement(OfficerBio, null, "This project is one example of the capstone project that makes up a large portion of the CSE curriculum. This particular site was designed and created to help students at High Tech create various charts online including flowcharts, mind maps, binary tree diagrams, hierarchical diagrams, and venn diagrams.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/EDDFinal.PNG",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Walker"), _react.default.createElement(OfficerBio, null, "This is one example of a senior capstone device. This attachment was designed to be added to walkers to provide backwards stability in elderly patients who often suffer from backwards disequilibrium. This device was to provide additional support once the walker was leaning backwards.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Walker"), _react.default.createElement(OfficerBio, null, "This is one example of a senior capstone device. This attachment was designed to be added to walkers to provide backwards stability in elderly patients who often suffer from backwards disequilibrium. This device was to provide additional support once the walker was leaning backwards.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/BEES.png",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "GMOs"), _react.default.createElement(OfficerBio, null, "A project that was done in BEES was to test different food products to see whether they contain genetically modified organisms. This was done through the process of electrophoresis. The picture above shows the results of the electrophoresis gel test for pancake mix, which indicate that it does have GMOs.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "GMOs"), _react.default.createElement(OfficerBio, null, "A project that was done in BEES was to test different food products to see whether they contain genetically modified organisms. This was done through the process of electrophoresis. The picture above shows the results of the electrophoresis gel test for pancake mix, which indicate that it does have GMOs.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/CEA.png",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Home"), _react.default.createElement(OfficerBio, null, "In this project, students were tasked with designing a tiny, mobile home that was sustainable and LEED certified. Along with this landscape view of the house, they had to provide drawings and plans for the foundation, roof, and assembly of the home.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Home"), _react.default.createElement(OfficerBio, null, "In this project, students were tasked with designing a tiny, mobile home that was sustainable and LEED certified. Along with this landscape view of the house, they had to provide drawings and plans for the foundation, roof, and assembly of the home.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/COPE.PNG",
         classes: {
           img: "avatar"
@@ -71381,7 +71405,7 @@ function (_React$Component) {
         navigation: true,
         scrollOverflow: true,
         bigSectionsDestination: "top",
-        normalScrollElements: "#scroller",
+        normalScrollElements: "#scroller, .no-scroll",
         anchors: ["main", "courses", "teachers", "projects", "footer"],
         render: function render(_ref) {
           var state = _ref.state,

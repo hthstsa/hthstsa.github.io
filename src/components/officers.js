@@ -123,7 +123,7 @@ export default class Officers extends Component {
         <Container>
           <ActivitiesContainer>
             <Slider dots={false} infinite>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/Anjali.jpg"
                   classes={{ img: "avatar" }}
@@ -135,7 +135,7 @@ export default class Officers extends Component {
                   and loves exploring new places with her friends.
                 </OfficerBio>
               </OfficerContainer>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/Karena.jpg"
                   classes={{ img: "avatar" }}
@@ -147,7 +147,7 @@ export default class Officers extends Component {
                   engineering in the future and is an avid dancer.
                 </OfficerBio>
               </OfficerContainer>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/Daniel.jpg"
                   classes={{ img: "avatar" }}
@@ -160,7 +160,7 @@ export default class Officers extends Component {
                   playing guitar in his free time.
                 </OfficerBio>
               </OfficerContainer>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/Khushi.jpg"
                   classes={{ img: "avatar" }}
@@ -172,7 +172,7 @@ export default class Officers extends Component {
                   business and likes to play the trumpet and dance.
                 </OfficerBio>
               </OfficerContainer>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/Sidhu.jpg"
                   classes={{ img: "avatar" }}
@@ -185,7 +185,7 @@ export default class Officers extends Component {
                   in his free time.
                 </OfficerBio>
               </OfficerContainer>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/Adithya.jpg"
                   classes={{ img: "avatar" }}
@@ -197,7 +197,7 @@ export default class Officers extends Component {
                   science in college and enjoys playing tennis.
                 </OfficerBio>
               </OfficerContainer>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/Nia.jpg"
                   classes={{ img: "avatar" }}
@@ -209,7 +209,7 @@ export default class Officers extends Component {
                   robotics and enjoys volunteering at a local hospital.
                 </OfficerBio>
               </OfficerContainer>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/Mary.jpg"
                   classes={{ img: "avatar" }}
@@ -221,7 +221,7 @@ export default class Officers extends Component {
                   international relations and likes to bake in her spare time.
                 </OfficerBio>
               </OfficerContainer>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/Ms. Garrity.png"
                   classes={{ img: "avatar" }}

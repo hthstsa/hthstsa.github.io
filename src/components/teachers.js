@@ -73,6 +73,7 @@ const OfficerContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: space-around;
+  overflow-y: auto;
 `;
 
 const OfficerAvatar = styled(Avatar)`
@@ -91,7 +92,7 @@ const OfficerAvatar = styled(Avatar)`
 
 const OfficerName = styled.div`
   font-family: "Raleway";
-  font-size: 4vmax;
+  font-size: calc(2vh + 2vw);
   font-weight: 400;
   text-align: center;
   padding-top: 20px;
@@ -122,7 +123,7 @@ export default class Teachers extends Component {
         <Container>
           <ActivitiesContainer>
             <Slider dots={false} infinite>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/Dr. Ellsworth.png"
                   classes={{ img: "avatar" }}
@@ -134,7 +135,7 @@ export default class Teachers extends Component {
                   from Princeton
                 </OfficerBio>
               </OfficerContainer>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/Dr. Eng.png"
                   classes={{ img: "avatar" }}
@@ -146,7 +147,7 @@ export default class Teachers extends Component {
                   Academic Team in his free time.
                 </OfficerBio>
               </OfficerContainer>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/Mr. B.png"
                   classes={{ img: "avatar" }}
@@ -158,7 +159,7 @@ export default class Teachers extends Component {
                   Electronics.
                 </OfficerBio>
               </OfficerContainer>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/Mr. Hanas.png"
                   classes={{ img: "avatar" }}
@@ -169,7 +170,7 @@ export default class Teachers extends Component {
                   enjoys mountain biking in his spare time.
                 </OfficerBio>
               </OfficerContainer>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/Ms. G.png"
                   classes={{ img: "avatar" }}
@@ -180,7 +181,7 @@ export default class Teachers extends Component {
                   teaches IED and EDD. She also manages the tech lab.
                 </OfficerBio>
               </OfficerContainer>
-              <OfficerContainer>
+              <OfficerContainer className="no-scroll">
                 <OfficerAvatar
                   src="https://hthstsa-af51.kxcdn.com/static/Ms. Garrity.png"
                   classes={{ img: "avatar" }}
