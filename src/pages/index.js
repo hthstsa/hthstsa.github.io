@@ -100,10 +100,24 @@ class Index extends React.Component {
                     <WhatIsTSA />
                   </div>
                 </div>
-                <div style={{ position: "relative" }} className="section">
+                <div
+                  style={{
+                    position: "relative",
+                    width: "100%",
+                    height: "100%"
+                  }}
+                  className="section"
+                >
                   <WhoAreWe />
                 </div>
-                <div style={{ position: "relative" }} className="section">
+                <div
+                  style={{
+                    position: "relative",
+                    width: "100%",
+                    height: "100%"
+                  }}
+                  className="section"
+                >
                   <Activities />
                 </div>
                 <div
