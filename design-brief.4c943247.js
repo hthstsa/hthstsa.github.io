@@ -50825,7 +50825,7 @@ function _templateObject3() {
 }
 
 function _templateObject2() {
-  var data = _taggedTemplateLiteral(["\n  height: 100%;\n  width: 100%;\n  display: grid;\n  grid-template-columns: repeat(3, 1fr);\n  grid-template-rows: repeat(2, 1fr);\n  @media (max-width: 450px) {\n    grid-template-columns: repeat(2, 1fr);\n    grid-template-rows: repeat(3, 1fr);\n  }\n  @media (max-width: 275px) {\n    grid-template-columns: repeat(1, 1fr);\n    grid-template-rows: repeat(6, 1fr);\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  height: 100%;\n  width: 100%;\n  display: grid;\n  grid-template-columns: repeat(3, 33.33%);\n  grid-template-rows: repeat(2, 50%);\n  @media (max-width: 450px) {\n    grid-template-columns: repeat(2, 1fr);\n    grid-template-rows: repeat(3, 1fr);\n  }\n  @media (max-width: 275px) {\n    grid-template-columns: repeat(1, 1fr);\n    grid-template-rows: repeat(6, 1fr);\n  }\n"]);
 
   _templateObject2 = function _templateObject2() {
     return data;
@@ -51427,7 +51427,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "0.0.0.0" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "35409" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38407" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

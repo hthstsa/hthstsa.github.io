@@ -229,7 +229,7 @@ export default class Awards extends Component {
   render() {
     return (
       <TotalContainer>
-        <FullTitle>Awards</FullTitle>
+        <FullTitle>Awards (2018)</FullTitle>
         <Container>
           <ActivitiesContainer>
             <StateConference />
