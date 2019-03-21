@@ -106,91 +106,41 @@ const StateConference = props => (
         </td>
       </tr>
       <tr>
-        <td>Biotechnology Design</td>
-        <td>
-          <i className="em em-third_place_medal" />
-        </td>
         <td>Chapter Team</td>
         <td>
           <i className="em em-first_place_medal" />
         </td>
-      </tr>
-      <tr>
         <td>Coding (Team 1)</td>
         <td>
           <i className="em em-first_place_medal" />
         </td>
-        <td>Coding (Team 2)</td>
-        <td>
-          <i className="em em-third_place_medal" />
-        </td>
       </tr>
       <tr>
-        <td>CIM</td>
-        <td>
-          <i className="em em-third_place_medal" />
-        </td>
-        <td>CAD, Engineering</td>
-        <td>
-          <i className="em em-third_place_medal" />
-        </td>
-      </tr>
-      <tr>
-        <td>Digital Video Production</td>
-        <td>
-          <i className="em em-second_place_medal" />
-        </td>
         <td>Engineering Design</td>
         <td>
           <i className="em em-first_place_medal" />
         </td>
-      </tr>
-      <tr>
         <td>On Demand Video</td>
         <td>
           <i className="em em-first_place_medal" />
         </td>
+      </tr>
+      <tr>
         <td>Optical Engineering</td>
         <td>
           <i className="em em-first_place_medal" />
         </td>
-      </tr>
-      <tr>
-        <td>Photographic Technology</td>
-        <td>
-          <i className="em em-second_place_medal" />
-        </td>
-        <td>SciVis</td>
-        <td>
-          <i className="em em-third_place_medal" />
-        </td>
-      </tr>
-      <tr>
-        <td>Software Development</td>
-        <td>
-          <i className="em em-second_place_medal" />
-        </td>
-        <td>STEM Careers</td>
-        <td>
-          <i className="em em-second_place_medal" />
-        </td>
-      </tr>
-      <tr>
         <td>Structural Design and Engineering</td>
         <td>
           <i className="em em-first_place_medal" />
         </td>
-        <td>System Control Technology (Team 1)</td>
+      </tr>
+      <tr>
+        <td>Technology Bowl</td>
         <td>
           <i className="em em-first_place_medal" />
         </td>
-      </tr>
-      <tr>
-        <td>System Control Technology (Team 2)</td>
-        <td>
-          <i className="em em-third_place_medal" />
-        </td>
-        <td>Technology Bowl</td>
+        <td>System Control Technology (Team 1)</td>
         <td>
           <i className="em em-first_place_medal" />
         </td>
@@ -213,6 +163,56 @@ const StateConference = props => (
         <td>Video Game Design</td>
         <td>
           <i className="em em-first_place_medal" />
+        </td>
+      </tr>
+      <tr>
+        <td>Digital Video Production</td>
+        <td>
+          <i className="em em-second_place_medal" />
+        </td>
+        <td>Photographic Technology</td>
+        <td>
+          <i className="em em-second_place_medal" />
+        </td>
+      </tr>
+      <tr>
+        <td>Software Development</td>
+        <td>
+          <i className="em em-second_place_medal" />
+        </td>
+        <td>STEM Careers</td>
+        <td>
+          <i className="em em-second_place_medal" />
+        </td>
+      </tr>
+      <tr>
+        <td>Biotechnology Design</td>
+        <td>
+          <i className="em em-third_place_medal" />
+        </td>
+        <td>CAD, Engineering</td>
+        <td>
+          <i className="em em-third_place_medal" />
+        </td>
+      </tr>
+      <tr>
+        <td>CIM</td>
+        <td>
+          <i className="em em-third_place_medal" />
+        </td>
+        <td>Coding (Team 2)</td>
+        <td>
+          <i className="em em-third_place_medal" />
+        </td>
+      </tr>
+      <tr>
+        <td>SciVis</td>
+        <td>
+          <i className="em em-third_place_medal" />
+        </td>
+        <td>System Control Technology (Team 2)</td>
+        <td>
+          <i className="em em-third_place_medal" />
         </td>
       </tr>
       <tr>

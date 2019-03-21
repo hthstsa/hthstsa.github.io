@@ -68545,7 +68545,7 @@ function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || func
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 function _templateObject7() {
-  var data = _taggedTemplateLiteral(["\n  font-family: \"Raleway\";\n  font-weight: 400;\n  font-size: 1.5vmax;\n  text-align: center;\n  margin: 20px;\n  @media screen and (min-width: 1300px) {\n    font-size: 19px;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  font-family: \"Raleway\";\n  font-weight: 400;\n  line-height: 1.5;\n  font-size: 1.5vmax;\n  text-align: center;\n  margin: 20px;\n  @media screen and (min-width: 1300px) {\n    font-size: 19px;\n  }\n"]);
 
   _templateObject7 = function _templateObject7() {
     return data;
@@ -69034,41 +69034,21 @@ var StateConference = function StateConference(props) {
     className: "em em-first_place_medal"
   })), _react.default.createElement("td", null, "Biomimicry"), _react.default.createElement("td", null, _react.default.createElement("i", {
     className: "em em-first_place_medal"
-  }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "Biotechnology Design"), _react.default.createElement("td", null, _react.default.createElement("i", {
-    className: "em em-third_place_medal"
-  })), _react.default.createElement("td", null, "Chapter Team"), _react.default.createElement("td", null, _react.default.createElement("i", {
+  }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "Chapter Team"), _react.default.createElement("td", null, _react.default.createElement("i", {
     className: "em em-first_place_medal"
-  }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "Coding (Team 1)"), _react.default.createElement("td", null, _react.default.createElement("i", {
+  })), _react.default.createElement("td", null, "Coding (Team 1)"), _react.default.createElement("td", null, _react.default.createElement("i", {
     className: "em em-first_place_medal"
-  })), _react.default.createElement("td", null, "Coding (Team 2)"), _react.default.createElement("td", null, _react.default.createElement("i", {
-    className: "em em-third_place_medal"
-  }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "CIM"), _react.default.createElement("td", null, _react.default.createElement("i", {
-    className: "em em-third_place_medal"
-  })), _react.default.createElement("td", null, "CAD, Engineering"), _react.default.createElement("td", null, _react.default.createElement("i", {
-    className: "em em-third_place_medal"
-  }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "Digital Video Production"), _react.default.createElement("td", null, _react.default.createElement("i", {
-    className: "em em-second_place_medal"
-  })), _react.default.createElement("td", null, "Engineering Design"), _react.default.createElement("td", null, _react.default.createElement("i", {
+  }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "Engineering Design"), _react.default.createElement("td", null, _react.default.createElement("i", {
     className: "em em-first_place_medal"
-  }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "On Demand Video"), _react.default.createElement("td", null, _react.default.createElement("i", {
+  })), _react.default.createElement("td", null, "On Demand Video"), _react.default.createElement("td", null, _react.default.createElement("i", {
     className: "em em-first_place_medal"
-  })), _react.default.createElement("td", null, "Optical Engineering"), _react.default.createElement("td", null, _react.default.createElement("i", {
+  }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "Optical Engineering"), _react.default.createElement("td", null, _react.default.createElement("i", {
     className: "em em-first_place_medal"
-  }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "Photographic Technology"), _react.default.createElement("td", null, _react.default.createElement("i", {
-    className: "em em-second_place_medal"
-  })), _react.default.createElement("td", null, "SciVis"), _react.default.createElement("td", null, _react.default.createElement("i", {
-    className: "em em-third_place_medal"
-  }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "Software Development"), _react.default.createElement("td", null, _react.default.createElement("i", {
-    className: "em em-second_place_medal"
-  })), _react.default.createElement("td", null, "STEM Careers"), _react.default.createElement("td", null, _react.default.createElement("i", {
-    className: "em em-second_place_medal"
-  }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "Structural Design and Engineering"), _react.default.createElement("td", null, _react.default.createElement("i", {
+  })), _react.default.createElement("td", null, "Structural Design and Engineering"), _react.default.createElement("td", null, _react.default.createElement("i", {
+    className: "em em-first_place_medal"
+  }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "Technology Bowl"), _react.default.createElement("td", null, _react.default.createElement("i", {
     className: "em em-first_place_medal"
   })), _react.default.createElement("td", null, "System Control Technology (Team 1)"), _react.default.createElement("td", null, _react.default.createElement("i", {
-    className: "em em-first_place_medal"
-  }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "System Control Technology (Team 2)"), _react.default.createElement("td", null, _react.default.createElement("i", {
-    className: "em em-third_place_medal"
-  })), _react.default.createElement("td", null, "Technology Bowl"), _react.default.createElement("td", null, _react.default.createElement("i", {
     className: "em em-first_place_medal"
   }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "Transportation Modeling"), _react.default.createElement("td", null, _react.default.createElement("i", {
     className: "em em-first_place_medal"
@@ -69078,6 +69058,26 @@ var StateConference = function StateConference(props) {
     className: "em em-first_place_medal"
   })), _react.default.createElement("td", null, "Video Game Design"), _react.default.createElement("td", null, _react.default.createElement("i", {
     className: "em em-first_place_medal"
+  }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "Digital Video Production"), _react.default.createElement("td", null, _react.default.createElement("i", {
+    className: "em em-second_place_medal"
+  })), _react.default.createElement("td", null, "Photographic Technology"), _react.default.createElement("td", null, _react.default.createElement("i", {
+    className: "em em-second_place_medal"
+  }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "Software Development"), _react.default.createElement("td", null, _react.default.createElement("i", {
+    className: "em em-second_place_medal"
+  })), _react.default.createElement("td", null, "STEM Careers"), _react.default.createElement("td", null, _react.default.createElement("i", {
+    className: "em em-second_place_medal"
+  }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "Biotechnology Design"), _react.default.createElement("td", null, _react.default.createElement("i", {
+    className: "em em-third_place_medal"
+  })), _react.default.createElement("td", null, "CAD, Engineering"), _react.default.createElement("td", null, _react.default.createElement("i", {
+    className: "em em-third_place_medal"
+  }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "CIM"), _react.default.createElement("td", null, _react.default.createElement("i", {
+    className: "em em-third_place_medal"
+  })), _react.default.createElement("td", null, "Coding (Team 2)"), _react.default.createElement("td", null, _react.default.createElement("i", {
+    className: "em em-third_place_medal"
+  }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "SciVis"), _react.default.createElement("td", null, _react.default.createElement("i", {
+    className: "em em-third_place_medal"
+  })), _react.default.createElement("td", null, "System Control Technology (Team 2)"), _react.default.createElement("td", null, _react.default.createElement("i", {
+    className: "em em-third_place_medal"
   }))), _react.default.createElement("tr", null, _react.default.createElement("td", null, "Webmaster"), _react.default.createElement("td", null, _react.default.createElement("i", {
     className: "em em-third_place_medal"
   })))));
@@ -69421,7 +69421,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "0.0.0.0" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "41937" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "45321" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

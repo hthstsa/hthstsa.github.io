@@ -104,6 +104,7 @@ const OfficerName = styled.div`
 const OfficerBio = styled.p`
   font-family: "Raleway";
   font-weight: 400;
+  line-height: 1.5;
   font-size: 1.5vmax;
   text-align: center;
   margin: 20px;

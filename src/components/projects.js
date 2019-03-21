@@ -104,6 +104,7 @@ const OfficerName = styled.div`
 const OfficerBio = styled.p`
   font-family: "Raleway";
   font-weight: 400;
+  line-height: 1.5;
   font-size: 1.5vmax;
   text-align: center;
   margin: 20px;
@@ -156,7 +157,7 @@ export default class Projects extends Component {
                   src="https://hthstsa-af51.kxcdn.com/static/EDDFinal.PNG"
                   classes={{ img: "avatar" }}
                 />
-                <OfficerName>Walker</OfficerName>
+                <OfficerName>FallStall</OfficerName>
                 <OfficerBio>
                   This is one example of a senior capstone device. This
                   attachment was designed to be added to walkers to provide
@@ -185,7 +186,7 @@ export default class Projects extends Component {
                   src="https://hthstsa-af51.kxcdn.com/static/CEA.png"
                   classes={{ img: "avatar" }}
                 />
-                <OfficerName>Home</OfficerName>
+                <OfficerName>Mobile Home</OfficerName>
                 <OfficerBio>
                   In this project, students were tasked with designing a tiny,
                   mobile home that was sustainable and LEED certified. Along
@@ -211,7 +212,7 @@ export default class Projects extends Component {
                   src="https://hthstsa-af51.kxcdn.com/static/DE.jpg"
                   classes={{ img: "avatar" }}
                 />
-                <OfficerName>7 Segment Display</OfficerName>
+                <OfficerName>Birthday Display</OfficerName>
                 <OfficerBio>
                   This project, in progress when the picture was taken, displays
                   its creator's birthday on a 7-segment display. The birthday is
