@@ -26589,7 +26589,7 @@ var index = (0, _memoize.default)(function (prop) {
 );
 var _default = index;
 exports.default = _default;
-},{"@emotion/memoize":"../node_modules/@emotion/memoize/dist/memoize.browser.esm.js"}],"../../../../../../usr/lib/node_modules/parcel-bundler/node_modules/process/browser.js":[function(require,module,exports) {
+},{"@emotion/memoize":"../node_modules/@emotion/memoize/dist/memoize.browser.esm.js"}],"../../.nvm/versions/node/v11.10.0/lib/node_modules/parcel-bundler/node_modules/process/browser.js":[function(require,module,exports) {
 
 // shim for using process in browser
 var process = module.exports = {}; // cached from whatever global is present so that test runners that stub it
@@ -29215,7 +29215,7 @@ if ("development" !== 'production' && "development" !== 'test' && typeof window 
 var _default = styled; //# sourceMappingURL=styled-components.browser.esm.js.map
 
 exports.default = _default;
-},{"stylis/stylis.min":"../node_modules/stylis/stylis.min.js","stylis-rule-sheet":"../node_modules/stylis-rule-sheet/index.js","react":"../node_modules/react/index.js","@emotion/unitless":"../node_modules/@emotion/unitless/dist/unitless.browser.esm.js","react-is":"../node_modules/react-is/index.js","memoize-one":"../node_modules/memoize-one/dist/memoize-one.esm.js","prop-types":"../node_modules/prop-types/index.js","react-dom":"../node_modules/react-dom/index.js","@emotion/is-prop-valid":"../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js","process":"../../../../../../usr/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"../../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
+},{"stylis/stylis.min":"../node_modules/stylis/stylis.min.js","stylis-rule-sheet":"../node_modules/stylis-rule-sheet/index.js","react":"../node_modules/react/index.js","@emotion/unitless":"../node_modules/@emotion/unitless/dist/unitless.browser.esm.js","react-is":"../node_modules/react-is/index.js","memoize-one":"../node_modules/memoize-one/dist/memoize-one.esm.js","prop-types":"../node_modules/prop-types/index.js","react-dom":"../node_modules/react-dom/index.js","@emotion/is-prop-valid":"../node_modules/@emotion/is-prop-valid/dist/is-prop-valid.browser.esm.js","process":"../../.nvm/versions/node/v11.10.0/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"../../.nvm/versions/node/v11.10.0/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js":[function(require,module,exports) {
 var bundleURL = null;
 
 function getBundleURLCached() {
@@ -29247,7 +29247,7 @@ function getBaseURL(url) {
 
 exports.getBundleURL = getBundleURLCached;
 exports.getBaseURL = getBaseURL;
-},{}],"../../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
+},{}],"../../.nvm/versions/node/v11.10.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js":[function(require,module,exports) {
 var bundle = require('./bundle-url');
 
 function updateLink(link) {
@@ -29282,12 +29282,12 @@ function reloadCSS() {
 }
 
 module.exports = reloadCSS;
-},{"./bundle-url":"../../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"components/hamburgers.css":[function(require,module,exports) {
+},{"./bundle-url":"../../.nvm/versions/node/v11.10.0/lib/node_modules/parcel-bundler/src/builtins/bundle-url.js"}],"components/hamburgers.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"../../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/hamburger.js":[function(require,module,exports) {
+},{"_css_loader":"../../.nvm/versions/node/v11.10.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/hamburger.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -30296,7 +30296,7 @@ var getFrameData = function () {
 exports.getFrameData = getFrameData;
 var _default = sync;
 exports.default = _default;
-},{"hey-listen":"../node_modules/hey-listen/dist/hey-listen.es.js","process":"../../../../../../usr/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"../node_modules/@popmotion/easing/dist/easing.es.js":[function(require,module,exports) {
+},{"hey-listen":"../node_modules/hey-listen/dist/hey-listen.es.js","process":"../../.nvm/versions/node/v11.10.0/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"../node_modules/@popmotion/easing/dist/easing.es.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -33651,7 +33651,7 @@ var svg = function (element, props) {
 };
 
 exports.svg = svg;
-},{"tslib":"../node_modules/tslib/tslib.es6.js","@popmotion/popcorn":"../node_modules/@popmotion/popcorn/dist/popcorn.es.js","framesync":"../node_modules/framesync/dist/framesync.es.js","style-value-types":"../node_modules/style-value-types/dist/style-value-types.es.js","hey-listen":"../node_modules/hey-listen/dist/hey-listen.es.js","@popmotion/easing":"../node_modules/@popmotion/easing/dist/easing.es.js","stylefire":"../node_modules/stylefire/dist/stylefire.es.js","process":"../../../../../../usr/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"../node_modules/pose-core/dist/pose-core.es.js":[function(require,module,exports) {
+},{"tslib":"../node_modules/tslib/tslib.es6.js","@popmotion/popcorn":"../node_modules/@popmotion/popcorn/dist/popcorn.es.js","framesync":"../node_modules/framesync/dist/framesync.es.js","style-value-types":"../node_modules/style-value-types/dist/style-value-types.es.js","hey-listen":"../node_modules/hey-listen/dist/hey-listen.es.js","@popmotion/easing":"../node_modules/@popmotion/easing/dist/easing.es.js","stylefire":"../node_modules/stylefire/dist/stylefire.es.js","process":"../../.nvm/versions/node/v11.10.0/lib/node_modules/parcel-bundler/node_modules/process/browser.js"}],"../node_modules/pose-core/dist/pose-core.es.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -51082,22 +51082,21 @@ var Cancel = _styledComponents.default.img(_templateObject10());
 
 var songs = [{
   name: "Traffic Lights",
-  url: "https://sample-videos.com/audio/mp3/crowd-cheering.mp3",
+  url: "https://hthstsa-af51.kxcdn.com/static/song1.mp3",
   length: "3:20",
   id: 1
 }, {
   name: "Sidewalk",
-  url: "https://sample-videos.com/audio/mp3/crowd-cheering.mp3",
+  url: "https://hthstsa-af51.kxcdn.com/static/song2.mp3",
   length: "2:49",
   id: 2
 }, {
   name: "Store Front",
-  url: "https://sample-videos.com/audio/mp3/crowd-cheering.mp3",
+  url: "https://hthstsa-af51.kxcdn.com/static/song3.mp3",
   length: "4:19",
   id: 3
 }, {
-  name: "Street Signs",
-  url: "https://sample-videos.com/audio/mp3/crowd-cheering.mp3",
+  url: "https://hthstsa-af51.kxcdn.com/static/song4.mp3",
   length: "3:12",
   id: 4
 }];
@@ -60812,7 +60811,7 @@ module.exports = {
         module.hot.dispose(reloadCSS);
         module.hot.accept(reloadCSS);
       
-},{"_css_loader":"../../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/courses.js":[function(require,module,exports) {
+},{"_css_loader":"../../.nvm/versions/node/v11.10.0/lib/node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/courses.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -71475,7 +71474,7 @@ function (_React$Component) {
 }(_react.default.Component);
 
 _reactDom.default.render(_react.default.createElement(Index), document.getElementById("root"));
-},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","../components/header":"components/header.js","../components/main_page":"components/main_page.js","../components/one_page":"components/one_page.js","@fortawesome/fontawesome-svg-core":"../node_modules/@fortawesome/fontawesome-svg-core/index.es.js","@fortawesome/react-fontawesome":"../node_modules/@fortawesome/react-fontawesome/index.es.js","@fortawesome/free-solid-svg-icons":"../node_modules/@fortawesome/free-solid-svg-icons/index.es.js","fullpage.js/vendors/scrolloverflow":"../node_modules/fullpage.js/vendors/scrolloverflow.js","@fullpage/react-fullpage":"../node_modules/@fullpage/react-fullpage/dist/react-fullpage.js","../components/background_splash":"components/background_splash.js","../components/places_to_listen":"components/places_to_listen.js","../components/tour":"components/tour.js","../components/photos":"components/photos.js","../components/music":"components/music.js","../components/courses":"components/courses.js","../components/who_are_we":"components/who_are_we.js","../components/activities":"components/activities.js","../components/teachers":"components/teachers.js","../components/competitions":"components/competitions.js","../components/awards":"components/awards.js","../components/footer":"components/footer.js","../components/projects":"components/projects.js"}],"../../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","../components/header":"components/header.js","../components/main_page":"components/main_page.js","../components/one_page":"components/one_page.js","@fortawesome/fontawesome-svg-core":"../node_modules/@fortawesome/fontawesome-svg-core/index.es.js","@fortawesome/react-fontawesome":"../node_modules/@fortawesome/react-fontawesome/index.es.js","@fortawesome/free-solid-svg-icons":"../node_modules/@fortawesome/free-solid-svg-icons/index.es.js","fullpage.js/vendors/scrolloverflow":"../node_modules/fullpage.js/vendors/scrolloverflow.js","@fullpage/react-fullpage":"../node_modules/@fullpage/react-fullpage/dist/react-fullpage.js","../components/background_splash":"components/background_splash.js","../components/places_to_listen":"components/places_to_listen.js","../components/tour":"components/tour.js","../components/photos":"components/photos.js","../components/music":"components/music.js","../components/courses":"components/courses.js","../components/who_are_we":"components/who_are_we.js","../components/activities":"components/activities.js","../components/teachers":"components/teachers.js","../components/competitions":"components/competitions.js","../components/awards":"components/awards.js","../components/footer":"components/footer.js","../components/projects":"components/projects.js"}],"../../.nvm/versions/node/v11.10.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -71503,7 +71502,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "0.0.0.0" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "45321" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "40987" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
@@ -71678,4 +71677,4 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["../../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","pages/cte.js"], null)
+},{}]},{},["../../.nvm/versions/node/v11.10.0/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js","pages/cte.js"], null)
