@@ -67,7 +67,7 @@ class Index extends React.Component {
           scrollOverflow
           bigSectionsDestination="top"
           normalScrollElements="#scroller"
-          anchors={["main", "courses", "teachers", "footer"]}
+          anchors={["main", "courses", "teachers", "projects", "footer"]}
           render={({ state, fullpageApi }) => {
             if (fullpageApi) {
               fullpageApi.setAllowScrolling(this.state.enabled);

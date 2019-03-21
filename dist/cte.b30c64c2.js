@@ -71382,7 +71382,7 @@ function (_React$Component) {
         scrollOverflow: true,
         bigSectionsDestination: "top",
         normalScrollElements: "#scroller",
-        anchors: ["main", "courses", "teachers", "footer"],
+        anchors: ["main", "courses", "teachers", "projects", "footer"],
         render: function render(_ref) {
           var state = _ref.state,
               fullpageApi = _ref.fullpageApi;
