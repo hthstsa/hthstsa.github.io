@@ -71249,7 +71249,14 @@ function (_Component) {
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Square Root Calculator"), _react.default.createElement(OfficerBio, null, "This was a sample project that made up the AP Computer Science curriculum. It was a square root calculator with a simple interface programmed in JAVA."))))), _react.default.createElement("style", {
+      }), _react.default.createElement(OfficerName, null, "Square Root Calculator"), _react.default.createElement(OfficerBio, null, "This was a sample project that made up the AP Computer Science curriculum. It was a square root calculator with a simple interface programmed in JAVA.")), _react.default.createElement(OfficerContainer, {
+        className: "no-scroll"
+      }, _react.default.createElement(OfficerAvatar, {
+        src: "https://hthstsa-af51.kxcdn.com/static/DE.jpg",
+        classes: {
+          img: "avatar"
+        }
+      }), _react.default.createElement(OfficerName, null, "7 Segment Display"), _react.default.createElement(OfficerBio, null, "This project, in progress when the picture was taken, displays its creator's birthday on a 7-segment display. The birthday is displayed number-by-number repeatedly. Its creator had to make use of knowledge of k-mapping, boolean logic, and synchronous electronics to create it."))))), _react.default.createElement("style", {
         jsx: true,
         global: true
       }, "\n          .slick-slider {\n            height: 100%;\n            opacity: 1;\n            z-index: 2;\n            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),\n              0 6px 6px rgba(0, 0, 0, 0.23);\n          }\n          .slick-track,\n          .slick-list {\n            height: 100%;\n          }\n          .slick-slide {\n            background-color: #fafafa;\n          }\n          .slick-slide > div {\n            height: 100%;\n            width: 100%;\n          }\n          .avatar {\n            display: block;\n            position: absolute;\n            top: 50%;\n            left: 50%;\n            min-height: 100%;\n            min-width: 100%;\n            transform: translate(-50%, -50%);\n          }\n        "));

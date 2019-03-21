@@ -206,6 +206,20 @@ export default class Projects extends Component {
                   interface programmed in JAVA.
                 </OfficerBio>
               </OfficerContainer>
+              <OfficerContainer className="no-scroll">
+                <OfficerAvatar
+                  src="https://hthstsa-af51.kxcdn.com/static/DE.jpg"
+                  classes={{ img: "avatar" }}
+                />
+                <OfficerName>7 Segment Display</OfficerName>
+                <OfficerBio>
+                  This project, in progress when the picture was taken, displays
+                  its creator's birthday on a 7-segment display. The birthday is
+                  displayed number-by-number repeatedly. Its creator had to make
+                  use of knowledge of k-mapping, boolean logic, and synchronous
+                  electronics to create it.
+                </OfficerBio>
+              </OfficerContainer>
             </Slider>
           </ActivitiesContainer>
         </Container>
