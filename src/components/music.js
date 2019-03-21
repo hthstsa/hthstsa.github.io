@@ -111,25 +111,24 @@ const Cancel = styled.img`
 const songs = [
   {
     name: "Traffic Lights",
-    url: "https://sample-videos.com/audio/mp3/crowd-cheering.mp3",
+    url: "https://hthstsa-af51.kxcdn.com/static/song1.mp3",
     length: "3:20",
     id: 1
   },
   {
     name: "Sidewalk",
-    url: "https://sample-videos.com/audio/mp3/crowd-cheering.mp3",
+    url: "https://hthstsa-af51.kxcdn.com/static/song2.mp3",
     length: "2:49",
     id: 2
   },
   {
     name: "Store Front",
-    url: "https://sample-videos.com/audio/mp3/crowd-cheering.mp3",
+    url: "https://hthstsa-af51.kxcdn.com/static/song3.mp3",
     length: "4:19",
     id: 3
   },
   {
-    name: "Street Signs",
-    url: "https://sample-videos.com/audio/mp3/crowd-cheering.mp3",
+    url: "https://hthstsa-af51.kxcdn.com/static/song4.mp3",
     length: "3:12",
     id: 4
   }
