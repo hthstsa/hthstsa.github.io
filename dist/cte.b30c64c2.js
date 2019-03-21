@@ -60960,14 +60960,14 @@ function (_Component) {
           color: "#fff"
         },
         icon: _react.default.createElement(_Keyboard.default, null)
-      }, _react.default.createElement("h3", null, "AP Computer Science"), _react.default.createElement("h4", null, "Mr. Borchardt"), _react.default.createElement("p", null, "Creative Direction, User Experience, Visual Design, Project Management, Team Leading")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
+      }, _react.default.createElement("h3", null, "AP Computer Science"), _react.default.createElement("h4", null, "Mr. Borchardt"), _react.default.createElement("p", null, "AP Computer Science is a challenging, college-level class that teaches students how to code in Java. The course explores problem solving, design strategies and methodologies, data structures, algorithms, and more. For each lesson, students have a homework and challenge assignment to test and improve their knowledge of the subject. By the end of the year, students should be able to design, implement, and analyze solutions to problems using coding.")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
         date: "11th Grade (Elective)",
         iconStyle: {
           background: "#c4601d",
           color: "#fff"
         },
         icon: _react.default.createElement(_Computer.default, null)
-      }, _react.default.createElement("h3", null, "Computer Science & Software Engineering"), _react.default.createElement("h4", null, "Mr. Hanas"), _react.default.createElement("p", null, "Creative Direction, User Experience, Visual Design, Project Management, Team Leading")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
+      }, _react.default.createElement("h3", null, "Computer Science & Software Engineering"), _react.default.createElement("h4", null, "Mr. Hanas"), _react.default.createElement("p", null, "Computer Science and Software Engineering uses primarily Python to incorporate tools from multiple platforms for computation. The course develops students\u2019 programming skills and explores problems including app development, visualization of data, cybersecurity, and simulation. The course curriculum is a College Board-approved implementation of AP CS Principles and prepares students for career paths involving computing.")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
         date: "11th Grade (Elective)",
         iconStyle: {
           background: "#c4a81d",
@@ -70562,32 +70562,32 @@ function (_Component) {
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Dr. Ellsworth"), _react.default.createElement(OfficerBio, null)), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Dr. Ellsworth"), _react.default.createElement(OfficerBio, null, "Dr. Ellsworth teaches BEES and AP Biology. She also teaches Research Practicum and obtained her PHD in Molecular Biology from Princeton")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Dr. Eng.png",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Dr. Eng"), _react.default.createElement(OfficerBio, null)), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Dr. Eng"), _react.default.createElement(OfficerBio, null, "Dr. Eng is nuclear engineer who currently teachers Pre-Calculus, Multivariable Calculus, and EDD. He coaches the Academic Team in his free time.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Mr. B.png",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Mr. Borchardt"), _react.default.createElement(OfficerBio, null)), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Mr. Borchardt"), _react.default.createElement(OfficerBio, null, "Mr. Borchardt is an electrical engineer who previously worked at Bell Labs, and teachers AP Computer Science and Digital Electronics.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Mr. Hanas.png",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Mr. Hanas"), _react.default.createElement(OfficerBio, null)), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Mr. Hanas"), _react.default.createElement(OfficerBio, null, "Mr. Hanas is a mechanical engineer who teaches CSE and POE. He enjoys mountain biking in his spare time.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Ms. G.png",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Ms. Grunthaner"), _react.default.createElement(OfficerBio, null)), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Ms. Grunthaner"), _react.default.createElement(OfficerBio, null, "Ms. Grunthaner is a former paramedic and firefighter who teaches IED and EDD. She also manages the tech lab.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Ms. Garrity.png",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Ms. Garrity"), _react.default.createElement(OfficerBio, null))))), _react.default.createElement("style", {
+      }), _react.default.createElement(OfficerName, null, "Ms. Garrity"), _react.default.createElement(OfficerBio, null, "Ms. Garrity is currently at her first year teaching at HTHS, and is the TSA advisor. She teaches CEA and CIM."))))), _react.default.createElement("style", {
         jsx: true,
         global: true
       }, "\n          .slick-slider {\n            height: 100%;\n            opacity: 1;\n            z-index: 2;\n            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),\n              0 6px 6px rgba(0, 0, 0, 0.23);\n          }\n          .slick-track,\n          .slick-list {\n            height: 100%;\n          }\n          .slick-slide {\n            background-color: #fafafa;\n          }\n          .slick-slide > div {\n            height: 100%;\n            width: 100%;\n          }\n          .avatar {\n            display: block;\n            position: absolute;\n            top: 50%;\n            left: 50%;\n            min-height: 100%;\n            min-width: 100%;\n            transform: translate(-50%, -50%);\n          }\n        "));
@@ -71139,7 +71139,7 @@ function _templateObject2() {
 }
 
 function _templateObject() {
-  var data = _taggedTemplateLiteral(["\n  width: 100%;\n  height: 100vh;\n  padding-top: 80px;\n  font-family: \"Raleway\";\n  font-weight: 900;\n  font-size: 6vmax;\n  text-align: center;\n  color: #fff;\n  background-color: #000;\n  display: inline-block;\n  position: relative;\n\n  &:before {\n    content: \"\";\n    background-image: url(\"https://hthstsa-af51.kxcdn.com/static/officer-background.jpeg\");\n    background-size: cover;\n    opacity: 0.5;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: 1;\n  }\n\n  @media only screen and (max-width: 700px) {\n    padding-top: 60px;\n  }\n\n  @media screen and (min-width: 1300px) {\n    font-size: 78px;\n  }\n"]);
+  var data = _taggedTemplateLiteral(["\n  width: 100%;\n  height: 100vh;\n  padding-top: 80px;\n  font-family: \"Raleway\";\n  font-weight: 900;\n  font-size: 6vmax;\n  text-align: center;\n  color: #fff;\n  background-color: #000;\n  display: inline-block;\n  position: relative;\n\n  &:before {\n    content: \"\";\n    background-image: url(\"https://hthstsa-af51.kxcdn.com/static/drawing.jpg\");\n    background-size: cover;\n    opacity: 0.5;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: 1;\n  }\n\n  @media only screen and (max-width: 700px) {\n    padding-top: 60px;\n  }\n\n  @media screen and (min-width: 1300px) {\n    font-size: 78px;\n  }\n"]);
 
   _templateObject = function _templateObject() {
     return data;
@@ -71200,22 +71200,32 @@ function (_Component) {
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Soccer Tower"), _react.default.createElement(OfficerBio, null, "Anjali Chakradhar is a senior at High Technology High School. She is interested in medicine and loves exploring new places with her friends.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Soccer Tower"), _react.default.createElement(OfficerBio, null, "The soccer tower project is one of the most popular projects of POE. It involves the design and construction of an eight foot tall newspaper tower that can hold the weight of a soccer ball. Weight, appearance, and strength were all factors taken into consideration when grading the project.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/CSEFinalProject.PNG",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Chart.IT"), _react.default.createElement(OfficerBio, null, "Karena Yan is a senior at High Technology High School. She hopes to study environmental engineering in the future and is an avid dancer.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Chart.IT"), _react.default.createElement(OfficerBio, null, "This project is one example of the capstone project that makes up a large portion of the CSE curriculum. This particular site was designed and created to help students at High Tech create various charts online including flowcharts, mind maps, binary tree diagrams, hierarchical diagrams, and venn diagrams.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/EDDFinal.PNG",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "EDD Walker"), _react.default.createElement(OfficerBio, null, "Daniel Du is a senior at High Technology High School. He plans on studying the intersection between biomedical engineering and neuroscience and enjoys playing guitar in his free time.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
-        src: "https://hthstsa-af51.kxcdn.com/static/BeesGelElectrophoresis.PNG",
+      }), _react.default.createElement(OfficerName, null, "Walker"), _react.default.createElement(OfficerBio, null, "This is one example of a senior capstone device. This attachment was designed to be added to walkers to provide backwards stability in elderly patients who often suffer from backwards disequilibrium. This device was to provide additional support once the walker was leaning backwards.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+        src: "https://hthstsa-af51.kxcdn.com/static/BEES.png",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Electrophoresis"), _react.default.createElement(OfficerBio, null, "Khushi Sabuwala is a sophomore at High Technology High School. She likes to play the trumpet, dance, and watch football in her free time."))))), _react.default.createElement("style", {
+      }), _react.default.createElement(OfficerName, null, "GMOs"), _react.default.createElement(OfficerBio, null, "A project that was done in BEES was to test different food products to see whether they contain genetically modified organisms. This was done through the process of electrophoresis. The picture above shows the results of the electrophoresis gel test for pancake mix, which indicate that it does have GMOs.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+        src: "https://hthstsa-af51.kxcdn.com/static/CEA.png",
+        classes: {
+          img: "avatar"
+        }
+      }), _react.default.createElement(OfficerName, null, "Home"), _react.default.createElement(OfficerBio, null, "In this project, students were tasked with designing a tiny, mobile home that was sustainable and LEED certified. Along with this landscape view of the house, they had to provide drawings and plans for the foundation, roof, and assembly of the home.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+        src: "https://hthstsa-af51.kxcdn.com/static/COPE.PNG",
+        classes: {
+          img: "avatar"
+        }
+      }), _react.default.createElement(OfficerName, null, "Square Root Calculator"), _react.default.createElement(OfficerBio, null, "This was a sample project that made up the AP Computer Science curriculum. It was a square root calculator with a simple interface programmed in JAVA."))))), _react.default.createElement("style", {
         jsx: true,
         global: true
       }, "\n          .slick-slider {\n            height: 100%;\n            opacity: 1;\n            z-index: 2;\n            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),\n              0 6px 6px rgba(0, 0, 0, 0.23);\n          }\n          .slick-track,\n          .slick-list {\n            height: 100%;\n          }\n          .slick-slide {\n            background-color: #fafafa;\n          }\n          .slick-slide > div {\n            height: 100%;\n            width: 100%;\n          }\n          .avatar {\n            display: block;\n            position: absolute;\n            top: 50%;\n            left: 50%;\n            min-height: 100%;\n            min-width: 100%;\n            transform: translate(-50%, -50%);\n          }\n        "));

@@ -18,7 +18,7 @@ const TotalContainer = styled.div`
 
   &:before {
     content: "";
-    background-image: url("https://hthstsa-af51.kxcdn.com/static/officer-background.jpeg");
+    background-image: url("https://hthstsa-af51.kxcdn.com/static/drawing.jpg");
     background-size: cover;
     opacity: 0.5;
     top: 0;
@@ -130,9 +130,11 @@ export default class Projects extends Component {
                 />
                 <OfficerName>Soccer Tower</OfficerName>
                 <OfficerBio>
-                  Anjali Chakradhar is a senior at High Technology High School.
-                  She is interested in medicine and loves exploring new places
-                  with her friends.
+                  The soccer tower project is one of the most popular projects
+                  of POE. It involves the design and construction of an eight
+                  foot tall newspaper tower that can hold the weight of a soccer
+                  ball. Weight, appearance, and strength were all factors taken
+                  into consideration when grading the project.
                 </OfficerBio>
               </OfficerContainer>
               <OfficerContainer>
@@ -142,9 +144,11 @@ export default class Projects extends Component {
                 />
                 <OfficerName>Chart.IT</OfficerName>
                 <OfficerBio>
-                  Karena Yan is a senior at High Technology High School. She
-                  hopes to study environmental engineering in the future and is
-                  an avid dancer.
+                  This project is one example of the capstone project that makes
+                  up a large portion of the CSE curriculum. This particular site
+                  was designed and created to help students at High Tech create
+                  various charts online including flowcharts, mind maps, binary
+                  tree diagrams, hierarchical diagrams, and venn diagrams.
                 </OfficerBio>
               </OfficerContainer>
               <OfficerContainer>
@@ -152,23 +156,54 @@ export default class Projects extends Component {
                   src="https://hthstsa-af51.kxcdn.com/static/EDDFinal.PNG"
                   classes={{ img: "avatar" }}
                 />
-                <OfficerName>EDD Walker</OfficerName>
+                <OfficerName>Walker</OfficerName>
                 <OfficerBio>
-                  Daniel Du is a senior at High Technology High School. He plans
-                  on studying the intersection between biomedical engineering
-                  and neuroscience and enjoys playing guitar in his free time.
+                  This is one example of a senior capstone device. This
+                  attachment was designed to be added to walkers to provide
+                  backwards stability in elderly patients who often suffer from
+                  backwards disequilibrium. This device was to provide
+                  additional support once the walker was leaning backwards.
                 </OfficerBio>
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="https://hthstsa-af51.kxcdn.com/static/BeesGelElectrophoresis.PNG"
+                  src="https://hthstsa-af51.kxcdn.com/static/BEES.png"
                   classes={{ img: "avatar" }}
                 />
-                <OfficerName>Electrophoresis</OfficerName>
+                <OfficerName>GMOs</OfficerName>
                 <OfficerBio>
-                  Khushi Sabuwala is a sophomore at High Technology High School.
-                  She likes to play the trumpet, dance, and watch football in
-                  her free time.
+                  A project that was done in BEES was to test different food
+                  products to see whether they contain genetically modified
+                  organisms. This was done through the process of
+                  electrophoresis. The picture above shows the results of the
+                  electrophoresis gel test for pancake mix, which indicate that
+                  it does have GMOs.
+                </OfficerBio>
+              </OfficerContainer>
+              <OfficerContainer>
+                <OfficerAvatar
+                  src="https://hthstsa-af51.kxcdn.com/static/CEA.png"
+                  classes={{ img: "avatar" }}
+                />
+                <OfficerName>Home</OfficerName>
+                <OfficerBio>
+                  In this project, students were tasked with designing a tiny,
+                  mobile home that was sustainable and LEED certified. Along
+                  with this landscape view of the house, they had to provide
+                  drawings and plans for the foundation, roof, and assembly of
+                  the home.
+                </OfficerBio>
+              </OfficerContainer>
+              <OfficerContainer>
+                <OfficerAvatar
+                  src="https://hthstsa-af51.kxcdn.com/static/COPE.PNG"
+                  classes={{ img: "avatar" }}
+                />
+                <OfficerName>Square Root Calculator</OfficerName>
+                <OfficerBio>
+                  This was a sample project that made up the AP Computer Science
+                  curriculum. It was a square root calculator with a simple
+                  interface programmed in JAVA.
                 </OfficerBio>
               </OfficerContainer>
             </Slider>

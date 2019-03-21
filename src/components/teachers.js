@@ -128,7 +128,11 @@ export default class Teachers extends Component {
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Dr. Ellsworth</OfficerName>
-                <OfficerBio />
+                <OfficerBio>
+                  Dr. Ellsworth teaches BEES and AP Biology. She also teaches
+                  Research Practicum and obtained her PHD in Molecular Biology
+                  from Princeton
+                </OfficerBio>
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
@@ -136,7 +140,11 @@ export default class Teachers extends Component {
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Dr. Eng</OfficerName>
-                <OfficerBio />
+                <OfficerBio>
+                  Dr. Eng is nuclear engineer who currently teachers
+                  Pre-Calculus, Multivariable Calculus, and EDD. He coaches the
+                  Academic Team in his free time.
+                </OfficerBio>
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
@@ -144,7 +152,11 @@ export default class Teachers extends Component {
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Mr. Borchardt</OfficerName>
-                <OfficerBio />
+                <OfficerBio>
+                  Mr. Borchardt is an electrical engineer who previously worked
+                  at Bell Labs, and teachers AP Computer Science and Digital
+                  Electronics.
+                </OfficerBio>
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
@@ -152,7 +164,10 @@ export default class Teachers extends Component {
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Mr. Hanas</OfficerName>
-                <OfficerBio />
+                <OfficerBio>
+                  Mr. Hanas is a mechanical engineer who teaches CSE and POE. He
+                  enjoys mountain biking in his spare time.
+                </OfficerBio>
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
@@ -160,7 +175,10 @@ export default class Teachers extends Component {
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Ms. Grunthaner</OfficerName>
-                <OfficerBio />
+                <OfficerBio>
+                  Ms. Grunthaner is a former paramedic and firefighter who
+                  teaches IED and EDD. She also manages the tech lab.
+                </OfficerBio>
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
@@ -168,7 +186,10 @@ export default class Teachers extends Component {
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Ms. Garrity</OfficerName>
-                <OfficerBio />
+                <OfficerBio>
+                  Ms. Garrity is currently at her first year teaching at HTHS,
+                  and is the TSA advisor. She teaches CEA and CIM.
+                </OfficerBio>
               </OfficerContainer>
             </Slider>
           </ActivitiesContainer>

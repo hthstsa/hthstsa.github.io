@@ -68706,7 +68706,7 @@ function (_Component) {
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Ms. Garrity"), _react.default.createElement(OfficerBio, null))))), _react.default.createElement("style", {
+      }), _react.default.createElement(OfficerName, null, "Ms. Garrity"), _react.default.createElement(OfficerBio, null, "Ms. Garrity is currently at her first year teaching at HTHS, and is the TSA advisor. She teaches CEA and CIM."))))), _react.default.createElement("style", {
         jsx: true,
         global: true
       }, "\n          .slick-slider {\n            height: 100%;\n            opacity: 1;\n            z-index: 2;\n            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),\n              0 6px 6px rgba(0, 0, 0, 0.23);\n          }\n          .slick-track,\n          .slick-list {\n            height: 100%;\n          }\n          .slick-slide {\n            background-color: #fafafa;\n          }\n          .slick-slide > div {\n            height: 100%;\n            width: 100%;\n          }\n          .avatar {\n            display: block;\n            position: absolute;\n            top: 50%;\n            left: 50%;\n            min-height: 100%;\n            min-width: 100%;\n            transform: translate(-50%, -50%);\n          }\n        "));
@@ -69403,7 +69403,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "0.0.0.0" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38407" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37065" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

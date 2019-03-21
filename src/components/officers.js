@@ -227,7 +227,10 @@ export default class Officers extends Component {
                   classes={{ img: "avatar" }}
                 />
                 <OfficerName>Ms. Garrity</OfficerName>
-                <OfficerBio />
+                <OfficerBio>
+                  Ms. Garrity is currently at her first year teaching at HTHS,
+                  and is the TSA advisor. She teaches CEA and CIM.
+                </OfficerBio>
               </OfficerContainer>
             </Slider>
           </ActivitiesContainer>

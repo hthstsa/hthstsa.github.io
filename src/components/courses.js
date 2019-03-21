@@ -112,8 +112,14 @@ export default class Courses extends Component {
               <h3>AP Computer Science</h3>
               <h4>Mr. Borchardt</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                AP Computer Science is a challenging, college-level class that
+                teaches students how to code in Java. The course explores
+                problem solving, design strategies and methodologies, data
+                structures, algorithms, and more. For each lesson, students have
+                a homework and challenge assignment to test and improve their
+                knowledge of the subject. By the end of the year, students
+                should be able to design, implement, and analyze solutions to
+                problems using coding.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -124,8 +130,13 @@ export default class Courses extends Component {
               <h3>Computer Science &amp; Software Engineering</h3>
               <h4>Mr. Hanas</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                Computer Science and Software Engineering uses primarily Python
+                to incorporate tools from multiple platforms for computation.
+                The course develops students’ programming skills and explores
+                problems including app development, visualization of data,
+                cybersecurity, and simulation. The course curriculum is a
+                College Board-approved implementation of AP CS Principles and
+                prepares students for career paths involving computing.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement

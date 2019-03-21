@@ -60939,35 +60939,35 @@ function (_Component) {
           color: "#fff"
         },
         icon: _react.default.createElement(_Create.default, null)
-      }, _react.default.createElement("h3", null, "Intro to Engineering Design"), _react.default.createElement("h4", null, "Ms. Grunthaner"), _react.default.createElement("p", null, "Creative Direction, User Experience, Visual Design, Project Management, Team Leading")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
+      }, _react.default.createElement("h3", null, "Intro to Engineering Design"), _react.default.createElement("h4", null, "Ms. Grunthaner"), _react.default.createElement("p", null, "Introduction to Engineering Design (abbreviated IED) is a class focused on how to create product designs, both by hand and using CAD software. The course follows the Project Lead the Way curriculum and utilizes the Autodesk Inventor software to teach students CAD modeling.")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
         date: "9th Grade",
         iconStyle: {
           background: "#4e9e34",
           color: "#fff"
         },
         icon: _react.default.createElement(_DeveloperBoard.default, null)
-      }, _react.default.createElement("h3", null, "Computer Integrated Manufacturing"), _react.default.createElement("h4", null, "Ms. Garrity"), _react.default.createElement("p", null, "Creative Direction, User Experience, Visual Design, Project Management, Team Leading")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
+      }, _react.default.createElement("h3", null, "Computer Integrated Manufacturing"), _react.default.createElement("h4", null, "Ms. Garrity"), _react.default.createElement("p", null, "Computer Integrated Manufacturing (abbreviated CIM) teaches students about the history, methods, and details of manufacturing. Also following the PLTW curriculum, the course begins with an overview of manufacturing. Later, students learn the various types of manufacturing and use Autodesk Inventor software to practice manufacturing strategies.")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
         date: "10th Grade",
         iconStyle: {
           background: "#601c87",
           color: "#fff"
         },
         icon: _react.default.createElement(_SettingsInputComponent.default, null)
-      }, _react.default.createElement("h3", null, "Principles of Engineering"), _react.default.createElement("h4", null, "Mr. Hanas"), _react.default.createElement("p", null, "Creative Direction, User Experience, Visual Design, Project Management, Team Leading")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
+      }, _react.default.createElement("h3", null, "Principles of Engineering"), _react.default.createElement("h4", null, "Mr. Hanas"), _react.default.createElement("p", null, "Principles of Engineering introduces students to a broad range of engineering topics, such as mechanisms, the strength of structures and materials, and automation. The latter half of the year is mainly spent on VEX robotics and programming. The class is closely related to and borrows many concepts from physics, another sophomore class, which deepens students\u2019 understanding of the subject. Students develop problem-solving, research, and design.")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
         date: "10th Grade",
         iconStyle: {
           background: "#a0203e",
           color: "#fff"
         },
         icon: _react.default.createElement(_Keyboard.default, null)
-      }, _react.default.createElement("h3", null, "Computer Programming for Engineers"), _react.default.createElement("h4", null, "Mr. Borchardt"), _react.default.createElement("p", null, "Creative Direction, User Experience, Visual Design, Project Management, Team Leading")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
+      }, _react.default.createElement("h3", null, "AP Computer Science"), _react.default.createElement("h4", null, "Mr. Borchardt"), _react.default.createElement("p", null, "AP Computer Science is a challenging, college-level class that teaches students how to code in Java. The course explores problem solving, design strategies and methodologies, data structures, algorithms, and more. For each lesson, students have a homework and challenge assignment to test and improve their knowledge of the subject. By the end of the year, students should be able to design, implement, and analyze solutions to problems using coding.")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
         date: "11th Grade (Elective)",
         iconStyle: {
           background: "#c4601d",
           color: "#fff"
         },
         icon: _react.default.createElement(_Computer.default, null)
-      }, _react.default.createElement("h3", null, "Computer Science & Software Engineering"), _react.default.createElement("h4", null, "Mr. Hanas"), _react.default.createElement("p", null, "Creative Direction, User Experience, Visual Design, Project Management, Team Leading")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
+      }, _react.default.createElement("h3", null, "Computer Science & Software Engineering"), _react.default.createElement("h4", null, "Mr. Hanas"), _react.default.createElement("p", null, "Computer Science and Software Engineering uses primarily Python to incorporate tools from multiple platforms for computation. The course develops students\u2019 programming skills and explores problems including app development, visualization of data, cybersecurity, and simulation. The course curriculum is a College Board-approved implementation of AP CS Principles and prepares students for career paths involving computing.")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
         date: "11th Grade (Elective)",
         iconStyle: {
           background: "#c4a81d",
@@ -60981,21 +60981,21 @@ function (_Component) {
           color: "#fff"
         },
         icon: _react.default.createElement(_Train.default, null)
-      }, _react.default.createElement("h3", null, "Civil Engineering and Architecture"), _react.default.createElement("h4", null, "Ms. Garrity"), _react.default.createElement("p", null, "Creative Direction, User Experience, Visual Design, Project Management, Team Leading")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
+      }, _react.default.createElement("h3", null, "Civil Engineering and Architecture"), _react.default.createElement("h4", null, "Ms. Garrity"), _react.default.createElement("p", null, "Civil Engineering and Architecture is a course that introduces students to both the aesthetic and technical aspects of building structures. Students will learn about the elements of design from examples around the world and different historical styles of architecture. They will learn about zoning buildings, the different layers of a building, and the electrical and water systems that power a home. Through all of this, students will also be taught how to design for accessibility and environmental responsibility.")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
         date: "11th Grade (Elective)",
         iconStyle: {
           background: "#1d27ad",
           color: "#fff"
         },
         icon: _react.default.createElement(_Landscape.default, null)
-      }, _react.default.createElement("h3", null, "Biological Engineering & Environmental Sustainability"), _react.default.createElement("h4", null, "Dr. Ellesworth"), _react.default.createElement("p", null, "Creative Direction, User Experience, Visual Design, Project Management, Team Leading")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
+      }, _react.default.createElement("h3", null, "Biological Engineering & Environmental Sustainability"), _react.default.createElement("h4", null, "Dr. Ellsworth"), _react.default.createElement("p", null, "In Biological Engineering and Environmental Science (BEES), students see the relationship between the two subject areas and how they are becoming more and more integrated. A main portion of the course is spent identifying and exploring three major issues in the world today: access to food, clean water availability, and renewable energy. The class teaches students how biotechnology is increasing access and coverage of these necessities.")), _react.default.createElement(_reactVerticalTimelineComponent.VerticalTimelineElement, {
         date: "12th Grade",
         iconStyle: {
           background: "#a50192",
           color: "#fff"
         },
         icon: _react.default.createElement(_Build.default, null)
-      }, _react.default.createElement("h3", null, "Engineering Design & Development"), _react.default.createElement("h4", null, "Ms. Grunthaner & Dr. Eng"), _react.default.createElement("p", null, "Creative Direction, User Experience, Visual Design, Project Management, Team Leading")))), _react.default.createElement("style", {
+      }, _react.default.createElement("h3", null, "Engineering Design & Development"), _react.default.createElement("h4", null, "Ms. Grunthaner & Dr. Eng"), _react.default.createElement("p", null, "The epitome of the High Technology High School STEM curriculum is with the Engineering Design and Development (EDD) class taken during their senior year. This Project Lead the Way class features a senior capstone project in which students must work in teams to either invent or modify an existing technology. Students utilize the engineering design loop to design, plan, build, and document a marketable product. By the end of the class, the students must submit a written report detailing their product along with presenting their project to a panel of industry professionals.")))), _react.default.createElement("style", {
         jsx: true,
         global: true
       }, "\n          .vertical-timeline-element-date {\n            color: #fff !important;\n          }\n          .vertical-timeline-element-content {\n            color: #000 !important;\n          }\n          .vertical-timeline {\n            margin-top: 20px !important;\n            margin-bottom: 150px !important;\n          }\n        "));
@@ -70562,32 +70562,32 @@ function (_Component) {
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Dr. Ellsworth"), _react.default.createElement(OfficerBio, null)), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Dr. Ellsworth"), _react.default.createElement(OfficerBio, null, "Dr. Ellsworth teaches BEES and AP Biology. She also teaches Research Practicum and obtained her PHD in Molecular Biology from Princeton")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Dr. Eng.png",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Dr. Eng"), _react.default.createElement(OfficerBio, null)), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Dr. Eng"), _react.default.createElement(OfficerBio, null, "Dr. Eng is nuclear engineer who currently teachers Pre-Calculus, Multivariable Calculus, and EDD. He coaches the Academic Team in his free time.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Mr. B.png",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Mr. Borchardt"), _react.default.createElement(OfficerBio, null)), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Mr. Borchardt"), _react.default.createElement(OfficerBio, null, "Mr. Borchardt is an electrical engineer who previously worked at Bell Labs, and teachers AP Computer Science and Digital Electronics.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Mr. Hanas.png",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Mr. Hanas"), _react.default.createElement(OfficerBio, null)), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Mr. Hanas"), _react.default.createElement(OfficerBio, null, "Mr. Hanas is a mechanical engineer who teaches CSE and POE. He enjoys mountain biking in his spare time.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Ms. G.png",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Ms. Grunthaner"), _react.default.createElement(OfficerBio, null)), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+      }), _react.default.createElement(OfficerName, null, "Ms. Grunthaner"), _react.default.createElement(OfficerBio, null, "Ms. Grunthaner is a former paramedic and firefighter who teaches IED and EDD. She also manages the tech lab.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
         src: "https://hthstsa-af51.kxcdn.com/static/Ms. Garrity.png",
         classes: {
           img: "avatar"
         }
-      }), _react.default.createElement(OfficerName, null, "Ms. Garrity"), _react.default.createElement(OfficerBio, null))))), _react.default.createElement("style", {
+      }), _react.default.createElement(OfficerName, null, "Ms. Garrity"), _react.default.createElement(OfficerBio, null, "Ms. Garrity is currently at her first year teaching at HTHS, and is the TSA advisor. She teaches CEA and CIM."))))), _react.default.createElement("style", {
         jsx: true,
         global: true
       }, "\n          .slick-slider {\n            height: 100%;\n            opacity: 1;\n            z-index: 2;\n            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),\n              0 6px 6px rgba(0, 0, 0, 0.23);\n          }\n          .slick-track,\n          .slick-list {\n            height: 100%;\n          }\n          .slick-slide {\n            background-color: #fafafa;\n          }\n          .slick-slide > div {\n            height: 100%;\n            width: 100%;\n          }\n          .avatar {\n            display: block;\n            position: absolute;\n            top: 50%;\n            left: 50%;\n            min-height: 100%;\n            min-width: 100%;\n            transform: translate(-50%, -50%);\n          }\n        "));
@@ -71038,7 +71038,205 @@ function (_Component) {
 }(_react.Component);
 
 exports.default = Footer;
-},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"pages/cte.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js"}],"components/projects.js":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _styledComponents = _interopRequireDefault(require("styled-components"));
+
+var _reactSlick = _interopRequireDefault(require("react-slick"));
+
+var _Avatar = _interopRequireDefault(require("@material-ui/core/Avatar"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _templateObject7() {
+  var data = _taggedTemplateLiteral(["\n  font-family: \"Raleway\";\n  font-weight: 400;\n  font-size: 1.5vmax;\n  text-align: center;\n  margin: 20px;\n  @media screen and (min-width: 1300px) {\n    font-size: 19px;\n  }\n"]);
+
+  _templateObject7 = function _templateObject7() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject6() {
+  var data = _taggedTemplateLiteral(["\n  font-family: \"Raleway\";\n  font-size: calc(2vh + 2vw);\n  font-weight: 400;\n  text-align: center;\n  padding-top: 20px;\n  @media screen and (min-width: 1300px) {\n    font-size: 52px;\n  }\n"]);
+
+  _templateObject6 = function _templateObject6() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject5() {
+  var data = _taggedTemplateLiteral(["\n  position: relative !important;\n  width: calc(100% - 60px) !important;\n  margin-left: 30px;\n  margin-right: 30px;\n  margin-top: 30px;\n  height: auto !important;\n  &:before {\n    content: \"\";\n    display: block;\n    padding-top: 100% !important;\n  }\n"]);
+
+  _templateObject5 = function _templateObject5() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject4() {
+  var data = _taggedTemplateLiteral(["\n  height: 100%;\n  width: 100%;\n  display: flex;\n  justify-content: center;\n  align-items: space-around;\n  overflow-y: auto;\n"]);
+
+  _templateObject4 = function _templateObject4() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject3() {
+  var data = _taggedTemplateLiteral(["\n  width: 100%;\n  height: 100%;\n  float: left;\n  background-color: #fafafa;\n  color: #000;\n"]);
+
+  _templateObject3 = function _templateObject3() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject2() {
+  var data = _taggedTemplateLiteral(["\n  margin-top: 30px;\n  margin-bottom: 200px;\n  margin-left: auto;\n  margin-right: auto;\n  position: relative;\n  width: 30vw;\n  height: 60vw;\n  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);\n  opacity: 1;\n  z-index: 2;\n  @media only screen and (max-width: 700px) {\n    height: 130vw;\n    width: 75vw;\n  }\n  @media only screen and (min-width: 133vh) {\n    height: 67vh;\n    width: 40vh;\n  }\n"]);
+
+  _templateObject2 = function _templateObject2() {
+    return data;
+  };
+
+  return data;
+}
+
+function _templateObject() {
+  var data = _taggedTemplateLiteral(["\n  width: 100%;\n  height: 100vh;\n  padding-top: 80px;\n  font-family: \"Raleway\";\n  font-weight: 900;\n  font-size: 6vmax;\n  text-align: center;\n  color: #fff;\n  background-color: #000;\n  display: inline-block;\n  position: relative;\n\n  &:before {\n    content: \"\";\n    background-image: url(\"https://hthstsa-af51.kxcdn.com/static/drawing.jpg\");\n    background-size: cover;\n    opacity: 0.5;\n    top: 0;\n    left: 0;\n    bottom: 0;\n    right: 0;\n    position: absolute;\n    z-index: 1;\n  }\n\n  @media only screen and (max-width: 700px) {\n    padding-top: 60px;\n  }\n\n  @media screen and (min-width: 1300px) {\n    font-size: 78px;\n  }\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+function _taggedTemplateLiteral(strings, raw) { if (!raw) { raw = strings.slice(0); } return Object.freeze(Object.defineProperties(strings, { raw: { value: Object.freeze(raw) } })); }
+
+var TotalContainer = _styledComponents.default.div(_templateObject());
+
+var Container = _styledComponents.default.div(_templateObject2());
+
+var ActivitiesContainer = _styledComponents.default.div(_templateObject3());
+
+var OfficerContainer = _styledComponents.default.div(_templateObject4());
+
+var OfficerAvatar = (0, _styledComponents.default)(_Avatar.default)(_templateObject5());
+
+var OfficerName = _styledComponents.default.div(_templateObject6());
+
+var OfficerBio = _styledComponents.default.p(_templateObject7());
+
+var Projects =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Projects, _Component);
+
+  function Projects() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    _classCallCheck(this, Projects);
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(Projects)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    _defineProperty(_assertThisInitialized(_this), "state", {
+      tab: 0
+    });
+
+    return _this;
+  }
+
+  _createClass(Projects, [{
+    key: "render",
+    value: function render() {
+      return _react.default.createElement(TotalContainer, null, "Projects", _react.default.createElement(Container, null, _react.default.createElement(ActivitiesContainer, null, _react.default.createElement(_reactSlick.default, {
+        dots: false,
+        infinite: true
+      }, _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+        src: "https://hthstsa-af51.kxcdn.com/static/SoccerTower.PNG",
+        classes: {
+          img: "avatar"
+        }
+      }), _react.default.createElement(OfficerName, null, "Soccer Tower"), _react.default.createElement(OfficerBio, null, "The soccer tower project is one of the most popular projects of POE. It involves the design and construction of an eight foot tall newspaper tower that can hold the weight of a soccer ball. Weight, appearance, and strength were all factors taken into consideration when grading the project.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+        src: "https://hthstsa-af51.kxcdn.com/static/CSEFinalProject.PNG",
+        classes: {
+          img: "avatar"
+        }
+      }), _react.default.createElement(OfficerName, null, "Chart.IT"), _react.default.createElement(OfficerBio, null, "This project is one example of the capstone project that makes up a large portion of the CSE curriculum. This particular site was designed and created to help students at High Tech create various charts online including flowcharts, mind maps, binary tree diagrams, hierarchical diagrams, and venn diagrams.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+        src: "https://hthstsa-af51.kxcdn.com/static/EDDFinal.PNG",
+        classes: {
+          img: "avatar"
+        }
+      }), _react.default.createElement(OfficerName, null, "Walker"), _react.default.createElement(OfficerBio, null, "This is one example of a senior capstone device. This attachment was designed to be added to walkers to provide backwards stability in elderly patients who often suffer from backwards disequilibrium. This device was to provide additional support once the walker was leaning backwards.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+        src: "https://hthstsa-af51.kxcdn.com/static/BEES.png",
+        classes: {
+          img: "avatar"
+        }
+      }), _react.default.createElement(OfficerName, null, "GMOs"), _react.default.createElement(OfficerBio, null, "A project that was done in BEES was to test different food products to see whether they contain genetically modified organisms. This was done through the process of electrophoresis. The picture above shows the results of the electrophoresis gel test for pancake mix, which indicate that it does have GMOs.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+        src: "https://hthstsa-af51.kxcdn.com/static/CEA.png",
+        classes: {
+          img: "avatar"
+        }
+      }), _react.default.createElement(OfficerName, null, "Home"), _react.default.createElement(OfficerBio, null, "In this project, students were tasked with designing a tiny, mobile home that was sustainable and LEED certified. Along with this landscape view of the house, they had to provide drawings and plans for the foundation, roof, and assembly of the home.")), _react.default.createElement(OfficerContainer, null, _react.default.createElement(OfficerAvatar, {
+        src: "https://hthstsa-af51.kxcdn.com/static/COPE.PNG",
+        classes: {
+          img: "avatar"
+        }
+      }), _react.default.createElement(OfficerName, null, "Square Root Calculator"), _react.default.createElement(OfficerBio, null, "This was a sample project that made up the AP Computer Science curriculum. It was a square root calculator with a simple interface programmed in JAVA."))))), _react.default.createElement("style", {
+        jsx: true,
+        global: true
+      }, "\n          .slick-slider {\n            height: 100%;\n            opacity: 1;\n            z-index: 2;\n            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19),\n              0 6px 6px rgba(0, 0, 0, 0.23);\n          }\n          .slick-track,\n          .slick-list {\n            height: 100%;\n          }\n          .slick-slide {\n            background-color: #fafafa;\n          }\n          .slick-slide > div {\n            height: 100%;\n            width: 100%;\n          }\n          .avatar {\n            display: block;\n            position: absolute;\n            top: 50%;\n            left: 50%;\n            min-height: 100%;\n            min-width: 100%;\n            transform: translate(-50%, -50%);\n          }\n        "));
+    }
+  }]);
+
+  return Projects;
+}(_react.Component);
+
+exports.default = Projects;
+},{"react":"../node_modules/react/index.js","styled-components":"../node_modules/styled-components/dist/styled-components.browser.esm.js","react-slick":"../node_modules/react-slick/lib/index.js","@material-ui/core/Avatar":"../node_modules/@material-ui/core/Avatar/index.js"}],"pages/cte.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -71087,6 +71285,8 @@ var _competitions = _interopRequireDefault(require("../components/competitions")
 var _awards = _interopRequireDefault(require("../components/awards"));
 
 var _footer = _interopRequireDefault(require("../components/footer"));
+
+var _projects = _interopRequireDefault(require("../components/projects"));
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -71218,6 +71418,11 @@ function (_React$Component) {
             style: {
               position: "relative"
             },
+            className: "section fp-noscroll"
+          }, _react.default.createElement(_projects.default, null)), _react.default.createElement("div", {
+            style: {
+              position: "relative"
+            },
             className: "section fp-auto-height"
           }, _react.default.createElement(_footer.default, null)));
         }
@@ -71232,7 +71437,7 @@ function (_React$Component) {
 }(_react.default.Component);
 
 _reactDom.default.render(_react.default.createElement(Index), document.getElementById("root"));
-},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","../components/header":"components/header.js","../components/main_page":"components/main_page.js","../components/one_page":"components/one_page.js","@fortawesome/fontawesome-svg-core":"../node_modules/@fortawesome/fontawesome-svg-core/index.es.js","@fortawesome/react-fontawesome":"../node_modules/@fortawesome/react-fontawesome/index.es.js","@fortawesome/free-solid-svg-icons":"../node_modules/@fortawesome/free-solid-svg-icons/index.es.js","fullpage.js/vendors/scrolloverflow":"../node_modules/fullpage.js/vendors/scrolloverflow.js","@fullpage/react-fullpage":"../node_modules/@fullpage/react-fullpage/dist/react-fullpage.js","../components/background_splash":"components/background_splash.js","../components/places_to_listen":"components/places_to_listen.js","../components/tour":"components/tour.js","../components/photos":"components/photos.js","../components/music":"components/music.js","../components/courses":"components/courses.js","../components/who_are_we":"components/who_are_we.js","../components/activities":"components/activities.js","../components/teachers":"components/teachers.js","../components/competitions":"components/competitions.js","../components/awards":"components/awards.js","../components/footer":"components/footer.js"}],"../../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
+},{"react":"../node_modules/react/index.js","react-dom":"../node_modules/react-dom/index.js","../components/header":"components/header.js","../components/main_page":"components/main_page.js","../components/one_page":"components/one_page.js","@fortawesome/fontawesome-svg-core":"../node_modules/@fortawesome/fontawesome-svg-core/index.es.js","@fortawesome/react-fontawesome":"../node_modules/@fortawesome/react-fontawesome/index.es.js","@fortawesome/free-solid-svg-icons":"../node_modules/@fortawesome/free-solid-svg-icons/index.es.js","fullpage.js/vendors/scrolloverflow":"../node_modules/fullpage.js/vendors/scrolloverflow.js","@fullpage/react-fullpage":"../node_modules/@fullpage/react-fullpage/dist/react-fullpage.js","../components/background_splash":"components/background_splash.js","../components/places_to_listen":"components/places_to_listen.js","../components/tour":"components/tour.js","../components/photos":"components/photos.js","../components/music":"components/music.js","../components/courses":"components/courses.js","../components/who_are_we":"components/who_are_we.js","../components/activities":"components/activities.js","../components/teachers":"components/teachers.js","../components/competitions":"components/competitions.js","../components/awards":"components/awards.js","../components/footer":"components/footer.js","../components/projects":"components/projects.js"}],"../../../../../../usr/lib/node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';
 var OldModule = module.bundle.Module;
@@ -71260,7 +71465,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "0.0.0.0" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "38407" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "37065" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
