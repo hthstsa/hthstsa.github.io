@@ -22,6 +22,7 @@ import Teachers from "../components/teachers";
 import Competitions from "../components/competitions";
 import Awards from "../components/awards";
 import Footer from "../components/footer";
+import Projects from "../components/projects";
 
 library.add(faBars);
 library.add(faPlay);
@@ -98,6 +99,12 @@ class Index extends React.Component {
                   className="section fp-noscroll"
                 >
                   <Teachers />
+                </div>
+                <div
+                  style={{ position: "relative" }}
+                  className="section fp-noscroll"
+                >
+                  <Projects />
                 </div>
                 <div
                   style={{ position: "relative" }}

@@ -63,8 +63,11 @@ export default class Courses extends Component {
               <h3>Intro to Engineering Design</h3>
               <h4>Ms. Grunthaner</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                Introduction to Engineering Design (abbreviated IED) is a class
+                focused on how to create product designs, both by hand and using
+                CAD software. The course follows the Project Lead the Way
+                curriculum and utilizes the Autodesk Inventor software to teach
+                students CAD modeling.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -75,8 +78,12 @@ export default class Courses extends Component {
               <h3>Computer Integrated Manufacturing</h3>
               <h4>Ms. Garrity</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                Computer Integrated Manufacturing (abbreviated CIM) teaches
+                students about the history, methods, and details of
+                manufacturing. Also following the PLTW curriculum, the course
+                begins with an overview of manufacturing. Later, students learn
+                the various types of manufacturing and use Autodesk Inventor
+                software to practice manufacturing strategies.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -87,8 +94,14 @@ export default class Courses extends Component {
               <h3>Principles of Engineering</h3>
               <h4>Mr. Hanas</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                Principles of Engineering introduces students to a broad range
+                of engineering topics, such as mechanisms, the strength of
+                structures and materials, and automation. The latter half of the
+                year is mainly spent on VEX robotics and programming. The class
+                is closely related to and borrows many concepts from physics,
+                another sophomore class, which deepens students’ understanding
+                of the subject. Students develop problem-solving, research, and
+                design.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -135,8 +148,15 @@ export default class Courses extends Component {
               <h3>Civil Engineering and Architecture</h3>
               <h4>Ms. Garrity</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                Civil Engineering and Architecture is a course that introduces
+                students to both the aesthetic and technical aspects of building
+                structures. Students will learn about the elements of design
+                from examples around the world and different historical styles
+                of architecture. They will learn about zoning buildings, the
+                different layers of a building, and the electrical and water
+                systems that power a home. Through all of this, students will
+                also be taught how to design for accessibility and environmental
+                responsibility.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -147,8 +167,14 @@ export default class Courses extends Component {
               <h3>Biological Engineering &amp; Environmental Sustainability</h3>
               <h4>Dr. Ellsworth</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                In Biological Engineering and Environmental Science (BEES),
+                students see the relationship between the two subject areas and
+                how they are becoming more and more integrated. A main portion
+                of the course is spent identifying and exploring three major
+                issues in the world today: access to food, clean water
+                availability, and renewable energy. The class teaches students
+                how biotechnology is increasing access and coverage of these
+                necessities.
               </p>
             </VerticalTimelineElement>
             <VerticalTimelineElement
@@ -159,8 +185,16 @@ export default class Courses extends Component {
               <h3>Engineering Design &amp; Development</h3>
               <h4>Ms. Grunthaner &amp; Dr. Eng</h4>
               <p>
-                Creative Direction, User Experience, Visual Design, Project
-                Management, Team Leading
+                The epitome of the High Technology High School STEM curriculum
+                is with the Engineering Design and Development (EDD) class taken
+                during their senior year. This Project Lead the Way class
+                features a senior capstone project in which students must work
+                in teams to either invent or modify an existing technology.
+                Students utilize the engineering design loop to design, plan,
+                build, and document a marketable product. By the end of the
+                class, the students must submit a written report detailing their
+                product along with presenting their project to a panel of
+                industry professionals.
               </p>
             </VerticalTimelineElement>
           </VerticalTimeline>

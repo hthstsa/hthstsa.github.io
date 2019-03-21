@@ -125,10 +125,10 @@ export default class Projects extends Component {
             <Slider dots={false} infinite>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="https://hthstsa-af51.kxcdn.com/static/Anjali.jpg"
+                  src="https://hthstsa-af51.kxcdn.com/static/SoccerTower.PNG"
                   classes={{ img: "avatar" }}
                 />
-                <OfficerName>Anjali Chakradhar</OfficerName>
+                <OfficerName>Soccer Tower</OfficerName>
                 <OfficerBio>
                   Anjali Chakradhar is a senior at High Technology High School.
                   She is interested in medicine and loves exploring new places
@@ -137,10 +137,10 @@ export default class Projects extends Component {
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="https://hthstsa-af51.kxcdn.com/static/Karena.jpg"
+                  src="https://hthstsa-af51.kxcdn.com/static/CSEFinalProject.PNG"
                   classes={{ img: "avatar" }}
                 />
-                <OfficerName>Karena Yan</OfficerName>
+                <OfficerName>Chart.IT</OfficerName>
                 <OfficerBio>
                   Karena Yan is a senior at High Technology High School. She
                   hopes to study environmental engineering in the future and is
@@ -149,10 +149,10 @@ export default class Projects extends Component {
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="https://hthstsa-af51.kxcdn.com/static/Daniel.jpg"
+                  src="https://hthstsa-af51.kxcdn.com/static/EDDFinal.PNG"
                   classes={{ img: "avatar" }}
                 />
-                <OfficerName>Daniel Du</OfficerName>
+                <OfficerName>EDD Walker</OfficerName>
                 <OfficerBio>
                   Daniel Du is a senior at High Technology High School. He plans
                   on studying the intersection between biomedical engineering
@@ -161,72 +161,15 @@ export default class Projects extends Component {
               </OfficerContainer>
               <OfficerContainer>
                 <OfficerAvatar
-                  src="https://hthstsa-af51.kxcdn.com/static/Khushi.jpg"
+                  src="https://hthstsa-af51.kxcdn.com/static/BeesGelElectrophoresis.PNG"
                   classes={{ img: "avatar" }}
                 />
-                <OfficerName>Khushi Sabuwala</OfficerName>
+                <OfficerName>Electrophoresis</OfficerName>
                 <OfficerBio>
                   Khushi Sabuwala is a sophomore at High Technology High School.
                   She likes to play the trumpet, dance, and watch football in
                   her free time.
                 </OfficerBio>
-              </OfficerContainer>
-              <OfficerContainer>
-                <OfficerAvatar
-                  src="https://hthstsa-af51.kxcdn.com/static/Sidhu.jpg"
-                  classes={{ img: "avatar" }}
-                />
-                <OfficerName>Sidhu Arakkal</OfficerName>
-                <OfficerBio>
-                  Sidhu Arakkal is a senior at High Technology High School and
-                  the chapter vice president. He is interested in computer
-                  science and biology and enjoys playing soccer and going hiking
-                  in his free time.
-                </OfficerBio>
-              </OfficerContainer>
-              <OfficerContainer>
-                <OfficerAvatar
-                  src="https://hthstsa-af51.kxcdn.com/static/Adithya.jpg"
-                  classes={{ img: "avatar" }}
-                />
-                <OfficerName>Adithya Paramasivam</OfficerName>
-                <OfficerBio>
-                  Adithya Paramasivam is a senior at High Technology High School
-                  and is the chapter treasurer. He plans to study computer
-                  science in college and enjoys playing tennis.
-                </OfficerBio>
-              </OfficerContainer>
-              <OfficerContainer>
-                <OfficerAvatar
-                  src="https://hthstsa-af51.kxcdn.com/static/Nia.jpg"
-                  classes={{ img: "avatar" }}
-                />
-                <OfficerName>Nia Mallangada</OfficerName>
-                <OfficerBio>
-                  Nia Mallangada is a junior at High Technology High School. She
-                  has an interest in medicine and robotics and enjoys
-                  volunteering at a local hospital.
-                </OfficerBio>
-              </OfficerContainer>
-              <OfficerContainer>
-                <OfficerAvatar
-                  src="https://hthstsa-af51.kxcdn.com/static/Mary.jpg"
-                  classes={{ img: "avatar" }}
-                />
-                <OfficerName>Mary Chen</OfficerName>
-                <OfficerBio>
-                  Mary Chen is a junior at High Technology High School and is
-                  the chapter sergeant-at-arms. She is interested in finance and
-                  international relations and likes to bake in her spare time.
-                </OfficerBio>
-              </OfficerContainer>
-              <OfficerContainer>
-                <OfficerAvatar
-                  src="https://hthstsa-af51.kxcdn.com/static/Ms. Garrity.png"
-                  classes={{ img: "avatar" }}
-                />
-                <OfficerName>Ms. Garrity</OfficerName>
-                <OfficerBio />
               </OfficerContainer>
             </Slider>
           </ActivitiesContainer>
